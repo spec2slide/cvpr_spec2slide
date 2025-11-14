@@ -1,0 +1,6 @@
+Create a slide titled "MARKET AROUND US CHAPTER-6" in a large, bold font on the right side. 
+
+1. **Background**: Use the provided image of a market scene on the left side and a blurred book image on the right side.
+2. **Text Color**: Set the text color to white for visibility against the background.
+3. **Attribution**: Include the attribution text "This Photo by Unknown author is licensed under CC BY." at the bottom of the slide in a smaller font.
+4. **Layout**: Ensure the text is aligned to the left and on the right side of the slide, with sufficient contrast against the background for readability.

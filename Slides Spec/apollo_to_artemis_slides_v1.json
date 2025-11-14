@@ -1,0 +1,502 @@
+{
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Apollo to Artemis: The Space Narrative",
+      "content": "From the first lunar footsteps to a sustainable return—how Apollo’s legacy powers Artemis and the path to Mars.",
+      "slide_design": "Full-bleed cinematic hero; deep-space starfield with Earth and crescent Moon; bold, modern title typography; subtle lens flare.",
+      "imagery": "Composite: left, archival Saturn V liftoff plume; right, night-shot SLS on Pad 39B under floodlights; soft crossfade at center; cool-blue color grade."
+    },
+    {
+      "slide_number": 2,
+      "title": "Agenda",
+      "content": [
+        "1. Key Figures & Quotes",
+        "2. Vehicle Evolution (Saturn V → SLS/Orion; Starship context)",
+        "3. Mission Timeline (Apollo to Artemis)",
+        "4. Budget Trends (inflation-adjusted)",
+        "5. Technology Advances (materials, computing, guidance)",
+        "6. Risks & Mitigations",
+        "7. International Partners",
+        "8. Cultural Impact",
+        "9. What’s Next"
+      ],
+      "slide_design": "Minimal agenda with numbered list; left-aligned; generous whitespace; thin divider line.",
+      "imagery": ""
+    },
+    {
+      "slide_number": 3,
+      "title": "Key Figures & Quotes",
+      "content": {
+        "john_f_kennedy": {
+          "name": "John F. Kennedy",
+          "background": [
+            "Set the Moon landing goal (1961 Rice speech).",
+            "Catalyzed Apollo funding, schedule, and national focus."
+          ],
+          "quote": "We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard."
+        },
+        "neil_armstrong": {
+          "name": "Neil Armstrong",
+          "background": [
+            "Commander, Apollo 11; first human on the Moon.",
+            "Test pilot; Gemini and Apollo astronaut."
+          ],
+          "quote": "That’s one small step for [a] man, one giant leap for mankind."
+        },
+        "bill_anders": {
+          "name": "Bill Anders",
+          "background": [
+            "Apollo 8 astronaut; captured the iconic Earthrise photo.",
+            "Helped shift public perspective to a fragile Earth."
+          ],
+          "quote": "We came all this way to explore the Moon, and the most important thing is that we discovered the Earth."
+        },
+        "gene_cernan": {
+          "name": "Gene Cernan",
+          "background": [
+            "Apollo 17 commander; last human to walk on the Moon (1972).",
+            "Geology-focused exploration with Harrison Schmitt."
+          ],
+          "quote": "We leave as we came, and, God willing, as we shall return, with peace and hope for all mankind."
+        }
+      },
+      "slide_design": "Two-row portrait grid with pull-quotes; archival-to-modern color treatment; clean captioning.",
+      "imagery": "Tight, high-resolution portraits; quotes as overlay cards; subtle film-grain effect for Apollo-era images."
+    },
+    {
+      "slide_number": 4,
+      "title": "Vehicle Evolution: Saturn V → SLS/Orion (with Starship Context)",
+      "content": {
+        "compare_table": [
+          {
+            "system": "Saturn V + Apollo CSM/LM",
+            "era": "1967–1973",
+            "to_leo_tons": "~140",
+            "to_tli_tons": "~48",
+            "notes": "Expendable; three-stage kerolox/hypergolic; Moon landings via LM."
+          },
+          {
+            "system": "SLS Block 1 + Orion",
+            "era": "Artemis I–III",
+            "to_leo_tons": "~95",
+            "to_tli_tons": "~27",
+            "notes": "Expendable; RS‑25 + 5‑segment SRBs; Orion for deep-space crew."
+          },
+          {
+            "system": "SLS Block 1B + Orion",
+            "era": "Artemis IV+",
+            "to_leo_tons": "~105",
+            "to_tli_tons": "~38–42",
+            "notes": "EUS upper stage; Gateway and larger payloads."
+          },
+          {
+            "system": "Starship (HLS variant)",
+            "era": "Artemis III+ (provider)",
+            "to_leo_tons": "100–150 (reusable, target)",
+            "to_tli_tons": "≥100 (with on-orbit refueling)",
+            "notes": "Fully reusable; lunar lander under NASA contract."
+          }
+        ],
+        "diagram_spec": {
+          "type": "to-scale silhouettes + payload bars",
+          "panels": [
+            "Left: stacked silhouettes (Saturn V, SLS B1, SLS B1B, Starship) aligned at base; consistent scale.",
+            "Right: horizontal bars for LEO and TLI payload capacities; color-coded by expendable/reusable."
+          ],
+          "annotations": [
+            "Callout: Orion crew module/service module vs Apollo CSM mass.",
+            "Note: TLI lift varies by trajectory and margins; values are approximate."
+          ]
+        }
+      },
+      "slide_design": "Split layout: silhouettes on left, clean data bars on right; neutral background; crisp labels.",
+      "imagery": "High-contrast side profiles with soft rim light; neutral gray floor shadow; restrained accent colors."
+    },
+    {
+      "slide_number": 5,
+      "title": "Mission Timeline: Apollo to Artemis",
+      "content": {
+        "milestones": [
+          {
+            "year": 1961,
+            "event": "JFK sets Moon goal (within the decade)"
+          },
+          {
+            "year": 1968,
+            "event": "Apollo 8: first crewed lunar orbit; Earthrise"
+          },
+          {
+            "year": 1969,
+            "event": "Apollo 11: first lunar landing"
+          },
+          {
+            "year": 1970,
+            "event": "Apollo 13: safe return after in-flight anomaly"
+          },
+          {
+            "year": 1972,
+            "event": "Apollo 17: last crewed Moon landing of Apollo era"
+          },
+          {
+            "year": 2011,
+            "event": "SLS authorized; Orion deep-space capsule baseline"
+          },
+          {
+            "year": 2014,
+            "event": "Orion EFT‑1 uncrewed test (Earth orbit)"
+          },
+          {
+            "year": 2020,
+            "event": "Artemis Accords framework announced"
+          },
+          {
+            "year": 2022,
+            "event": "Artemis I: uncrewed SLS/Orion lunar mission"
+          },
+          {
+            "year": 2025,
+            "event": "Artemis II: crewed lunar flyby (NET)"
+          },
+          {
+            "year": 2026,
+            "event": "Artemis III: crewed lunar landing (NET)"
+          },
+          {
+            "year": 2028,
+            "event": "Artemis IV: Gateway assembly; SLS Block 1B (NET)"
+          }
+        ],
+        "timeline_spec": {
+          "type": "horizontal timeline",
+          "lanes": [
+            "Apollo",
+            "Artemis/Gateway"
+          ],
+          "alignment": "centered nodes with milestone dots and brief labels",
+          "emphasis": [
+            "1969 Apollo 11",
+            "2022 Artemis I"
+          ]
+        },
+        "notes": "NET = No Earlier Than; schedules subject to change."
+      },
+      "slide_design": "Clean timeline with two color bands (Apollo warm gold; Artemis cool blue); key events enlarged.",
+      "imagery": "Thin orbital arc motif connecting nodes; subtle lunar texture watermark."
+    },
+    {
+      "slide_number": 6,
+      "title": "Budget Trends (Inflation-Adjusted)",
+      "content": {
+        "insights": [
+          "Apollo peak: NASA ≈4.3% of U.S. federal outlays (1966); constant-$ peak far above current levels.",
+          "Artemis era: NASA ≈0.4–0.5% of federal outlays; Exploration accounts rising but below Apollo scale.",
+          "Modern costs reflect safety, sustainability, and broader science/LEO programs."
+        ],
+        "chart_spec": {
+          "type": "dual-axis line",
+          "x_axis": "Year",
+          "left_y": "NASA budget (constant 2023 USD, $B)",
+          "right_y": "NASA share of federal outlays (%)",
+          "series": [
+            {
+              "name": "NASA budget (const-$)",
+              "points": [
+                [
+                  1962,
+                  25
+                ],
+                [
+                  1966,
+                  47
+                ],
+                [
+                  1973,
+                  20
+                ],
+                [
+                  2011,
+                  24
+                ],
+                [
+                  2014,
+                  22
+                ],
+                [
+                  2020,
+                  25
+                ],
+                [
+                  2024,
+                  27
+                ]
+              ]
+            },
+            {
+              "name": "Share of federal (%)",
+              "points": [
+                [
+                  1962,
+                  0.9
+                ],
+                [
+                  1966,
+                  4.3
+                ],
+                [
+                  1973,
+                  1
+                ],
+                [
+                  2011,
+                  0.5
+                ],
+                [
+                  2014,
+                  0.5
+                ],
+                [
+                  2020,
+                  0.5
+                ],
+                [
+                  2024,
+                  0.45
+                ]
+              ]
+            }
+          ],
+          "bands": [
+            {
+              "label": "Apollo program focus",
+              "start": 1962,
+              "end": 1972,
+              "color": "soft gold, 10% opacity"
+            },
+            {
+              "label": "Artemis development",
+              "start": 2011,
+              "end": 2024,
+              "color": "soft blue, 10% opacity"
+            }
+          ],
+          "annotations": [
+            "Peak share in 1966",
+            "Artemis I (2022) marker"
+          ]
+        },
+        "notes": "Values are indicative and rounded; constant-dollar conversions depend on index choice."
+      },
+      "slide_design": "Dual-line chart with subtle shaded eras; unobtrusive grid; legible labels.",
+      "imagery": ""
+    },
+    {
+      "slide_number": 7,
+      "title": "Technology Advances: Materials, Computing, Guidance",
+      "content": {
+        "materials": [
+          "From aluminum alloys to Al‑Li, composites, and additive-manufactured engine parts.",
+          "Thermal protection: ablative heat shields → refined TPS materials and arc‑jet validated repairs."
+        ],
+        "computing": [
+          "Apollo Guidance Computer: tens of kilobytes of memory; deterministic real‑time design.",
+          "Modern rad‑hard processors: orders‑of‑magnitude more compute; fault tolerance; model‑based FSW."
+        ],
+        "guidance_navigation_control": [
+          "Inertial platforms → strapdown IMUs + star trackers + GNSS assist near Earth.",
+          "Terrain Relative Navigation (TRN), hazard detection LIDAR, precision powered descent for landers."
+        ],
+        "systems": [
+          "Digital twins and HIL testbeds for avionics and propulsion.",
+          "Closed‑loop ECLSS improvements; deep‑space comms including optical/laser links."
+        ],
+        "diagram_spec": {
+          "type": "radial ‘tech wheel’",
+          "spokes": [
+            "Materials",
+            "TPS",
+            "Computing",
+            "GNC",
+            "ECLSS",
+            "Comms"
+          ],
+          "callouts": "Short 5–7 word advances per spoke; small icons (fiber layup, chip, gyroscope, laser)."
+        }
+      },
+      "slide_design": "Radial infographic with concise callouts; crisp iconography; balanced white space.",
+      "imagery": ""
+    },
+    {
+      "slide_number": 8,
+      "title": "Risks and Mitigations",
+      "content": {
+        "pairs": [
+          {
+            "risk": "Heat shield/charring behavior in high‑energy reentry",
+            "mitigation": "Design refinements; arc‑jet/flight‑like test coupons; instrumented reentry data closeout before crewed flight."
+          },
+          {
+            "risk": "Deep‑space radiation exposure (SPEs, GCRs)",
+            "mitigation": "Storm shelters; passive materials; mission timing; dosimetry and operational constraints."
+          },
+          {
+            "risk": "Lunar landing precision and hazard avoidance",
+            "mitigation": "TRN, autonomous hazard detection, rehearsals with uncrewed demos and sims."
+          },
+          {
+            "risk": "On‑orbit cryogenic propellant transfer for HLS",
+            "mitigation": "Incremental demos; boil‑off control; multi‑tanker architecture with ground test correlation."
+          },
+          {
+            "risk": "Integration/schedule complexity across providers",
+            "mitigation": "Interface control, phased verification, margin reserves, independent readiness reviews."
+          },
+          {
+            "risk": "Budget volatility and policy shifts",
+            "mitigation": "Modular milestones, international cost‑sharing, multi‑year procurement strategies."
+          }
+        ],
+        "matrix_spec": {
+          "type": "likelihood×impact heat matrix",
+          "axes": [
+            "Likelihood (Low→High)",
+            "Impact (Low→High)"
+          ],
+          "plot": "Place each risk; arrows to show target after mitigations."
+        }
+      },
+      "slide_design": "Two‑column ‘risk → mitigation’ with arrow connectors; compact phrasing; alert accents used sparingly.",
+      "imagery": "High‑contrast caution stripe motif at 5% opacity; clean, professional tone."
+    },
+    {
+      "slide_number": 9,
+      "title": "International Partners",
+      "content": {
+        "partners_by_agency": [
+          {
+            "agency": "ESA (Europe)",
+            "contribution": [
+              "Orion European Service Module",
+              "Gateway modules (I‑HAB, ESPRIT)",
+              "Science payloads"
+            ]
+          },
+          {
+            "agency": "JAXA (Japan)",
+            "contribution": [
+              "Gateway life support/logistics (HTV‑X derivatives)",
+              "Lunar surface systems studies"
+            ]
+          },
+          {
+            "agency": "CSA (Canada)",
+            "contribution": [
+              "Canadarm3 for Gateway robotics",
+              "AI‑enabled autonomous operations"
+            ]
+          },
+          {
+            "agency": "Commercial (U.S.)",
+            "contribution": [
+              "HLS providers (e.g., Starship, Blue Moon)",
+              "CLPS lunar deliveries",
+              "Comms, nav, habitats"
+            ]
+          },
+          {
+            "agency": "Artemis Accords",
+            "contribution": [
+              "30+ signatories aligning on interoperability, transparency, safe operations"
+            ]
+          }
+        ],
+        "map_spec": {
+          "type": "world map with partner pins",
+          "overlays": [
+            "Pins sized by hardware contribution",
+            "Connector lines to Kennedy/Johnson centers and lunar target sites"
+          ],
+          "legend": "Agency color coding; hardware vs policy contributions."
+        }
+      },
+      "slide_design": "Partner grid with agency badges and concise bullets; optional map inset.",
+      "imagery": ""
+    },
+    {
+      "slide_number": 10,
+      "title": "Cultural Impact",
+      "content": {
+        "highlights": [
+          "Earthrise (Apollo 8) and Blue Marble (Apollo 17) reshaped global environmental awareness.",
+          "STEM inspiration: generations of scientists, engineers, and explorers.",
+          "Shared global moments: live broadcasts, classroom lessons, public art and film.",
+          "Artemis expands representation: commitment to land the first woman and first person of color on the Moon.",
+          "Commercial era storytelling: new icons, new access, broader participation."
+        ],
+        "diagram_spec": {
+          "type": "ripple diagram",
+          "center": "Apollo achievements",
+          "rings": [
+            "Imagery & media",
+            "Education & workforce",
+            "Policy & cooperation",
+            "Sustainable exploration via Artemis"
+          ]
+        }
+      },
+      "slide_design": "Photography‑led with bold pull‑quotes; soft vignette; minimal text overlays.",
+      "imagery": "Collage: Earthrise, astronaut boot print, classroom watching a launch; warm cinematic grade; subtle grain."
+    },
+    {
+      "slide_number": 11,
+      "title": "What’s Next",
+      "content": {
+        "near_term_0_3y": [
+          "Artemis II crewed lunar flyby (NET 2025); validate life support and reentry.",
+          "Artemis III lunar landing (NET 2026) using HLS; science at the south polar region.",
+          "CLPS missions delivering instruments and tech demos."
+        ],
+        "mid_term_3_7y": [
+          "Gateway assembly (power/prop, habitation, logistics) enabling longer stays.",
+          "SLS Block 1B and Orion upgrades; more mass to deep space.",
+          "Surface systems: mobility, power, and initial ISRU experiments."
+        ],
+        "longer_term_7y_plus": [
+          "Sustained lunar presence: repeat landings, expanded science and technology cycles.",
+          "Pathfinding for Mars: ECLSS closure, radiation countermeasures, propulsion ops.",
+          "International and commercial growth of a cislunar economy."
+        ],
+        "roadmap_spec": {
+          "type": "multi‑lane roadmap",
+          "lanes": [
+            "Missions",
+            "Gateway",
+            "Surface Systems",
+            "Science & ISRU"
+          ],
+          "milestones": [
+            {
+              "label": "Artemis II",
+              "year": 2025
+            },
+            {
+              "label": "Artemis III",
+              "year": 2026
+            },
+            {
+              "label": "Gateway Ops",
+              "year": 2028
+            },
+            {
+              "label": "Sustained Surface Ops",
+              "year": 2030
+            }
+          ]
+        },
+        "notes": "Schedules and content subject to change with testing outcomes, policy, and partner readiness."
+      },
+      "slide_design": "Forward‑looking roadmap with milestone diamonds; optimistic colorway; clear hierarchy.",
+      "imagery": "Concept art: compact lunar base with solar arrays at crater rim; SLS on pad at dawn; tasteful, realistic rendering."
+    }
+  ]
+}

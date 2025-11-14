@@ -1,0 +1,15 @@
+Create a slide titled "Early life of Elon Musk" in bold font. 
+
+1. Use a white background for the main content area.
+2. Add a vertical yellow bar on the left side of the slide.
+3. Include the following bullet points on the right side:
+   - Elon Reeve Musk was born in 1971 in Pretoria, South Africa.
+   - He is the Errol Musk and Maye Musk's oldest son of three children.
+   - Elon was constantly buried in Encyclopedia Britannica at the age of four.
+   - At the age of four, Elon was constantly buried in the Encyclopedia Britannica.
+   - At the age of ten, he developed an interest in computing with the Commodore VIC-20 and taught himself computer programming.
+   - He used his skills to create a code of a BASIC-BASED video game called Blaster, “a trivial game” and he sold it.
+   - In 1992, he went to the University of Pennsylvania.
+   - He got two degrees in Business and Physics Major.
+
+4. Ensure the text is left-aligned and formatted for readability.

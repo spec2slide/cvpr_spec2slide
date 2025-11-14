@@ -1,0 +1,8 @@
+Create a slide titled "LOOK AROUND:" in bold, underlined, large font at the top left. 
+
+Add the following content below in a bullet format:
+- "Consider yourself as a producer, list the various things you must be taking care till your product reaches the consumers."
+
+Place an icon of a person or group on the right side of the slide. 
+
+Use a gradient background with shades of green. Ensure the text color is white for visibility.

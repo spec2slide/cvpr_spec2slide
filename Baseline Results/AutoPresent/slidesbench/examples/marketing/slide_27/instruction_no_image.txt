@@ -1,0 +1,7 @@
+Create a slide titled "Types of Markets" centered in the middle, close to the bottom. 
+
+1. Use a dark gray background.
+2. Insert five circular image frames in a visually appealing layout, each containing a relevant market image.
+3. Ensure the images are evenly spaced and balanced around the title.
+4. Adjust the size of the circles to create a cohesive look without overlapping the title.
+5. Ensure the title text is in a clear, readable font and color that contrasts well with the background.

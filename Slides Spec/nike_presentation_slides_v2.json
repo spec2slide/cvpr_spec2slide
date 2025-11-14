@@ -1,0 +1,158 @@
+{
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "The Rise and Influence on Nike",
+      "subtitle": "From Track Shoe Startup to Global Powerhouse",
+      "content": "",
+      "slide_design": "",
+      "imagery": "background imagery (e.g., iconic shoes)"
+    },
+    {
+      "slide_number": 2,
+      "title": "Just Do It",
+      "content": "",
+      "slide_design": "",
+      "imagery": "Foreground Imagery: Nike logo"
+    },
+    {
+      "slide_number": 3,
+      "title": "Presentation Roadmap",
+      "content": [
+        "1. Origins & Foundation",
+        "2. Growth & Expansion",
+        "3. Innovation & Strategy",
+        "4. Global Impact & Culture",
+        "5. Challenges & Reflection"
+      ],
+      "slide_design": "Agenda slide design with a clean layout",
+      "imagery": ""
+    },
+    {
+      "slide_number": 4,
+      "title": "Humble Beginnings",
+      "content": "",
+      "slide_design": "Bill Bowerman making sole of shoe in waffle iron",
+      "imagery": ""
+    },
+    {
+      "slide_number": 5,
+      "title": "The Founders",
+      "content": {
+        "phil_knight": {
+          "name": "Phil Knight",
+          "background": [
+            "Former Oregon track athlete",
+            "Stanford MBA: Nike started as a business plan",
+            "Drove brand, marketing, and global growth"
+          ],
+          "quote": "Play by the rules, but be ferocious"
+        },
+        "bill_bowerman": {
+          "name": "Bill Bowerman",
+          "background": [
+            "Renowned Oregon track coach",
+            "Innovated performance shoes for his athletes",
+            "Invented the waffle sole using the kitchen waffle iron"
+          ],
+          "quote": "If you have a body,you are an athlete"
+        }
+      },
+        "slide_design": "Have a two column layout with a picture each founder - Phil Knight & Bill Bowerman and the related content below each one",
+        "imagery": "Picture of Phil Knight and Bill Bowerman"
+    },
+    {
+      "slide_number": 6,
+      "title": "Blue Ribbon Sports",
+      "content": {
+        "description": "Nike started as Blue Ribbon Sports in 1964. Sales started out of their car trunks. A key milestone was landing a distribution deal was with Onitsuka Tiger (ASICS)",
+        "milestone_product": "Nike's first shoe | the waffle trainer"
+      },
+      "slide_design": "Waffle Trainer",
+      "imagery": "Image caption: Nike’s first product was the waffle trainer"
+    },
+    {
+      "slide_number": 7,
+      "title": "Becoming Nike",
+      "content": {
+        "price": "$35",
+        "description": "The swoosh and the NIKE brand was born in 1971. It was purchase for $35 from Carolyn Davidson and symbolizes speed, movement, and athleticism."
+      },
+        "slide_design": "$35 big number over the Nike Swoosh Logo",
+        "imagery": ""
+    },
+    {
+      "slide_number": 8,
+      "title": "Off to the Races",
+      "content": "The 80s were an era of rapid growth with an IPO in 1980 that accelerated off the successful launch in 1979 of Nike Air cushioning.",
+      "slide_design": "Visual launching off the track starting block with nike air cushioning shoes from 1979 with a stock line going upward",
+       "imagery": ""
+    },
+    {
+      "slide_number": 9,
+      "title": "Nike Market share of shoe sales",
+      "content": {
+        "market_data": [
+          {"brand": "Nike", "percentage": "16.4%"},
+          {"brand": "Adidas", "percentage": "9%"},
+          {"brand": "Puma", "percentage": "3%"},
+          {"brand": "Other", "percentage": "71.6%"}
+        ]
+      },
+        "slide_design": "Bar chart showing Nike's market share vs Adidas, Puma, and Other brands",
+        "imagery": "Bar chart with Nike's market share in bold, showing dominance over competitors"
+    },
+    {
+      "slide_number": 10,
+      "title": "Major Marketing Campaigns",
+      "content": {
+        "campaigns": [
+          {
+            "year": "1988",
+            "campaign": "Just Do it",
+            "description": "Launched with 80-yar-old runner Walt Stack, this slogan became a cultural rallying cry and helped Nike's market share soar."
+          },
+          {
+            "year": "2010",
+            "campaign": "Write the Future",
+            "description": "A World cup campaign that became the most shared brand campaign of the year, with over 50 million views"
+          },
+          {
+            "year": "2012",
+            "campaign": "Find Your Greatness",
+            "description": "Debuted during the London Olympics, emphasizing that greatness is for everyone."
+          },
+          {
+            "year": "2018",
+            "campaign": "Dream Crazy",
+            "description": "Featured Colin Karpernick, boldly addressing social justice and personal conviction"
+          },
+          {
+            "year": "2024",
+            "campaign": "Winning Ins't comfortable",
+            "description": "Celebrated Nike's presense at the Chicago and New York marathons; won Ad Age's Best ad of 2024."
+          },
+          {
+            "year":"2025",
+            "campaign": "Air Max DN8 GenAI Campaign",
+            "description": "A cutting-edge campaign using generative AI to let fans design personalized shoes, reinforcing Nike’s innovation edge"
+          }
+        ]
+      },
+        "slide_design": "Timeline layout with key campaigns highlighted, each with a year, campaign name, and description",
+        "imagery": ""
+    },
+    {
+      "slide_number": 11,
+      "title": "Recap: the evolution of Nike",
+      "content": [
+        "80s: Become a household name with IPO and Jordan becoming a star",
+        "90s: Become the shoe of choice across a vast number of sports",
+        "00s: Becomes a global phenomenon with global sales and a big foothold in digital shoe sales.",
+        "Now: Nike continues to grow with intensity in emerging markets like India and Africa"
+      ],
+      "slide_design": "Columns for each era with Nike Shoes from each era",
+      "imagery": ""
+    }
+  ]
+}

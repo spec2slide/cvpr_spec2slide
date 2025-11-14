@@ -1,0 +1,15 @@
+Create a slide titled "THE CONTENT OF ART" with the following content:
+
+- "It is the mass of ideas associated with each artwork and communicated through the following:"
+- "1. The art’s imagery"
+- "2. The symbolic meaning"
+- "3. Its surroundings where it is used or displayed"
+- "4. The customs, beliefs and values of the culture that uses it"
+
+Use checkmarks (✓) before each bullet point. 
+
+Add a smaller title on the top-left corner: "The Subject and Content of Art". 
+
+Color the background of both title textboxes with yellow and the text color with black. For the main content, use a white background. 
+
+Use an colorful abstract image describing a vivid dance of colors and emotions as the background of the slide.

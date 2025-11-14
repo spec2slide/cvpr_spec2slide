@@ -1,0 +1,30 @@
+Create a slide titled "SUCCESSFUL INDIVIDUALS WITH TOP ACADEMIC RECORDS" in large, bold font at the top.
+
+Divide the slide into four equal sections for each individual, from left to right.
+For each section, insert a circular image of each individual in their respective section; below each image, include the following details:
+   - **Name** (in bold yellow font)
+   - **Title** (in regular font)
+   - **Education** (in regular font, with bullet points for degrees)
+
+Section 1: 
+- Name: "ELON MUSK"
+- Title: "CEO of SpaceX and Tesla"
+- Education: "Education", "University of Pennsylvania" with two bullet points "Bachelor of Science in Physics" and "Bachelor of Arts in Economics"
+
+Section 2:
+- Name: "WARREN BUFFETT"
+- Title: "Business magnate, investor, and Pphilanthropist"
+- Education: "Education" with three bullet points "University of Pennsylvania", "University of Nebraska-Lincoln (BS)" and "Columbia University"
+
+Section 3:
+- Name: "SUNDAR PICHAI"
+- Title: "CEO of Alphabet and Google"
+- Education: "IIT Kharagpur", "Stanford University (MS)", and "University of Pennsylvania (MBA)"
+
+Section 4:
+- Name: "CONDOLEEZZA RICE"
+- Title: "Former U.S. Secretary of State"
+- Education: "Education" "University of Denver (BA, PhD)", "University of Notre Dame (MA)"
+
+Use a dark textured background for the entire slide. Make sure all text is legible against the background.
+Ensure even spacing between images and text for clarity.

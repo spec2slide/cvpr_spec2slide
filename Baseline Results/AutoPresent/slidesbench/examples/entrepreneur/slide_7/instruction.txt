@@ -1,0 +1,13 @@
+Create a slide titled "Elon Musk Current Stage" with the following bullet points:
+
+- CEO and Chief Engineer at SpaceX
+- CEO and Product Architect of Tesla
+- Founder of The Boring Company
+- Cofounder of Neuralink
+- Cofounder of OpenAI
+
+Position the text on the left side of the slide. Use a clean, sans-serif font for clarity. 
+
+On the right side, insert an image of Elon Musk with logos of his companies. Ensure the image is visually appealing and complements the text.
+
+Use a yellow accent for the title and a white background for the slide. The left side should have a thin vertical yellow line for separation.

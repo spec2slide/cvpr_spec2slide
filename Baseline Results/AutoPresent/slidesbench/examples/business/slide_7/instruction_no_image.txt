@@ -1,0 +1,14 @@
+Create a slide with the following elements:
+
+**Title**: Add the text "Branding" in a large, bold font at the top of the slide. Set the background color of the title section to a light gray.
+
+**Main Content**: Below the title, include the year "2013" in a slightly smaller font. Then, add a paragraph "A brand that could express the vision of its founders and guide and support its business through exponential growth and whatever the future may hold", ensuring it is well-aligned and easy to read.
+
+**Visual Elements**: Include the illustrations of "people," "places," "love," and "Airbnb" symbols in a row below the text.
+Then put the paragraph "This higher purpose shifted Airbnb’s narrative to focus on belonging, with language and messaging elevating the conversation away from insurance and bookings to warmth and welcome." and its Spanish translation below.
+
+**Highlighted Text Box**: Create a rectangular text box with a bright orange background that contains the text "The Bélo tells the story of the company in one symbol." Position this box prominently on the right side of the slide.
+
+**Color Palette**: At the bottom right, include a section showing Airbnb's primary and secondary colors, using small colored squares to represent each color.
+
+Ensure all elements are visually balanced and maintain a cohesive design throughout the slide.

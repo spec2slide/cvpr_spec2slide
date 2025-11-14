@@ -1,0 +1,22 @@
+Create a slide titled "IMPORTANCE OF SKILLS BEYOND ACADEMICS" in a large, bold font at the top. Use a dark background for the slide.
+
+Add the following bullet points, using a standard bullet format:
+
+- **Financial Literacy**
+  - Skills include budgeting, saving, investing, and making informed financial decisions.
+  
+- **Leadership and Teamwork**
+  - Leadership skills involve motivating and guiding others toward common goals.
+  - Teamwork skills enable collaboration and the ability to work effectively in diverse groups.
+  
+- **Time Management**
+  - Effective time management and organizational skills improve productivity and reduce stress.
+  
+- **Creativity and Innovation**
+  - These skills lead to the development of new ideas, products, and solutions.
+  
+- **Cultural Competence and Diversity**
+  - In an increasingly globalized world, understanding and respecting cultural differences is essential.
+  - Cultural competence promotes inclusivity and effective interactions in multicultural environments.
+
+Highlight the subheadings (e.g., "Leadership and Teamwork") in a contrasting color (e.g., yellow) to make them stand out. Use white/light gray color for all other texts. Ensure the text is clear and legible against the dark background.

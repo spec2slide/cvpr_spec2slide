@@ -1,0 +1,7 @@
+Create a slide titled "Viewing Activity" in the top left corner with a film icon. Use a dark blue background for the entire slide.
+
+On the right side, insert an image from the "Friends" episode featuring Joey. Above the image, add the title "Friends | Joey Doesn't Share Food!" in a white textbox.
+
+On the left side of the slide, include the text "Finish watching the video." in a clear, readable font.
+
+In the bottom left corner, add the logo or text "FLUENT" in a contrasting color for visibility.

@@ -1,0 +1,1 @@
+Create a slide with a dark background, place the title "Types of Market" at the top center, and use arrows to connect it to four labeled boxes below: "Weekly market," "Neighborhood market," "Shopping Complexes," and "Malls."

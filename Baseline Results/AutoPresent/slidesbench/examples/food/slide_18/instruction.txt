@@ -1,0 +1,12 @@
+Create a slide titled "PART 2" at the top left corner. Below it, place the chat icon. Right to it, add the instruction "Discuss the questions." in a prominent font.
+
+Include the dialogue text in quotation marks, bold type the names.
+- "JOEY: We were out to dinner. We were getting along, having a really nice time, I was thinking she was really cool and then, out of nowhere, (she reached over and took some of my fries from my plate!)"
+- "PHOEBE: So she took some fries, big deal!"
+- "RACHEL: Oh yeah, Joey doesn't share food. I mean, just last week, we were having breakfast, and...and he had a couple of grapes on his plate..."
+
+At the bottom, add two numbered questions in textboxes:
+1. "When is the past continuous used in comparison with the past simple?"
+2. "How is the structure for the past simple different than the past continuous?"
+
+Use a light background color for readability and place a button labeled "VIEWING FOLLOW-UP" at the bottom right corner.

@@ -1,0 +1,101 @@
+Slide 1 — 15‑Minute City: Explainer
+content: A human‑scale urban model where most daily needs are reachable within a 15‑minute walk or bike ride.
+slide_design: Full‑bleed hero with warm daylight palette and modern, friendly typography; thin gridlines suggesting city blocks.
+imagery: Cinematic aerial of a mixed‑use neighborhood at golden hour: tree‑lined streets, cyclists, corner café, parents with stroller; shallow depth of field, high dynamic range.
+---
+Slide 2 — Agenda
+content
+1. Definition & Principles
+2. Case Studies: Paris, Melbourne
+3. Street Redesign Elements
+4. Mixed‑Use Zoning Toolkit
+5. Mobility Modes
+6. Equity & Accessibility
+7. Misconceptions & Myth‑busting
+8. Cost/Benefit
+9. Implementation Roadmap & Metrics
+slide_design: Minimal numbered list with left alignment and generous spacing; subtle divider line.
+imagery: 
+---
+Slide 3 — What Is a 15‑Minute City?
+content
+definition: A planning framework that clusters daily needs—home, work, learning, care, groceries, parks—within a 15‑minute walk or bike ride, prioritizing proximity, safety, and choice.
+principles: ['Proximity: short trips to essentials', 'Diversity: mixed uses and housing types', 'Density done well: enough people to support services', 'Complete networks: safe, continuous walking/cycling/transit', 'Human‑scaled streets: slower speeds, greener public realm', 'Digital/physical integration: delivery lockers, telehealth, coworking', 'Participatory governance: neighborhood co‑design', 'Equity: invest first where access gaps are largest', 'Climate resilience: shade, stormwater, low‑carbon mobility']
+service_basket: ['Groceries/pharmacy', 'Primary school/childcare', 'Clinic', 'Pocket/linear park', 'Transit stop', 'Coworking/library', 'Everyday retail']
+map_spec: {'type': 'isochrone map', 'basemap': 'light gray vector streets', 'origin': 'neighborhood centroid', 'modes': ['walk (5, 10, 15 min)', 'bike (5, 10, 15 min)'], 'polygons': 'concentric rings with distinct hues; 30% transparency', 'poi_layers': 'icons for services; cluster by type; labels at zoom > 14'}
+diagram_spec: {'type': 'service proximity matrix', 'rows': 'service types', 'columns': ['5m', '10m', '15m'], 'encoding': 'checkmark if available within threshold; dot if planned'}
+slide_design: Split layout: left definition and principles; right isochrone visual and proximity matrix.
+imagery: Clean isochrone graphic with crisp POI icons; soft shadows; color‑blind‑safe palette.
+---
+Slide 4 — Case Studies: Paris & Melbourne
+content
+paris: {'approach': 'Citywide proximity strategy—school street closures, bike network expansion, local services, and 30 km/h default on most streets.', 'highlights': ['‘Rues aux écoles’ (car‑lite school streets)', 'Neighborhood‑scale amenities and micro‑hubs', 'Protected cycleways connecting arrondissements'], 'learning': 'Pair quick‑build trials with permanent upgrades; communicate benefits at the block level.'}
+melbourne: {'approach': '‘20‑minute neighborhoods’ within Plan Melbourne (walkable catchments to daily needs).', 'highlights': ['Activity centers as anchors', 'Green links/laneways network', 'Health and aging‑in‑place focus'], 'learning': 'Use activity center hierarchy to stage investment; align with health outcomes.'}
+map_spec: {'type': 'small multiples', 'panels': [{'city': 'Paris 11e', 'layers': ['15‑min walk isochrone', 'bike lanes', 'schools/clinics/markets'], 'projection': 'Web Mercator; narrow city extent'}, {'city': 'Melbourne – Inner North', 'layers': ['20‑min walk catchment', 'activity centers', 'tram corridors'], 'projection': 'GDA/Mercator; suburban grain'}], 'legend': 'Shared legend with icon keys; scale bars per panel'}
+notes: Programs evolve; shown features are illustrative.
+slide_design: Two‑column case layout with concise bullets; small multiple maps beneath each column.
+imagery: Before/after street photos: temporary cones → permanent planters and curb extensions; consistent color grade.
+---
+Slide 5 — Street Redesign Elements (Complete Streets)
+content
+elements: ['Continuous sidewalks with curb ramps and tactile paving', 'Protected bike lanes (physical separation) and intersection protection', 'Bus priority (dedicated lanes, queue jumps), all‑door boarding', 'Traffic calming: 30 km/h design speeds, raised crossings, chicanes', 'Curb management: loading bays, micromobility parking, parklets', 'Green infrastructure: shade trees, bioswales, permeable surfaces', 'Safety at night: pedestrian‑scale lighting']
+cross_section_spec: {'type': 'typical 24 m ROW', 'components': ['Sidewalk + furnishing: 3.0 m each side', 'Protected bike track: 1.8 m + 0.5 m buffer each side', 'Bus lane: 3.0 m each direction', 'General traffic lane: 2.7 m each direction'], 'sum': '≈24.0 m', 'notes': 'Adjust widths to local standards; maintain continuous protection at intersections.'}
+before_after_spec: {'type': 'photomontage', 'before': '4 lanes, on‑street parking, discontinuous sidewalk', 'after': '2 lanes + bus priority, protected bikeways, expanded sidewalks, trees, parklets'}
+slide_design: Diagram‑first with clear labels and dimensions; supporting bullets; warm, legible palette.
+imagery: Clean cross‑section drawing (vector) with human figures for scale; planters and bus icons crisp.
+---
+Slide 6 — Mixed‑Use Zoning Toolkit
+content
+tools: [{'name': 'Form‑Based Codes', 'purpose': 'Regulate form and frontage, not just use; ensure active ground floors.'}, {'name': 'Missing‑Middle Housing', 'purpose': 'Triplexes, courtyard apts, ADUs to diversify options near services.'}, {'name': 'Adaptive Reuse', 'purpose': 'Convert offices/big‑box to housing, schools, clinics.'}, {'name': 'Parking Reform', 'purpose': 'Eliminate minimums; use maximums/shared/cash‑out; price curbs.'}, {'name': 'Inclusionary Zoning', 'purpose': 'Reserve % of units as affordable near transit/amenities.'}, {'name': 'Corner Commercial Allowance', 'purpose': 'Small‑format retail/childcare/cafés embedded in residential blocks.'}]
+matrix_spec: {'type': 'tool × outcome matrix', 'rows': ['Form‑Based Codes', 'Missing‑Middle', 'Adaptive Reuse', 'Parking Reform', 'Inclusionary', 'Corner Commercial'], 'columns': ['Walkability', 'Housing Supply', 'Local Services', 'Affordability', 'Small‑Biz Vitality'], 'encoding': 'full/half/empty dots; tooltips with example ordinances'}
+policy_note: Pair zoning with grants/TA for small developers and main‑street businesses.
+slide_design: Compact grid with short descriptors; policy note in a subtle callout box.
+imagery: 
+---
+Slide 7 — Mobility Modes & Networks
+content
+modes: ['Walking: universal baseline; continuous shade and crossings', 'Cycling/e‑bikes: protected network; secure parking at shops/schools', 'Transit: frequent local buses/trams; timed transfers; integrated fares', 'Micromobility: shared scooters/bikes with designated corrals', 'Deliveries: cargo bikes and off‑peak loading to reduce conflicts', 'Car share: right‑sized auto access without ownership']
+network_spec: {'type': 'layered network map', 'layers': ['Primary cycling grid (≥ 400 m spacing) in bold color', 'Secondary cycling links (local streets/greenways)', 'Transit corridors and stops with frequency symbols', 'Pedestrian priority streets and school zones'], 'symbology': 'Line weight by facility class; dots sized by stop frequency', 'accessibility_overlay': '15‑min walk/bike service areas per mode'}
+chart_spec: {'type': 'mode share donut + target', 'current': {'walk': 14, 'bike': 5, 'transit': 18, 'car': 63}, 'target_2030': {'walk': 20, 'bike': 12, 'transit': 25, 'car': 43}, 'annotation': 'Shift enabled by complete networks and pricing reform'}
+slide_design: Icon‑rich layout; left network map, right donut chart with target ring; crisp legend.
+imagery: Vector map with high contrast; simple, inclusive mobility icons; neutral background.
+---
+Slide 8 — Equity & Accessibility
+content
+equity_levers: ['Invest first in underserved neighborhoods (access deserts).', 'Zero‑fare/transit discounts for low‑income riders and youth.', 'Anti‑displacement: community land trusts, right‑to‑return, rent stabilization tools.', 'Safe routes to school and late‑night worker corridors.', 'Community co‑design: multilingual workshops, stipends, childcare.']
+universal_design: ['Continuous curb ramps and tactile guidance at crossings.', 'Audible signals; seating every 100–150 m; shade and lighting.', 'Step‑free building entries; wider doorways; at‑grade transit boarding.']
+map_spec: {'type': 'equity heatmap', 'metric': 'Access Index (share of households within 15‑min walk to 5+ services)', 'geography': 'census tracts/SA1s', 'overlay': 'Transit frequency and crash hot spots (heat points)', 'classification': 'quintiles; darkest = lowest access; outline priority areas'}
+kpis: ['% low‑income residents within 15‑min of groceries/clinic', 'Crash rate per 100k (ped/bike)', 'Transit travel time to jobs (p50/p90)']
+slide_design: Two‑column bullets with equity callout badges; map inset with clear legend and priority outlines.
+imagery: Street‑level shot: accessible curb ramp with tactile tiles and stroller/wheelchair users; natural, inclusive framing.
+---
+Slide 9 — Misconceptions & Myth‑Busting
+content
+Myth: 15‑minute cities ‘restrict movement.’ → Fact: They expand choices by bringing more nearby; regional and intercity travel remains.
+Myth: It’s anti‑car. → Fact: It’s pro‑option; safer walking/biking/transit plus smarter car use.
+Myth: Only works in dense European cores. → Fact: Applicable with context—retrofit arterials, re‑center town centers, and add mixed uses.
+Myth: Hurts business. → Fact: Foot traffic and dwell time typically increase on people‑first streets.
+Myth: Too expensive. → Fact: Low‑cost pilots and curb pricing fund phased, high‑return upgrades.
+Myth: One‑size‑fits‑all. → Fact: Co‑designed with neighborhoods; services reflect local needs.
+slide_design: Two‑column ‘Myth → Fact’ layout with arrow connectors; concise phrasing; calm, authoritative tone.
+imagery: 
+---
+Slide 10 — Costs and Benefits (Illustrative, per 100k residents, 10‑yr NPV @3%)
+content
+costs: [{'item': 'Quick‑build pilots (paint/posts/planters)', 'npv_usd_m': 12}, {'item': 'Permanent streetscape + bikeways', 'npv_usd_m': 85}, {'item': 'Transit priority upgrades', 'npv_usd_m': 30}, {'item': 'Public realm/trees/stormwater', 'npv_usd_m': 18}, {'item': 'Ops/maint. (net of savings)', 'npv_usd_m': 22}]
+offsets_revenue: [{'item': 'Curb pricing/parking reform', 'npv_usd_m': -28}, {'item': 'Speeding/crash cost reductions (city savings)', 'npv_usd_m': -15}]
+benefits: [{'item': 'Travel time saved (mode shift/shorter trips)', 'npv_usd_m': -190}, {'item': 'Health (active mobility; reduced PM2.5)', 'npv_usd_m': -120}, {'item': 'Crash reduction (ped/bike/veh)', 'npv_usd_m': -150}, {'item': 'Retail uplift/local spending retention', 'npv_usd_m': -60}, {'item': 'GHG reduction (social cost of carbon)', 'npv_usd_m': -25}]
+chart_spec: {'type': 'waterfall', 'sequence': 'Costs → Offsets → Benefits → Net', 'bars': ['Quick‑build', 'Streetscape', 'Transit priority', 'Public realm', 'Ops', 'Curb pricing', 'Crash savings (city)', 'Time saved', 'Health', 'Crash reduction', 'Retail uplift', 'GHG', 'Net NPV'], 'color_key': {'Costs': '#A05A2C', 'Offsets': '#6C9F4B', 'Benefits': '#2C7FB8', 'Net': '#333333'}, 'annotations': ['Negative bars reduce net cost; values illustrative']}
+notes: Monetization methods per standard CBA (e.g., USDOT guidance); tailor to local context.
+slide_design: Horizontal waterfall with clear labels and running total; concise legend; unobtrusive gridlines.
+imagery: Clean financial graphic style; muted background with subtle city map watermark at 5% opacity.
+---
+Slide 11 — Implementation Roadmap & Metrics Dashboard
+content
+phasing: {'0–6 months': ['Choose 2–3 pilot neighborhoods via equity criteria.', 'Quick‑build: school streets, pop‑up bikeways, curb management zones.', 'Launch co‑design workshops; publish access baseline and targets.'], '6–18 months': ['Make successful pilots permanent; shade trees and drainage added.', 'Zoning updates: missing‑middle, corner retail, parking reform.', 'Transit: signal priority, bus lanes on key corridors.'], '18–36 months': ['Scale to additional districts; integrate health and economic KPIs.', 'Institutionalize curb pricing; fund maintenance and main‑street grants.', 'Annual report with isochrone maps and crash/health outcomes.']}
+workstreams: ['Streets & Safety', 'Land Use & Housing', 'Transit & Operations', 'Equity & Community', 'Data & Evaluation']
+dashboard_spec: {'layout': '3×2 grid', 'widgets': [{'type': 'gauge', 'title': '% residents within 15‑min walk to 5+ services', 'target': '≥70% by 2030'}, {'type': 'line', 'title': 'Serious injuries (ped/bike) per 100k', 'trend': 'quarterly'}, {'type': 'donut', 'title': 'Mode share (walk/bike/transit/car)', 'breakout': True}, {'type': 'bar', 'title': 'Retail occupancy on pilot corridors', 'grouping': 'before vs after'}, {'type': 'map', 'title': 'Access Index by tract (isochrone‑based)', 'legend': 'quintiles'}, {'type': 'table', 'title': 'Curb use compliance (deliveries/ride‑hail/micromobility)', 'cols': ['Corridor', 'Utilization %', 'Violations']}], 'data_sources': ['Transit AVL/GTFS‑RT', 'Crash database', 'Mobile/OD data (privacy‑preserving)', 'Business registry', 'GIS/parcel data']}
+gantt_spec: {'type': 'multi‑lane roadmap', 'lanes': ['Streets', 'Land Use', 'Transit', 'Community', 'Data'], 'milestones': [{'label': 'Pilot launch', 'month': 3}, {'label': 'Permanent build start', 'month': 12}, {'label': 'Zoning adopted', 'month': 15}, {'label': 'Scale program', 'month': 24}]}
+slide_design: Left: phased roadmap bands with milestone diamonds; Right: KPI dashboard tiles; clear color coding.
+imagery: UI‑style dashboard mock with crisp typography; subtle shadows; consistent iconography.
+---

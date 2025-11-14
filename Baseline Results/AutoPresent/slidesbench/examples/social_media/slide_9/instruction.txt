@@ -1,0 +1,14 @@
+Create a slide with the following content:
+
+1. Title: "The media have a very important impact on cultural globalization in two mutually interdependent ways:" Format the title in bold and larger font size, in dark blue color.
+
+2. Main content (in black, standard font size, with bullet points indented.):
+   - Use a numbered list:
+     1. The media provide an extensive transnational transmission of cultural products and;
+     2. It contributes to the formation of communicative networks and social structures.
+
+3. Additional text: "Global media cultures create a continuous cultural exchange."
+
+**Formatting:**
+- Ensure proper spacing between lines for readability.
+- Use a simple background to enhance text visibility.

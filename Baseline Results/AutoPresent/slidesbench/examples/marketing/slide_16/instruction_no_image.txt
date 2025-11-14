@@ -1,0 +1,8 @@
+Create a slide with a black background. 
+
+1. **Insert the Funnel Image**: Place a funnel diagram on the left side of the slide. Ensure it is large enough to be clearly visible.
+2. **Insert the Word Cloud Image**: Place a word cloud image on the right side of the slide, aligning it vertically with the funnel.
+3. **Add a Caption**: Below the funnel image, include the text "Credit: Steve Parizi" in a smaller font size.
+4. **Adjust Layout**: Ensure both images are balanced and centered vertically on the slide for a cohesive look. 
+
+Make sure there is enough space between the two images for clarity.

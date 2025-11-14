@@ -1,0 +1,9 @@
+Create a slide titled "Home Fun:" in bold yellow text. 
+
+Add two bullet points below:
+1. "Explain how market create opportunities."
+2. "Do you think market create inequality among the buyers? If yes, how?"
+
+Use a clean, modern font for the text. Set the background to a gradient of dark teal to lighter teal. 
+
+Include a small red rectangle in the top right corner for visual interest.

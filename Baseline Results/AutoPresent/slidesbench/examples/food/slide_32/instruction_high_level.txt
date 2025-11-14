@@ -1,0 +1,1 @@
+Create a slide with the title "THANK YOU!" centered at the bottom, and include the Fluentize logo at the top left corner.

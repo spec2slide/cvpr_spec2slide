@@ -1,0 +1,7 @@
+Create a slide with a dark blue background. 
+
+1. Add a light bulb icon on the left side.
+2. Center the title text: ‘DATE GONE WRONG’ STORY in large, bold, white font.
+3. Include the "FLUENT" logo in the top right corner.
+
+Ensure all elements are balanced and visually appealing.

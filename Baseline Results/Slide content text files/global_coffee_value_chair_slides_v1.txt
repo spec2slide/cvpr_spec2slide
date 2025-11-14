@@ -1,0 +1,632 @@
+Slide 1: Global Coffee Value Chain Sustainability
+Slide number: 1
+Content: From farm to cup: risks, impacts, and actions to decarbonize, protect livelihoods, and meet rising consumer expectations.
+Slide design: Full-bleed hero with warm earth tones and modern typography; subtle grain texture and thin line icons.
+Imagery: Aerial at sunrise over terraced coffee farms with morning mist; soft golden light, high dynamic range; faint overlay of bean, leaf, and globe icons at 10% opacity.
+---
+Slide 2: Agenda
+Slide number: 2
+Content:
+  - 1. Origin Regions Map
+  - 2. Farm Economics (Cost/Yield)
+  - 3. Climate Risk Hotspots
+  - 4. Processing & Logistics Flow (Sankey)
+  - 5. Certification Landscape
+  - 6. Retail Margin Waterfall
+  - 7. Consumer Trendlines
+  - 8. LCA Results (Farm → Cup)
+  - 9. Interventions & ROI
+  - 10. Implementation Roadmap + Stakeholder Callouts
+Slide design: Clean numbered list, left-aligned; generous whitespace; accent divider line.
+---
+Slide 3: Origin Regions Map
+Slide number: 3
+Content:
+  Summary: Coffee production spans the ‘Bean Belt’ (25°N–25°S), with smallholders producing the majority of arabica.
+  Top origins:
+    -
+      Country: Brazil
+      Approx share: 37%
+      Bean mix: Arabica-dominant
+    -
+      Country: Vietnam
+      Approx share: 17%
+      Bean mix: Robusta-dominant
+    -
+      Country: Colombia
+      Approx share: 8%
+      Bean mix: Arabica
+    -
+      Country: Indonesia
+      Approx share: 7%
+      Bean mix: Robusta/Arabica
+    -
+      Country: Ethiopia
+      Approx share: 4%
+      Bean mix: Arabica
+    -
+      Country: Others (50+ origins)
+      Approx share: 27%
+      Bean mix: Mixed
+  Map spec:
+    Type: choropleth + proportional bubbles
+    Projection: Robinson
+    Overlays:
+      - Shaded ‘Bean Belt’ band 25°N–25°S
+      - Bubble size by production volume
+      - Color by arabica vs robusta ratio (blue=arabica, green=robusta)
+    Legend: Dual legend: color for bean type, bubble scale for volume; bottom-left.
+  Notes: Shares are indicative averages; actuals vary by harvest year.
+Slide design: World map with soft terrain basemap and clean labels; muted oceans; high-contrast bubbles.
+Imagery: Crisp vector world map; gentle topographic shading; subtle coffee-leaf motif in corners.
+---
+Slide 4: Farm Economics: Cost/Yield Breakdown (Arabica, Smallholder)
+Slide number: 4
+Content:
+  Context: Illustrative per kg green coffee (USD, 2024) for a rainfed, mid-altitude arabica smallholder.
+  Per kg green costs:
+    -
+      Item: Field labor (pruning, harvest)
+      Usd per kg: 1.1
+    -
+      Item: Inputs (fertilizer, IPM)
+      Usd per kg: 0.6
+    -
+      Item: Processing (wet/dry, parchment loss)
+      Usd per kg: 0.25
+    -
+      Item: Transport to mill/market
+      Usd per kg: 0.15
+    -
+      Item: Compliance/admin/fees
+      Usd per kg: 0.05
+    -
+      Item: Finance (interest/working cap)
+      Usd per kg: 0.08
+  Revenue:
+    Farmgate price usd per kg: 2.5
+    Total cost usd per kg: 2.23
+    Gross margin usd per kg: 0.27
+  Yield metrics:
+    Trees per ha: 1600
+    Green yield kg per ha: 700
+    Annual revenue usd per ha: 1750
+    Annual cost usd per ha: 1561
+    Annual margin usd per ha: 189
+  Chart spec:
+    Type: stacked bar
+    Bars:
+      -
+        Name: Cost per kg
+        Segments:
+          - Labor
+          - Inputs
+          - Processing
+          - Transport
+          - Compliance
+          - Finance
+      -
+        Name: Price per kg
+        Segments:
+          - Farmgate
+    Annotation: Margin label atop bars; dashed line at break-even.
+  Notes: Values vary widely by altitude, farm size, input prices, and certification participation.
+Slide design: Two-column layout: left stacked bars, right key figures; compact labels; currency icons.
+Imagery: Close-up of ripe coffee cherries in hand with soft bokeh; natural light; earthy palette.
+---
+Slide 5: Climate Risk Hotspots
+Slide number: 5
+Content:
+  Risk drivers:
+    - Rising temperatures shifting suitable altitude (~300 m per °C)
+    - Rainfall variability and drought stress
+    - Pest/disease pressure (coffee leaf rust, berry borer)
+  Hotspots:
+    -
+      Region: Central America (1,000–1,600 m)
+      Risks: Rust resurgence, drought; suitability loss by 2050
+    -
+      Region: Ethiopia highlands
+      Risks: Suitability migration upslope; biodiversity trade-offs
+    -
+      Region: Brazil (Minas Gerais)
+      Risks: Heat waves, irregular rainfall; irrigation demand rising
+    -
+      Region: Vietnam Central Highlands
+      Risks: Water scarcity; robusta heat tolerance tested
+  Map spec:
+    Type: hexbin risk overlay
+    Risk index: 1 (low) to 5 (very high)
+    Scenario: 2030 & 2050 overlays (SSP2-4.5)
+    Layers:
+      - Temperature anomaly
+      - Water deficit
+      - Pest pressure proxy
+  Chart spec:
+    Type: line
+    Title: Suitability vs Altitude
+    Series:
+      - 2020
+      - 2030
+      - 2050
+    X axis: Altitude (m)
+    Y axis: Suitability score (0–1)
+Slide design: Risk map with warm-to-hot color ramp; concise callouts with leader lines.
+Imagery: Topographic basemap with translucent red-orange risk cells; thin white contour lines for elevation.
+---
+Slide 6: Processing & Logistics Flow (Sankey)
+Slide number: 6
+Content:
+  Mass flow baseline: From 100 units cherries → ~20 units green → ~17 units roasted → ~16 units sold (losses, QC).
+  Nodes:
+    - Farm
+    - Wet mill
+    - Drying
+    - Dry mill
+    - Exporter
+    - Ocean freight
+    - Importer
+    - Roaster
+    - Packaging
+    - Distribution
+    - Retail
+    - Consumer
+  Flows:
+    -
+      From: Farm
+      To: Wet mill
+      Units: 100
+      Label: Fresh cherries
+    -
+      From: Wet mill
+      To: Drying
+      Units: 40
+      Label: Parchment coffee (~60% loss)
+    -
+      From: Drying
+      To: Dry mill
+      Units: 22
+      Label: Dried parchment
+    -
+      From: Dry mill
+      To: Exporter
+      Units: 20
+      Label: Green coffee
+    -
+      From: Exporter
+      To: Ocean freight
+      Units: 20
+      Label: Containers
+    -
+      From: Ocean freight
+      To: Importer
+      Units: 19.8
+      Label: Shrink/spillage
+    -
+      From: Importer
+      To: Roaster
+      Units: 19.8
+      Label: Green lots
+    -
+      From: Roaster
+      To: Packaging
+      Units: 17
+      Label: Roasted (mass loss ~14%)
+    -
+      From: Packaging
+      To: Distribution
+      Units: 17
+      Label: Bagged cases
+    -
+      From: Distribution
+      To: Retail
+      Units: 16.5
+      Label: Sellable after QC
+    -
+      From: Retail
+      To: Consumer
+      Units: 16
+      Label: Purchased
+  Energy hotspots:
+    - Roasting
+    - Brewing (consumer)
+    - Ocean freight (if air freight avoided)
+  Diagram spec:
+    Type: sankey
+    Direction: left-to-right
+    Link color: by stage
+    Node style: rounded rectangles
+    Annotations:
+      - % loss labels on links
+Slide design: Curved, color-coded flows; minimal grid; stage labels above nodes.
+Imagery: Clean vector Sankey with warm browns for farm/processing, cool blues for logistics, neutral grays for retail.
+---
+Slide 7: Certification Landscape
+Slide number: 7
+Content:
+  Schemes:
+    -
+      Name: Fairtrade
+      Focus:
+        - Price floor + premium
+        - Worker rights
+      Traceability: Batch/lot
+      Deforestation free: Increasingly required
+    -
+      Name: Rainforest Alliance (UTZ)
+      Focus:
+        - Biodiversity
+        - Climate-smart practices
+      Traceability: Mass balance or IP
+      Deforestation free: Yes (criteria)
+    -
+      Name: Organic
+      Focus:
+        - No synthetic inputs
+      Traceability: Certified chain
+      Deforestation free: Implicit, not universal
+    -
+      Name: 4C
+      Focus:
+        - Baseline good practices
+      Traceability: Mass balance
+      Deforestation free: Baseline checks
+    -
+      Name: Direct Trade (var.)
+      Focus:
+        - Relationship, quality premiums
+      Traceability: Often strong, non-standardized
+      Deforestation free: Buyer policy dependent
+  Coverage by volume est:
+    -
+      Scheme: Rainforest/UTZ
+      Share: 20–25%
+    -
+      Scheme: 4C
+      Share: 10–15%
+    -
+      Scheme: Organic
+      Share: 7–8%
+    -
+      Scheme: Fairtrade
+      Share: 5–6%
+    -
+      Scheme: Uncertified/Other
+      Share: 50%+
+  Matrix spec:
+    Type: criteria matrix
+    Rows:
+      - Fairtrade
+      - RA/UTZ
+      - Organic
+      - 4C
+      - Direct Trade
+    Columns:
+      - Price/Premium
+      - Biodiversity
+      - Social
+      - Deforestation-free
+      - Traceability
+    Encoding: check/partial/blank; tooltips with notes
+  Notes: Schemes evolve; many buyers blend certifications with proprietary supplier requirements.
+Slide design: Compact comparison grid; scheme logos optional; subtle row banding.
+---
+Slide 8: Retail Margin Waterfall (Example: $15 / 12‑oz bag)
+Slide number: 8
+Content:
+  Retail price usd: 15
+  Waterfall items:
+    -
+      Name: Farmer net (farmgate)
+      Usd: 1.2
+    -
+      Name: Local processing/export fees
+      Usd: 0.5
+    -
+      Name: International freight/insurance
+      Usd: 0.3
+    -
+      Name: Importer margin/finance
+      Usd: 0.6
+    -
+      Name: Roasting energy/labor
+      Usd: 1.2
+    -
+      Name: Roaster overhead/depreciation
+      Usd: 0.6
+    -
+      Name: Packaging & labels
+      Usd: 1.1
+    -
+      Name: Domestic freight/warehousing
+      Usd: 0.7
+    -
+      Name: Duties/taxes
+      Usd: 0.4
+    -
+      Name: Brand/marketing
+      Usd: 0.8
+    -
+      Name: Retailer margin
+      Usd: 4.8
+    -
+      Name: Roaster net margin
+      Usd: 2.8
+  Chart spec:
+    Type: waterfall
+    X order: supply chain sequence
+    Color key:
+      Supply chain costs: #8C613C
+      Margins: #2F4858
+      Taxes: #C44E52
+    Annotations:
+      - Farmgate share ~8%
+  Notes: Illustrative; varies by channel (DTC vs grocery), volume, and origin.
+Slide design: Horizontal waterfall with subtotal markers and thin connectors; clear $ labels.
+Imagery: Minimalist financial graphic with warm neutrals; subtle coin and bag icons in outline style.
+---
+Slide 9: Consumer Trendlines
+Slide number: 9
+Content:
+  Highlights:
+    - Specialty share rising (+2–3 pp over 5 yrs).
+    - Ready-to-Drink (RTD) CAGR ~8–10% (global).
+    - Eco-label purchase intent ~+12 pp since 2018.
+    - At-home brewing upgrades post-2020; grinder/espresso penetration up.
+    - Plant-based milks in coffee: double-digit growth; sustainability cited.
+  Chart spec:
+    Type: multi-series line
+    X axis: Year (2015–2025)
+    Series:
+      -
+        Name: Specialty share (%)
+        Color: #1F77B4
+      -
+        Name: RTD volume index (2015=100)
+        Color: #2CA02C
+      -
+        Name: Eco-label intent (%)
+        Color: #FF7F0E
+    Secondary callout: Price sensitivity: at-home demand elasticity ≈ -0.6; out-of-home ≈ -1.1 (indicative).
+Slide design: Clean trendlines with soft grid; key inflection points annotated.
+Imagery: Lifestyle collage: home pour-over, café espresso, chilled RTD can; bright, contemporary lighting.
+---
+Slide 10: Life Cycle Assessment (LCA): From Farm to Cup
+Slide number: 10
+Content:
+  Functional unit: One 250 ml cup, black coffee (no milk).
+  System boundary: Farm inputs, processing, transport, roasting, packaging, retail, consumer brewing, end-of-life.
+  Ghg intensity:
+    Black cup: ≈0.21 kg CO2e
+    With 30ml milk: ≈0.34 kg CO2e
+    Latte 200ml milk: ≈0.9 kg CO2e
+  Stage breakdown black:
+    -
+      Stage: Farm/inputs/land mgmt
+      Share: 45%
+    -
+      Stage: Roasting
+      Share: 6%
+    -
+      Stage: Packaging
+      Share: 6%
+    -
+      Stage: Transport (origin→market)
+      Share: 5%
+    -
+      Stage: Retail/last-mile
+      Share: 3%
+    -
+      Stage: Consumer brewing energy
+      Share: 35%
+  Water footprint note: Large green water (rain) component; blue water hotspots in irrigated regions (e.g., Brazil, Vietnam).
+  Chart spec:
+    Type: stacked bar + scenario toggles
+    Bars:
+      -
+        Name: Black
+        Segments:
+          - Farm
+          - Roast
+          - Pack
+          - Transport
+          - Retail
+          - Brew
+      -
+        Name: Black + 30ml milk
+        Segments:
+          - Farm
+          - Roast
+          - Pack
+          - Transport
+          - Retail
+          - Brew
+          - Milk
+      -
+        Name: Latte
+        Segments:
+          - Farm
+          - Roast
+          - Pack
+          - Transport
+          - Retail
+          - Brew
+          - Milk
+    Units: kg CO2e per cup
+    Annotations:
+      - Milk dominates in milk-based beverages.
+  Notes: Indicative factors; actuals vary by farming practice, energy mix, brewing method, and serving size.
+Slide design: Side-by-side stacked bars, consistent color per stage; toggle buttons for scenarios.
+Imagery: Simple icon set per stage (leaf, roaster, box, ship, store, kettle, milk drop) in flat line style.
+---
+Slide 11: Interventions and ROI
+Slide number: 11
+Content:
+  Initiatives:
+    -
+      Name: Shade agroforestry (farm)
+      Capex: $350/ha
+      Payback: 3–4 yrs
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 18
+      Co benefits:
+        - Heat resilience
+        - Biodiversity
+        - Quality
+    -
+      Name: Soil health (compost/mulch)
+      Capex: $120/ha/yr
+      Payback: 1–2 yrs
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 9
+      Co benefits:
+        - Yield +8%
+        - Water retention
+    -
+      Name: Precision fertilization/IPM
+      Capex: $50/ha (training)
+      Payback: <1 yr
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 6
+      Co benefits:
+        - Input savings ~15%
+    -
+      Name: Wet mill water recycle + biogas
+      Capex: $7k/co-op
+      Payback: 2–3 yrs
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 14
+      Co benefits:
+        - Fuel switch from LPG
+        - Effluent control
+    -
+      Name: Efficient roasters + heat recovery
+      Capex: $70k/plant
+      Payback: ≈3 yrs
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 22
+      Co benefits:
+        - Quality consistency
+    -
+      Name: On-site solar (roastery)
+      Capex: $150k
+      Payback: 4–6 yrs
+      Npv 5y: Mixed
+      Abatement tco2e per 1k bags: 12
+      Co benefits:
+        - Energy cost hedge
+    -
+      Name: Lightweight, recyclable packs
+      Capex: +$0.05/bag
+      Payback: Immediate (freight)
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 2
+      Co benefits:
+        - Lower material use
+    -
+      Name: Ocean freight optimization
+      Capex: N/A (policy)
+      Payback: Immediate
+      Npv 5y: Positive
+      Abatement tco2e per 1k bags: 5
+      Co benefits:
+        - Lower cost via slow steaming
+  Bubble chart spec:
+    Type: bubble
+    X axis: Payback period (years)
+    Y axis: Abatement (tCO2e per 1k bags/yr)
+    Bubble size: Capex (log scale)
+    Color: Value chain stage (Farm/Roast/Logistics/Pack)
+  Notes: Indicative economics; verify locally. Many farm practices are ‘no-regrets’ with yield and quality gains.
+Slide design: Quadrant chart with clear axes; bubbles labeled with short names; legend by stage.
+Imagery: Crisp bubble plot on light grid; color-blind-safe palette.
+---
+Slide 12: Implementation Roadmap + Stakeholder Callouts
+Slide number: 12
+Content:
+  Phases:
+    0–6 months:
+      - Baseline: origin mapping, farm economics survey, emissions inventory (GHG+water).
+      - Supplier code and NDPE/deforestation due diligence live.
+      - Pilot: shade/soil program in 2 co-ops; roast energy audit.
+    6–18 months:
+      - Scale agroforestry + soil health to 30% volume; finance via pre-harvest loans.
+      - Install wet mill water recirculation/biogas in 3 hubs.
+      - Roaster upgrades (heat recovery) + renewable PPAs.
+      - Packaging switch to lightweight recyclable across SKUs.
+    18–36 months:
+      - 90% traceable volumes; deforestation-free verified.
+      - Ocean freight decarb commitments (slow steaming, carrier selection).
+      - Supplier performance-linked premiums; public progress report.
+  Workstreams:
+    -
+      Name: Farming & Resilience
+      Owner: Sourcing + NGO partners
+      Kpis:
+        - Yield +10%
+        - Shade coverage (ha)
+    -
+      Name: Traceability & Compliance
+      Owner: Sustainability + Procurement
+      Kpis:
+        - % lots traceable
+        - Deforestation risk cleared
+    -
+      Name: Roasting & Energy
+      Owner: Ops/Engineering
+      Kpis:
+        - kWh/kg roasted
+        - Scope 1–2 ↓
+    -
+      Name: Logistics & Packaging
+      Owner: Supply Chain
+      Kpis:
+        - g CO2e/kg-km
+        - Recycled content %
+    -
+      Name: Consumer & Brand
+      Owner: Marketing
+      Kpis:
+        - Eco-label adoption
+        - Education reach
+  Stakeholder callouts:
+    -
+      Stakeholder: Farmers/Co-ops
+      Ask: Adopt shade/soil/IPM; share plot data for MRV; receive premiums/inputs.
+    -
+      Stakeholder: Exporters/Importers
+      Ask: Provide traceability docs; offer pre-finance; segregate lots.
+    -
+      Stakeholder: Roasters
+      Ask: Invest in efficiency; shift to renewables; publish specs to suppliers.
+    -
+      Stakeholder: Retailers
+      Ask: Commit to shelf standards; co-fund certifications; transparent pricing.
+    -
+      Stakeholder: Certifiers/NGOs
+      Ask: Streamline audits; align metrics; support training.
+    -
+      Stakeholder: Financiers/DFIs
+      Ask: Offer concessional credit and risk-sharing for smallholders.
+    -
+      Stakeholder: Governments
+      Ask: Land-use enforcement; climate-smart extension; water stewardship.
+  Timeline spec:
+    Type: gantt-like
+    Lanes:
+      - Farming
+      - Traceability
+      - Roasting
+      - Logistics/Packaging
+      - Brand
+    Milestones:
+      -
+        Month: 6
+        Label: Pilots complete
+      -
+        Month: 18
+        Label: Scale phase
+      -
+        Month: 36
+        Label: Program maturity
+Slide design: Two-part slide: left phased roadmap blocks; right stakeholder badges with concise asks.

@@ -1,0 +1,8 @@
+Create a slide with the following elements:
+
+1. **Background**: Use a gradient background transitioning from dark green to lighter green.
+2. **Text**: Add the question "As an individual how we can ensure equality in society?" in large, bold yellow font. Center the text on the left side of the slide.
+3. **Images**: Place two images on the right side of the slide, ensuring they are aligned vertically. The images should depict themes of equality and social justice.
+4. **Attribution**: Include a small text box at the bottom right corner with the text "This Photo by Unknown author is licensed under CC BY-NC." in a smaller font size.
+
+Ensure all elements are clearly visible and well-aligned for a professional appearance.

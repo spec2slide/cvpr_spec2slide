@@ -1,0 +1,8 @@
+Create a slide titled "Origin of Blockchain Technology" in a large, bold font.
+
+Add the following bullet points in a smaller font:
+- The blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008 to serve as the public distributed ledger for bitcoin cryptocurrency transactions.
+- The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server.
+- Private blockchains have been proposed for business use.
+
+Ensure the text is left-aligned and use a clean, professional font. Maintain a simple background to enhance readability.

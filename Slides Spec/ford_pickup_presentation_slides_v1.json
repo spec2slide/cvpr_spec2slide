@@ -1,0 +1,174 @@
+{
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Built Ford Tough: The F-150 Story",
+      "content": "From post‑war workhorse to America’s best‑selling pickup for decades.",
+      "slide_design": "Full-bleed hero slide with bold title and metallic accents",
+      "imagery": "Crisp background: sunrise-lit F-150 on a jobsite, light dust in the air, sharp silhouette and reflections on the bodywork"
+    },
+    {
+      "slide_number": 2,
+      "title": "Built Ford Tough",
+      "content": "Enduring promise of durability, capability, and trust across generations.",
+      "slide_design": "Minimalist badge-forward slide with centered typography",
+      "imagery": "Foreground Imagery: the steel 'Built Ford Tough' badge in brushed metal over a deep-blue textured background"
+    },
+    {
+      "slide_number": 3,
+      "title": "Presentation Roadmap",
+      "content": [
+        "1. Origins & Foundation",
+        "2. Model Evolution",
+        "3. Innovation & Engineering",
+        "4. Culture & Community",
+        "5. Challenges & What’s Next"
+      ],
+      "slide_design": "Agenda slide design with a clean layout",
+      "imagery": ""
+    },
+    {
+      "slide_number": 4,
+      "title": "Humble Beginnings",
+      "content": "Born from the F-Series in 1948, the F-150 launched in 1975 to meet changing needs—more capability and durability without sacrificing efficiency.",
+      "slide_design": "Split layout: archival-to-modern transition",
+      "imagery": "Left: sepia 1950s F-Series hauling on a farm road; Right: early F-150 (1970s) in color on gravel, both tack-sharp"
+    },
+    {
+      "slide_number": 5,
+      "title": "Key Figures",
+      "content": {
+        "henry_ford": {
+          "name": "Henry Ford",
+          "background": [
+            "Founded Ford Motor Company (1903) and pioneered the moving assembly line",
+            "Pushed practical vehicles for workers, farmers, and small businesses",
+            "Set a culture of making durability and value accessible"
+          ],
+          "quote": "Coming together is a beginning; keeping together is progress; working together is success."
+        },
+        "lee_iacocca": {
+          "name": "Lee Iacocca",
+          "background": [
+            "Ford President (1970s) who broadened truck appeal beyond the jobsite",
+            "Championed customer-focused features and comfort without losing capability",
+            "Helped guide F-Series positioning during the F-150’s pivotal early years"
+          ],
+          "quote": "You can have brilliant ideas, but if you can’t get them across, your ideas won’t get you anywhere."
+        }
+      },
+      "slide_design": "Two-column layout with executive portraits above bios",
+      "imagery": "Crisp portraits: Henry Ford (sepia studio photo) and Lee Iacocca (1970s color portrait) on neutral backgrounds"
+    },
+    {
+      "slide_number": 6,
+      "title": "F-Series Origins",
+      "content": {
+        "description": "The F-150 arrived in 1975 as a tougher, heavier-duty successor to the F-100, blending work-ready strength with daily comfort. It quickly became the heart of the F-Series lineup.",
+        "milestone_vehicle": "1975 F-150 | higher GVWR and payload, setting the template for modern full-size pickups"
+      },
+      "slide_design": "Vintage-to-modern product milestone callout",
+      "imagery": "Image caption: First-generation F-150 (1975) in Wimbledon White, front three-quarter, clean studio lighting"
+    },
+    {
+      "slide_number": 7,
+      "title": "Becoming an Icon",
+      "content": {
+        "headline_stat": "No. 1 Truck in America",
+        "description": "For decades, F-Series has led U.S. pickup sales—trusted by trades, families, and fleets for capability and value."
+      },
+      "slide_design": "Big-number overlay on a chrome grille texture",
+      "imagery": "Tight crop of an F-150 grille and headlamp with crisp reflections; bold 'No. 1 Truck' typography overlay"
+    },
+    {
+      "slide_number": 8,
+      "title": "Powering Ahead",
+      "content": "Innovation keeps the F-150 in front: EcoBoost turbo power (2011), high-strength aluminum-alloy body (2015), hybrid PowerBoost (2021), and the all-electric F-150 Lightning (2022).",
+      "slide_design": "Diagonal timeline with technology icons",
+      "imagery": "Collage: turbo engine close-up, aluminum body panel stamping, hybrid badge macro, Lightning charging at dusk—clean, high-contrast"
+    },
+    {
+      "slide_number": 9,
+      "title": "U.S. Pickup Market Share",
+      "content": {
+        "market_data": [
+          {
+            "brand": "Ford F-Series",
+            "percentage": "30%"
+          },
+          {
+            "brand": "Chevrolet Silverado",
+            "percentage": "22%"
+          },
+          {
+            "brand": "Ram",
+            "percentage": "18%"
+          },
+          {
+            "brand": "Toyota Tacoma",
+            "percentage": "12%"
+          },
+          {
+            "brand": "Other",
+            "percentage": "18%"
+          }
+        ]
+      },
+      "slide_design": "Bar chart with Ford F-Series in bold blue, competitors in neutral tones",
+      "imagery": "Crisp bar chart graphic: clean gridlines, clear labels, high contrast"
+    },
+    {
+      "slide_number": 10,
+      "title": "Major Marketing Campaigns",
+      "content": {
+        "campaigns": [
+          {
+            "year": "1970s",
+            "campaign": "Built Ford Tough",
+            "description": "A simple promise of durability and grit that defined the truck category."
+          },
+          {
+            "year": "1997",
+            "campaign": "New F-150 Launch",
+            "description": "Rounded design and improved comfort brought more buyers into the fold."
+          },
+          {
+            "year": "2010",
+            "campaign": "EcoBoost Torture Test",
+            "description": "Proved twin-turbo power with extreme lab, worksite, and desert endurance stories."
+          },
+          {
+            "year": "2015",
+            "campaign": "High-Strength Aluminum-Alloy",
+            "description": "Showcased strength and weight savings with towing, payload, and durability demos."
+          },
+          {
+            "year": "2018",
+            "campaign": "Built Ford Proud",
+            "description": "Celebrated owners, communities, and American manufacturing with refreshed brand voice."
+          },
+          {
+            "year": "2021",
+            "campaign": "F-150 Lightning Reveal",
+            "description": "Introduced electric capability, home-backup power, and smart tech to new audiences."
+          }
+        ]
+      },
+      "slide_design": "Timeline layout with key campaigns highlighted by year and short proof points",
+      "imagery": ""
+    },
+    {
+    "slide_number": 11,
+    "title": "Recap: The Evolution of F-150",
+    "content": [
+        "1948–60s: F-Series establishes durable work roots",
+        "1970s: F-150 debuts—tougher, more capable, broader appeal",
+        "1990s: Comfort and safety elevate everyday usability",
+        "2010s: EcoBoost power and aluminum body transform performance",
+        "Now: Hybrid and all-electric options push capability into the future"
+    ],
+    "slide_design": "Columns for each era with representative truck silhouettes",
+    "imagery": "Five-panel strip, left to right: 1) 1948 Ford F-1 (1st gen) — red, farm road at golden hour, clean three-quarter view; 2) 1979 F-150 4x4 — two-tone blue/white, gravel jobsite with lumber; 3) 1997 F-150 XLT (10th gen) — Pacific Green, suburban street, rounded design; 4) 2015 F-150 Lariat (13th gen) — metallic gray, studio-lit to highlight aluminum body and EcoBoost badge; 5) 2022 F-150 Lightning — deep blue, curbside charging at dusk with crisp reflections."
+    }
+  ]
+}

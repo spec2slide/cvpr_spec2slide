@@ -1,0 +1,11 @@
+Create a slide titled "Representational or Objective Art" with the title in large font at the top center. 
+
+Add a smaller title on the top-left corner: "The Subject and Content of Art". 
+
+Insert the image of Van Gogh's self-portrait to the right of the title. 
+
+Include a caption below the image: "Self-portrait of Van Gogh" in a yellow textbox with black text. 
+
+Use a white background for the main content area and ensure the title textboxes have a yellow background with black text. 
+
+Use an colorful abstract image describing a vivid dance of colors and emotions as the slide background.

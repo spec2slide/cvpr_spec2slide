@@ -1,0 +1,4 @@
+Create a slide titled "THE CONTENT OF ART" with a checkmark bullet point: "The content of art is the meaning, message, and/or feeling imparted by a work of art."
+Add a smaller title on the top-left corner: "The Subject and Content of Art."
+Color the background of both title textboxes with yellow and the text color with black. For the main content, use a white background.
+Use an colorful abstract image describing a vivid dance of colors and emotions as the background of the slide.

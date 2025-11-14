@@ -1,0 +1,12 @@
+Create a slide with the following elements:
+
+1. **Title**: "PART 2" at the top left, in a bold font.
+2. **Instructions**: Below the title, include the text: "Write the correct form of the verbs in the dialogue below, depending on whether the past simple or past continuous should be used." Use a clear, readable font.
+3. **Dialogue Section**: Include the dialogue text with blanks for verbs:
+   - JOEY: We __________ (be) out to dinner. We __________ (have) a really nice time, I __________ (think) she was really cool and then, out of nowhere, she __________ (reach) over and __________ (take) some of my fries!
+   - PHOEBE: So she __________ (take) some fries, big deal!
+   - RACHEL: Oh yeah, Joey doesn’t share food. I mean, just last week, we __________ (have) breakfast, and he __________ (have) a couple of grapes on his plate...
+
+Replace the underlined areas with blank, bordered textboxes.
+4. **PART 3**: Below the dialogue, add "PART 3" in the same style as PART 2. Include the instruction: "Retell Joey’s part of the dialogue (above) out loud using stress/intonation in the appropriate places."
+5. **Design**: Use a clean, professional layout with a light background. Ensure the text is legible and well-spaced. 

@@ -1,0 +1,9 @@
+Create a slide titled "PART 3" with the instruction: "Fill in the correct past simple or past continuous forms in the short story below."
+Put the exam icon below it.
+
+Include the following text in a text box:
+
+"Last week, I went (I / go) on a date with a nice boy (I / meet) recently. (We / skate) in the park, (we / laugh), and (he / make) some really funny jokes, and then, out of now (I / fall) down (I / break) my leg!"
+Put an empty textbox in front of each verb in parentheses.
+
+Add a space for answers with a light background color. Include an image of people ice skating on the bottom-right side of the slide. Use a clean, readable font throughout.

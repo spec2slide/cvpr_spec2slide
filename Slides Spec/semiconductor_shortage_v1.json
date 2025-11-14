@@ -1,0 +1,457 @@
+{
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Semiconductor Shortage Case Study (2020–2023)",
+      "content": "How a perfect storm of demand shifts, supply shocks, and geopolitics stretched lead times, idled factories, and reshaped industrial policy—and what resilient operators did differently.",
+      "slide_design": "Full-bleed hero with bold headline; small subtitle and date range; corner badges for key themes (Demand • Supply • Policy • Resilience)",
+      "imagery": "High-contrast macro of a silicon wafer with iridescent die patterns; cool, industrial color grade; faint overlay of a supply chain line motif"
+    },
+    {
+      "slide_number": 2,
+      "title": "Agenda",
+      "content": [
+        "1. Root Causes",
+        "2. Supply Chain Anatomy + Fab Capacity Map",
+        "3. Lead-Time Trend (2020–2023)",
+        "4. Impacted Sectors",
+        "5. Mitigation Levers",
+        "6. Policy Incentives (CHIPS Acts)",
+        "7. Risk Heatmap",
+        "8. Resilience Playbook",
+        "9. Recovery Timeline"
+      ],
+      "slide_design": "Clean, numbered list with generous spacing; section markers at right margin; subtle grid",
+      "imagery": ""
+    },
+    {
+      "slide_number": 3,
+      "title": "Root Causes: A Convergence of Shocks",
+      "content": {
+        "pandemic_and_ops": [
+          "COVID demand whiplash: early auto cancellations, then sharp rebound",
+          "Factory disruptions: lockdowns; Texas freeze (2021); Japan fab fire; Malaysia OSAT lockdowns"
+        ],
+        "demand_mix_shift": [
+          "Work-from-home surge (PCs, networking, data center)",
+          "Automotive electrification/ADAS content up; consoles/GPUs cycles"
+        ],
+        "industry_structure": [
+          "Tight mature-node capacity (90–28nm, 8-inch lines) for MCUs/analog/power",
+          "Long equipment lead times; capex prioritized at advanced nodes"
+        ],
+        "geopolitics_and_policy": [
+          "Export controls and licensing scrutiny",
+          "Logistics constraints and component allocation practices"
+        ]
+      },
+      "slide_design": "Four-quadrant cause map with concise bullets; each quadrant labeled and icon-tagged",
+      "imagery": "Simple icon set (virus, chart up, factory, globe) in muted line art"
+    },
+    {
+      "slide_number": 4,
+      "title": "Semiconductor Supply Chain at a Glance",
+      "content": {
+        "stages": [
+          {
+            "stage": "Design/IP",
+            "players": "IDMs, fabless, EDA, IP vendors"
+          },
+          {
+            "stage": "Wafer Fabrication",
+            "players": "Foundries (TSMC, Samsung, UMC, GF, SMIC), IDMs"
+          },
+          {
+            "stage": "Assembly/Test (OSAT)",
+            "players": "ASE, Amkor, JCET, SPIL; significant SEA footprint"
+          },
+          {
+            "stage": "Distribution",
+            "players": "Avnet, Arrow; franchised/independent channels"
+          },
+          {
+            "stage": "OEM/EMS",
+            "players": "Automotive, Consumer, Industrial, Telecom; EMS integrators"
+          }
+        ],
+        "bottlenecks": [
+          "Mature-node fab capacity (8-inch, 200mm tools)",
+          "OSAT throughput and labor availability",
+          "Long equipment/tool lead times (litho, test handlers)",
+          "Qualification cycles for alternates (safety-critical domains)"
+        ]
+      },
+      "slide_design": "Left-to-right pipeline diagram with stage boxes and callouts for bottlenecks",
+      "imagery": "Flat vector pipeline with small conveyor motifs; bottleneck callouts in amber badges"
+    },
+    {
+      "slide_number": 5,
+      "title": "Global Fab Capacity Map (Indicative)",
+      "content": {
+        "regions": [
+          {
+            "region": "Taiwan",
+            "focus": "Advanced + mature logic (TSMC, UMC)",
+            "note": "Largest global share of leading-edge nodes"
+          },
+          {
+            "region": "South Korea",
+            "focus": "Logic + memory (Samsung, SK hynix)",
+            "note": "Advanced logic and DRAM/NAND scale"
+          },
+          {
+            "region": "United States",
+            "focus": "IDM + foundry expansion (Intel, GF, TSMC AZ)",
+            "note": "CHIPS-funded greenfield/brownfield projects"
+          },
+          {
+            "region": "Mainland China",
+            "focus": "Mature nodes; memory",
+            "note": "Domestic capacity build; export control constraints"
+          },
+          {
+            "region": "EU (incl. Germany)",
+            "focus": "Automotive/industrial; new fabs",
+            "note": "EU Chips Act-supported sites"
+          },
+          {
+            "region": "Japan",
+            "focus": "Mature/advanced (TSMC Kumamoto), specialty",
+            "note": "Strong OSAT/materials ecosystem"
+          },
+          {
+            "region": "SEA (Malaysia, Singapore)",
+            "focus": "OSAT/test; some fabs (GF SG)",
+            "note": "Critical for final assembly/test throughput"
+          }
+        ]
+      },
+      "slide_design": "World map with region pins; color-coded by capability (Advanced, Mature, Memory, OSAT)",
+      "imagery": "Crisp vector world map; subtle topography; pins with small labels; calm blue/gray palette"
+    },
+    {
+      "slide_number": 6,
+      "title": "Lead-Time Trend (Weeks): 2020–2023",
+      "content": {
+        "series": [
+          {
+            "category": "MCUs",
+            "pre_2020": "12–16",
+            "peak_2021_2022": "40–52+",
+            "late_2023": "14–20"
+          },
+          {
+            "category": "Analog",
+            "pre_2020": "10–14",
+            "peak_2021_2022": "26–40",
+            "late_2023": "12–18"
+          },
+          {
+            "category": "Power (MOSFET/IGBT)",
+            "pre_2020": "12–16",
+            "peak_2021_2022": "20–30",
+            "late_2023": "12–16"
+          },
+          {
+            "category": "Discrete/Passives",
+            "pre_2020": "8–12",
+            "peak_2021_2022": "16–26",
+            "late_2023": "10–14"
+          },
+          {
+            "category": "Memory (DRAM/NAND)",
+            "pre_2020": "8–12",
+            "peak_2021_2022": "12–20",
+            "late_2023": "8–12"
+          }
+        ],
+        "annotations": [
+          "2021 shocks amplified constraints (weather events, fires, OSAT lockdowns)",
+          "Mature-node categories peaked highest; memory cycled sooner",
+          "By late 2023, normalization underway but uneven across categories"
+        ],
+        "chart_spec": "Multi-line chart; x-axis = time (quarters 2020–2023), y-axis = weeks; highlight peaks with markers"
+      },
+      "slide_design": "Time-series line chart with category color coding; callout labels at peaks; clean gridlines",
+      "imagery": ""
+    },
+    {
+      "slide_number": 7,
+      "title": "Who Was Hit and How",
+      "content": {
+        "sectors": [
+          {
+            "sector": "Automotive",
+            "pain_point": "MCU/analog scarcity halted assembly lines",
+            "examples": "ECU shortages; delayed EV/ADAS launches"
+          },
+          {
+            "sector": "Industrial/IoT",
+            "pain_point": "Long-tail components constrained product ramps",
+            "examples": "PLC/controllers; sensor modules"
+          },
+          {
+            "sector": "Consumer Electronics",
+            "pain_point": "Allocation and price volatility",
+            "examples": "Consoles/GPUs stock-outs; smartphone mix shifts"
+          },
+          {
+            "sector": "Telecom/Networking",
+            "pain_point": "Lead times slowed infrastructure rollouts",
+            "examples": "Switches/optical modules delays"
+          },
+          {
+            "sector": "Medical Devices",
+            "pain_point": "Requalification cycles for alternates",
+            "examples": "Regulatory delays on critical devices"
+          }
+        ],
+        "visual_note": "Five sector tiles with icon, pain point, and example row"
+      },
+      "slide_design": "Tile grid (2 rows × 3 cols) with sector icons; concise text per tile",
+      "imagery": "Flat icons per sector; muted background; amber badges for ‘allocation’ tags"
+    },
+    {
+      "slide_number": 8,
+      "title": "Mitigation Levers That Worked",
+      "content": {
+        "levers": [
+          {
+            "lever": "Design Respins/Qualification",
+            "tactics": [
+              "Pin-compatible alternates",
+              "Firmware abstraction layers",
+              "Relax non-critical specs"
+            ],
+            "tradeoffs": "NRE cost; validation time; regulatory requalification"
+          },
+          {
+            "lever": "Dual/Multi-Sourcing",
+            "tactics": [
+              "Second-source contracts",
+              "Multi-foundry strategies for standard nodes"
+            ],
+            "tradeoffs": "Die/package differences; performance spread"
+          },
+          {
+            "lever": "Inventory Strategy",
+            "tactics": [
+              "Strategic safety stocks",
+              "Die banking at OSAT",
+              "VMI/consignment with distributors"
+            ],
+            "tradeoffs": "Carrying cost; obsolescence risk"
+          },
+          {
+            "lever": "Commercial Agreements",
+            "tactics": [
+              "LTAs with CTB clauses",
+              "Capacity reservations; prepaid wafers"
+            ],
+            "tradeoffs": "Prepay exposure; take-or-pay terms"
+          },
+          {
+            "lever": "Demand Shaping",
+            "tactics": [
+              "SKU rationalization",
+              "Feature de-optioning",
+              "Build-ahead critical subassemblies"
+            ],
+            "tradeoffs": "Revenue mix impact; change management"
+          }
+        ]
+      },
+      "slide_design": "Five horizontal cards with lever, tactics bullets, and tradeoff chip",
+      "imagery": "Simple isometric wrench and shield motifs; soft gradient accent bars"
+    },
+    {
+      "slide_number": 9,
+      "title": "Policy Response and Incentives (2022–2023)",
+      "content": {
+        "policies": [
+          {
+            "region": "United States",
+            "program": "CHIPS and Science Act (2022)",
+            "focus": "Manufacturing incentives, R&D, workforce",
+            "notes": "Grants/tax credits; new fabs (logic, memory); supplier ecosystems"
+          },
+          {
+            "region": "European Union",
+            "program": "EU Chips Act (2023)",
+            "focus": "Capacity, design platforms, crisis monitoring",
+            "notes": "State aid for ‘first-of-a-kind’ fabs; coordination mechanism"
+          },
+          {
+            "region": "Japan",
+            "program": "METI subsidies",
+            "focus": "TSMC Kumamoto, memory and specialty processes",
+            "notes": "Strategic focus on resiliency and advanced-packaging"
+          },
+          {
+            "region": "South Korea",
+            "program": "K-CHIPS",
+            "focus": "Tax incentives; cluster expansion",
+            "notes": "Memory + logic cluster scaling"
+          },
+          {
+            "region": "India",
+            "program": "Semicon India",
+            "focus": "Greenfield manufacturing, ATMP",
+            "notes": "Fabrication and OSAT attraction"
+          },
+          {
+            "region": "China",
+            "program": "National ‘Big Fund’ (phase II)",
+            "focus": "Domestic capacity build",
+            "notes": "Mature-node expansion; policy headwinds from export controls"
+          }
+        ],
+        "visual_note": "Policy badges by region with focus tags"
+      },
+      "slide_design": "Regional strip with badge cards; concise bullets; small map inset per region",
+      "imagery": "Clean badge icons (grant, factory, microscope); neutral background with region color keys"
+    },
+    {
+      "slide_number": 10,
+      "title": "Risk Heatmap: Where It Breaks First",
+      "content": {
+        "risks": [
+          {
+            "name": "Single-sourced MCU (40nm, AEC-Q100)",
+            "likelihood": "High",
+            "impact": "Severe",
+            "notes": "12–18 month requalification; safety-critical"
+          },
+          {
+            "name": "OSAT lockdown or labor shortage",
+            "likelihood": "Medium",
+            "impact": "High",
+            "notes": "Throughput shock across packages"
+          },
+          {
+            "name": "Export control change",
+            "likelihood": "Medium",
+            "impact": "High",
+            "notes": "Sudden BOM redesign or supply rerouting"
+          },
+          {
+            "name": "8-inch tool scarcity",
+            "likelihood": "High",
+            "impact": "Medium",
+            "notes": "Prolonged mature-node constraints"
+          },
+          {
+            "name": "Logistics bottlenecks",
+            "likelihood": "Medium",
+            "impact": "Medium",
+            "notes": "Regional shutdowns; port congestion"
+          },
+          {
+            "name": "Quality excursion at supplier",
+            "likelihood": "Low",
+            "impact": "High",
+            "notes": "Field actions; scrap, rework"
+          }
+        ],
+        "heatmap_spec": "2D grid (Likelihood × Impact) with colored dots; risk labels in compact callouts"
+      },
+      "slide_design": "Matrix heatmap (3×3) with dot markers; color ramp from green to red; legend at bottom",
+      "imagery": ""
+    },
+    {
+      "slide_number": 11,
+      "title": "Resilience Playbook: From Firefighting to Foresight",
+      "content": {
+        "workstreams": [
+          {
+            "name": "Governance & Data",
+            "actions": [
+              "Central BOM risk registry with part-to-node mapping",
+              "Allocation cockpit: confirmed-to-book (CTB), PPV, lead-time telemetry",
+              "Quarterly risk reviews with exec steering"
+            ]
+          },
+          {
+            "name": "Supply & Commercial",
+            "actions": [
+              "LTA and capacity reservations for top 50 risk parts",
+              "Second-source roadmap; dual OSAT where feasible",
+              "Supplier segmentation and joint recovery drills"
+            ]
+          },
+          {
+            "name": "Engineering & Product",
+            "actions": [
+              "Alternate-approved parts list (AAPL) and design abstraction",
+              "DFM standards for package/pinout/voltage agility",
+              "Qualification fast lanes for non-safety critical SKUs"
+            ]
+          }
+        ],
+        "quick_wins": [
+          "SKU rationalization of low-velocity variants",
+          "Safety stock tiers by criticality",
+          "Transparent EAU forecasts to suppliers"
+        ],
+        "foundational": [
+          "Node-diversified platforms",
+          "AP-enabled planning (event-driven)",
+          "Advanced test capacity buffers"
+        ]
+      },
+      "slide_design": "Three-column framework with ‘Quick Wins’ chips and ‘Foundational’ footer band",
+      "imagery": "Blueprint-style background grid; simple shield and network line icons"
+    },
+    {
+      "slide_number": 12,
+      "title": "Timeline: Shock, Squeeze, Response, Recovery",
+      "content": {
+        "phases": [
+          {
+            "period": "2020 H1",
+            "label": "Shock",
+            "events": [
+              "Auto demand collapse, order cancellations",
+              "Early fab/OSAT disruptions"
+            ],
+            "icon": "warning"
+          },
+          {
+            "period": "2020 H2 – 2021",
+            "label": "Squeeze",
+            "events": [
+              "Rebound + WFH surge; double-booking",
+              "Weather/fire/lockdowns amplify shortages"
+            ],
+            "icon": "pressure"
+          },
+          {
+            "period": "2022",
+            "label": "Response",
+            "events": [
+              "Capacity announcements; policy incentives",
+              "Peak lead times at mature nodes"
+            ],
+            "icon": "tools"
+          },
+          {
+            "period": "2023",
+            "label": "Recovery",
+            "events": [
+              "Lead times normalize unevenly",
+              "Memory cycles down; auto still tight early"
+            ],
+            "icon": "check"
+          }
+        ],
+        "callouts": [
+          "Embed resilience: AAPL, LTAs, dual-source plans during ‘Response’",
+          "Revisit risk heatmap quarterly during ‘Recovery’"
+        ],
+        "chart_spec": "Horizontal timeline with four bands; milestone dots and succinct event labels"
+      },
+      "slide_design": "Curved timeline with phase color blocks; minimal labels and iconography",
+      "imagery": "Clean, airy timeline with subtle gradients; milestone dots and small phase icons"
+    }
+  ]
+}

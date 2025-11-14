@@ -1,0 +1,7 @@
+Create a slide titled "Global and Local Cultural Products" with a subtitle "Cultural Products" below it. 
+
+Add the following bullet point: "✓ are goods and services such as arts, architectures, museums etc. that showcase the history and information of certain which belong to the country’s cultural heritage."
+
+Insert three images aligned horizontally at the bottom of the slide. Ensure the images are relevant to cultural products.
+
+Use a blue background for the title textbox, with white text. The main content should have a white background with black text.

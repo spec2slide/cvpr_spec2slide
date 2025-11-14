@@ -1,0 +1,1 @@
+Create a slide with the title "Thank You!" centered prominently on the page.

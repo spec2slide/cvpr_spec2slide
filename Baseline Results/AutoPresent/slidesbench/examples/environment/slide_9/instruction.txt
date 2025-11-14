@@ -1,0 +1,13 @@
+Create a slide with a light green background featuring a subtle hexagonal pattern. Insert a large white textbox at the center.
+
+1. **Title Section**: 
+   - Type the title "CONCLUSION" in bold green font.
+
+2. **Content Section**: 
+   - Below the title, add the following text in a black font:
+     - "Since the dawn of time, human beings have solemnly dependent on mother nature to fulfil their needs from inhaling air to sustenance to food requirements. But we are unable to handle the greatness of nature, we have overused, exploited, wasted natural resources which will affect badly on future generations. So it’s our duty to utilize the resources carefully. If we do not then that day is not so far where there will be no water, no food, no oxygen and life will be impossible."
+   - Ensure the text is aligned to the left within the textbox.
+
+3. **Formatting**: 
+   - Adjust the font sizes for clarity, making the title larger than the body text.
+   - Maintain consistent spacing between the title and the content for a clean look.

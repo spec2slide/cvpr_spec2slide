@@ -1,0 +1,20 @@
+Create a slide featuring a collage of images. 
+
+1. **Image Arrangement**: Use five images:
+   - Top left: A person sculpting.
+   - Top right: Someone painting.
+   - Center: A group of people in a field.
+   - Bottom left: A market with fruits and vegetables.
+   - Bottom right: An interior view of a shopping mall.
+
+2. **Shape**: Use circular frames for each image to create a cohesive look.
+
+3. **Background**: Keep the background simple to ensure the images stand out.
+
+4. **Spacing**: Ensure there is even spacing between the images for a balanced layout.
+
+5. **Title**: Add a title at the top of the slide, such as "Art and Everyday Life," in a clear, bold font.
+
+6. **Color Scheme**: Use a neutral color for the title text to maintain focus on the images.
+
+7. **Final Touches**: Ensure all images are high quality and properly aligned.

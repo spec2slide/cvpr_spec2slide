@@ -1,0 +1,16 @@
+Create a slide titled "Pronunciation Activity" with two sections labeled "PART 1" and "PART 2." Put an exam logo below the title.
+
+**For PART 1:**
+- Include the instruction: "Play the audio clips below. On which words do you notice the stress/intonation?"
+- List four audio clips with corresponding sentences:
+  1. “We were out to dinner, ok… We were getting along…”
+  2. “We were having a really nice time.”
+  3. “I was thinking she was really cool.”
+  4. “And then, out of nowhere…”
+- Add text boxes for "stressed word(s):" after each sentence.
+- Put the media play icon on the left side of each audio clip.
+
+**For PART 2:**
+- Include the instruction: "Repeat each sentence above out loud. Put stress/intonation on the words you marked in Part 1."
+
+Use a clean, professional layout with clear fonts. Ensure there is enough space for responses in the text boxes.

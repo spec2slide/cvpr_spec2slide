@@ -1,0 +1,10 @@
+Create a slide titled "GLOBAL MEDIA CULTURES" in bold, white text on a dark blue background, cover the top of the slide.
+
+Add three bullet points with checkmarks:
+1. "Globalization entails the spread of various cultures"
+2. "Globalization also involves the spread of ideas"
+3. "Globalization relies on media as its main conduit for the spread of global culture and ideas"
+
+Position the text on the left side of the slide. 
+
+On the right side, insert the provided image, ensuring it fills the space appropriately without overlapping the text.

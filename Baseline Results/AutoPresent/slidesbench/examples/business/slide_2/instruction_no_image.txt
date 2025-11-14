@@ -1,0 +1,13 @@
+Create a slide with the following elements:
+
+1. **Background Color**: Use a solid coral color for the entire slide.
+2. **Logo**: Place the Airbnb logo at the bottom left corner of the slide.
+3. **Title**: Add the text "Misión" in a prominent font, at the top of the slide, aligned to the left side.
+4. **Main Text**: Below the title, include the following text:
+   - "Create a world where anyone can belong anywhere" (bold, larger size)
+   - "Airbnb conecta a las personas con actividades y alojamientos en todo el mundo. El motor de la comunidad son nuestros anfitriones, que ofrecen a los viajeros la oportunidad única de descubrir su destino como un habitante más." (regular size)
+   Use a clear, readable font for the main text.
+5. **Font Color**: Use white for the title and main text to ensure good contrast against the coral background.
+6. **Image**: On the right side of the slide, insert an image of people dining together, ensuring it complements the text.
+
+Ensure all elements are well-spaced and visually balanced.

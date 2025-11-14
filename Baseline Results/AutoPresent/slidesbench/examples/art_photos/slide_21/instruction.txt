@@ -1,0 +1,4 @@
+Create a slide titled "Three levels of meaning" with the main content starting with "3. Subjective meaning - refers to the individual meaning deliberately and instinctively expressed by the artist using personal symbolism that stems from his own alliance with certain objects, actions, or colors with past experiences."
+Add a smaller title on the top-left corner "The Subject and Content of Art."
+Color the background of both title textboxes with yellow and the text color with black. For the main content, use a white background.
+Use the provided image as the background of the slide.

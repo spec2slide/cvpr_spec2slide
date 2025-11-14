@@ -1,0 +1,7 @@
+Create a slide titled "PRONUNCIATION ACTIVITY" in large, bold white text. Ensure the title is centered vertically and horizontally on the slide. 
+
+Add a graphic of a speaking head on the left side of the title.
+
+Include the "FLUENT" logo in the top right corner.
+
+Set the background color to dark blue.

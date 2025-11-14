@@ -1,0 +1,10 @@
+Create a slide titled "Purpose of Blockchain" in a bold font at the top.
+
+Add the following bullet points as checkboxes:
+- Blockchain uses an online ledger which is very secure.
+- There is no third-party interference.
+- It used distributed ledger which is very transparent.
+- It is a digital world offering many new tools and there are many centralized administrators.
+- Since there is no third-party guarantee cost is very low.
+
+Ensure the text is clear and easy to read, using a simple font style. Maintain a clean layout with adequate spacing between bullet points. Use a light background for contrast.

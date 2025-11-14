@@ -1,0 +1,17 @@
+Create a slide titled "KEY REASONS WHY ACADEMIC SUCCESS IS IMPORTANT IN SOCIETY" in large, bold font at the top.
+
+Divide the slide into three sections, each with an icon or illustration on top of the title and text:
+
+1. Title: "Global Competitiveness"
+   - Place an image representing global business.
+   - Add the text: "Education is key for a country's competitiveness in the global market" in a smaller font below.
+
+2. Title: "Scientific Advancement and Research"
+   - Use an image related to scientific research.
+   - Include the text: "Academic success drives research, leading to advancements that improve society." below the image.
+
+3. Title: "Cultural Enrichment and Social Cohesion"
+   - Insert an image depicting social interaction or cultural diversity.
+   - Write: "Education fosters cultural understanding and social cohesion through exposure to diverse perspectives and experiences, building a more inclusive society." below the image.
+
+Set the background color to dark, use yellow for section titles, and use white for other texts. Ensure all text is clear and legible.

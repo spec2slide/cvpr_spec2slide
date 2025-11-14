@@ -1,0 +1,15 @@
+Create a slide titled "Content" with a bold font. 
+
+On the left side, include a vertical yellow bar for emphasis. 
+
+List the following bullet points in a standard font:
+- Brief highlights of Elon Musk
+- Biography
+- Early life of Elon Musk
+- How he came up with his ideas
+- Elon’s current stage
+- Obstacles that Elon faced
+- Lessons that we can learn from Elon Musk's life
+- Elon’s Future Plans
+
+Ensure the background is white and the text is black for clarity.

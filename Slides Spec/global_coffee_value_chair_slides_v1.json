@@ -1,0 +1,819 @@
+{
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Global Coffee Value Chain Sustainability",
+      "content": "From farm to cup: risks, impacts, and actions to decarbonize, protect livelihoods, and meet rising consumer expectations.",
+      "slide_design": "Full-bleed hero with warm earth tones and modern typography; subtle grain texture and thin line icons.",
+      "imagery": "Aerial at sunrise over terraced coffee farms with morning mist; soft golden light, high dynamic range; faint overlay of bean, leaf, and globe icons at 10% opacity."
+    },
+    {
+      "slide_number": 2,
+      "title": "Agenda",
+      "content": [
+        "1. Origin Regions Map",
+        "2. Farm Economics (Cost/Yield)",
+        "3. Climate Risk Hotspots",
+        "4. Processing & Logistics Flow (Sankey)",
+        "5. Certification Landscape",
+        "6. Retail Margin Waterfall",
+        "7. Consumer Trendlines",
+        "8. LCA Results (Farm → Cup)",
+        "9. Interventions & ROI",
+        "10. Implementation Roadmap + Stakeholder Callouts"
+      ],
+      "slide_design": "Clean numbered list, left-aligned; generous whitespace; accent divider line.",
+      "imagery": ""
+    },
+    {
+      "slide_number": 3,
+      "title": "Origin Regions Map",
+      "content": {
+        "summary": "Coffee production spans the ‘Bean Belt’ (25°N–25°S), with smallholders producing the majority of arabica.",
+        "top_origins": [
+          {
+            "country": "Brazil",
+            "approx_share": "37%",
+            "bean_mix": "Arabica-dominant"
+          },
+          {
+            "country": "Vietnam",
+            "approx_share": "17%",
+            "bean_mix": "Robusta-dominant"
+          },
+          {
+            "country": "Colombia",
+            "approx_share": "8%",
+            "bean_mix": "Arabica"
+          },
+          {
+            "country": "Indonesia",
+            "approx_share": "7%",
+            "bean_mix": "Robusta/Arabica"
+          },
+          {
+            "country": "Ethiopia",
+            "approx_share": "4%",
+            "bean_mix": "Arabica"
+          },
+          {
+            "country": "Others (50+ origins)",
+            "approx_share": "27%",
+            "bean_mix": "Mixed"
+          }
+        ],
+        "map_spec": {
+          "type": "choropleth + proportional bubbles",
+          "projection": "Robinson",
+          "overlays": [
+            "Shaded ‘Bean Belt’ band 25°N–25°S",
+            "Bubble size by production volume",
+            "Color by arabica vs robusta ratio (blue=arabica, green=robusta)"
+          ],
+          "legend": "Dual legend: color for bean type, bubble scale for volume; bottom-left."
+        },
+        "notes": "Shares are indicative averages; actuals vary by harvest year."
+      },
+      "slide_design": "World map with soft terrain basemap and clean labels; muted oceans; high-contrast bubbles.",
+      "imagery": "Crisp vector world map; gentle topographic shading; subtle coffee-leaf motif in corners."
+    },
+    {
+      "slide_number": 4,
+      "title": "Farm Economics: Cost/Yield Breakdown (Arabica, Smallholder)",
+      "content": {
+        "context": "Illustrative per kg green coffee (USD, 2024) for a rainfed, mid-altitude arabica smallholder.",
+        "per_kg_green_costs": [
+          {
+            "item": "Field labor (pruning, harvest)",
+            "usd_per_kg": 1.1
+          },
+          {
+            "item": "Inputs (fertilizer, IPM)",
+            "usd_per_kg": 0.6
+          },
+          {
+            "item": "Processing (wet/dry, parchment loss)",
+            "usd_per_kg": 0.25
+          },
+          {
+            "item": "Transport to mill/market",
+            "usd_per_kg": 0.15
+          },
+          {
+            "item": "Compliance/admin/fees",
+            "usd_per_kg": 0.05
+          },
+          {
+            "item": "Finance (interest/working cap)",
+            "usd_per_kg": 0.08
+          }
+        ],
+        "revenue": {
+          "farmgate_price_usd_per_kg": 2.5,
+          "total_cost_usd_per_kg": 2.23,
+          "gross_margin_usd_per_kg": 0.27
+        },
+        "yield_metrics": {
+          "trees_per_ha": 1600,
+          "green_yield_kg_per_ha": 700,
+          "annual_revenue_usd_per_ha": 1750,
+          "annual_cost_usd_per_ha": 1561,
+          "annual_margin_usd_per_ha": 189
+        },
+        "chart_spec": {
+          "type": "stacked bar",
+          "bars": [
+            {
+              "name": "Cost per kg",
+              "segments": [
+                "Labor",
+                "Inputs",
+                "Processing",
+                "Transport",
+                "Compliance",
+                "Finance"
+              ]
+            },
+            {
+              "name": "Price per kg",
+              "segments": [
+                "Farmgate"
+              ]
+            }
+          ],
+          "annotation": "Margin label atop bars; dashed line at break-even."
+        },
+        "notes": "Values vary widely by altitude, farm size, input prices, and certification participation."
+      },
+      "slide_design": "Two-column layout: left stacked bars, right key figures; compact labels; currency icons.",
+      "imagery": "Close-up of ripe coffee cherries in hand with soft bokeh; natural light; earthy palette."
+    },
+    {
+      "slide_number": 5,
+      "title": "Climate Risk Hotspots",
+      "content": {
+        "risk_drivers": [
+          "Rising temperatures shifting suitable altitude (~300 m per °C)",
+          "Rainfall variability and drought stress",
+          "Pest/disease pressure (coffee leaf rust, berry borer)"
+        ],
+        "hotspots": [
+          {
+            "region": "Central America (1,000–1,600 m)",
+            "risks": "Rust resurgence, drought; suitability loss by 2050"
+          },
+          {
+            "region": "Ethiopia highlands",
+            "risks": "Suitability migration upslope; biodiversity trade-offs"
+          },
+          {
+            "region": "Brazil (Minas Gerais)",
+            "risks": "Heat waves, irregular rainfall; irrigation demand rising"
+          },
+          {
+            "region": "Vietnam Central Highlands",
+            "risks": "Water scarcity; robusta heat tolerance tested"
+          }
+        ],
+        "map_spec": {
+          "type": "hexbin risk overlay",
+          "risk_index": "1 (low) to 5 (very high)",
+          "scenario": "2030 & 2050 overlays (SSP2-4.5)",
+          "layers": [
+            "Temperature anomaly",
+            "Water deficit",
+            "Pest pressure proxy"
+          ]
+        },
+        "chart_spec": {
+          "type": "line",
+          "title": "Suitability vs Altitude",
+          "series": [
+            "2020",
+            "2030",
+            "2050"
+          ],
+          "x_axis": "Altitude (m)",
+          "y_axis": "Suitability score (0–1)"
+        }
+      },
+      "slide_design": "Risk map with warm-to-hot color ramp; concise callouts with leader lines.",
+      "imagery": "Topographic basemap with translucent red-orange risk cells; thin white contour lines for elevation."
+    },
+    {
+      "slide_number": 6,
+      "title": "Processing & Logistics Flow (Sankey)",
+      "content": {
+        "mass_flow_baseline": "From 100 units cherries → ~20 units green → ~17 units roasted → ~16 units sold (losses, QC).",
+        "nodes": [
+          "Farm",
+          "Wet mill",
+          "Drying",
+          "Dry mill",
+          "Exporter",
+          "Ocean freight",
+          "Importer",
+          "Roaster",
+          "Packaging",
+          "Distribution",
+          "Retail",
+          "Consumer"
+        ],
+        "flows": [
+          {
+            "from": "Farm",
+            "to": "Wet mill",
+            "units": 100,
+            "label": "Fresh cherries"
+          },
+          {
+            "from": "Wet mill",
+            "to": "Drying",
+            "units": 40,
+            "label": "Parchment coffee (~60% loss)"
+          },
+          {
+            "from": "Drying",
+            "to": "Dry mill",
+            "units": 22,
+            "label": "Dried parchment"
+          },
+          {
+            "from": "Dry mill",
+            "to": "Exporter",
+            "units": 20,
+            "label": "Green coffee"
+          },
+          {
+            "from": "Exporter",
+            "to": "Ocean freight",
+            "units": 20,
+            "label": "Containers"
+          },
+          {
+            "from": "Ocean freight",
+            "to": "Importer",
+            "units": 19.8,
+            "label": "Shrink/spillage"
+          },
+          {
+            "from": "Importer",
+            "to": "Roaster",
+            "units": 19.8,
+            "label": "Green lots"
+          },
+          {
+            "from": "Roaster",
+            "to": "Packaging",
+            "units": 17,
+            "label": "Roasted (mass loss ~14%)"
+          },
+          {
+            "from": "Packaging",
+            "to": "Distribution",
+            "units": 17,
+            "label": "Bagged cases"
+          },
+          {
+            "from": "Distribution",
+            "to": "Retail",
+            "units": 16.5,
+            "label": "Sellable after QC"
+          },
+          {
+            "from": "Retail",
+            "to": "Consumer",
+            "units": 16,
+            "label": "Purchased"
+          }
+        ],
+        "energy_hotspots": [
+          "Roasting",
+          "Brewing (consumer)",
+          "Ocean freight (if air freight avoided)"
+        ],
+        "diagram_spec": {
+          "type": "sankey",
+          "direction": "left-to-right",
+          "link_color": "by stage",
+          "node_style": "rounded rectangles",
+          "annotations": [
+            "% loss labels on links"
+          ]
+        }
+      },
+      "slide_design": "Curved, color-coded flows; minimal grid; stage labels above nodes.",
+      "imagery": "Clean vector Sankey with warm browns for farm/processing, cool blues for logistics, neutral grays for retail."
+    },
+    {
+      "slide_number": 7,
+      "title": "Certification Landscape",
+      "content": {
+        "schemes": [
+          {
+            "name": "Fairtrade",
+            "focus": [
+              "Price floor + premium",
+              "Worker rights"
+            ],
+            "traceability": "Batch/lot",
+            "deforestation_free": "Increasingly required"
+          },
+          {
+            "name": "Rainforest Alliance (UTZ)",
+            "focus": [
+              "Biodiversity",
+              "Climate-smart practices"
+            ],
+            "traceability": "Mass balance or IP",
+            "deforestation_free": "Yes (criteria)"
+          },
+          {
+            "name": "Organic",
+            "focus": [
+              "No synthetic inputs"
+            ],
+            "traceability": "Certified chain",
+            "deforestation_free": "Implicit, not universal"
+          },
+          {
+            "name": "4C",
+            "focus": [
+              "Baseline good practices"
+            ],
+            "traceability": "Mass balance",
+            "deforestation_free": "Baseline checks"
+          },
+          {
+            "name": "Direct Trade (var.)",
+            "focus": [
+              "Relationship, quality premiums"
+            ],
+            "traceability": "Often strong, non-standardized",
+            "deforestation_free": "Buyer policy dependent"
+          }
+        ],
+        "coverage_by_volume_est": [
+          {
+            "scheme": "Rainforest/UTZ",
+            "share": "20–25%"
+          },
+          {
+            "scheme": "4C",
+            "share": "10–15%"
+          },
+          {
+            "scheme": "Organic",
+            "share": "7–8%"
+          },
+          {
+            "scheme": "Fairtrade",
+            "share": "5–6%"
+          },
+          {
+            "scheme": "Uncertified/Other",
+            "share": "50%+"
+          }
+        ],
+        "matrix_spec": {
+          "type": "criteria matrix",
+          "rows": [
+            "Fairtrade",
+            "RA/UTZ",
+            "Organic",
+            "4C",
+            "Direct Trade"
+          ],
+          "columns": [
+            "Price/Premium",
+            "Biodiversity",
+            "Social",
+            "Deforestation-free",
+            "Traceability"
+          ],
+          "encoding": "check/partial/blank; tooltips with notes"
+        },
+        "notes": "Schemes evolve; many buyers blend certifications with proprietary supplier requirements."
+      },
+      "slide_design": "Compact comparison grid; scheme logos optional; subtle row banding.",
+      "imagery": ""
+    },
+    {
+      "slide_number": 8,
+      "title": "Retail Margin Waterfall (Example: $15 / 12‑oz bag)",
+      "content": {
+        "retail_price_usd": 15,
+        "waterfall_items": [
+          {
+            "name": "Farmer net (farmgate)",
+            "usd": 1.2
+          },
+          {
+            "name": "Local processing/export fees",
+            "usd": 0.5
+          },
+          {
+            "name": "International freight/insurance",
+            "usd": 0.3
+          },
+          {
+            "name": "Importer margin/finance",
+            "usd": 0.6
+          },
+          {
+            "name": "Roasting energy/labor",
+            "usd": 1.2
+          },
+          {
+            "name": "Roaster overhead/depreciation",
+            "usd": 0.6
+          },
+          {
+            "name": "Packaging & labels",
+            "usd": 1.1
+          },
+          {
+            "name": "Domestic freight/warehousing",
+            "usd": 0.7
+          },
+          {
+            "name": "Duties/taxes",
+            "usd": 0.4
+          },
+          {
+            "name": "Brand/marketing",
+            "usd": 0.8
+          },
+          {
+            "name": "Retailer margin",
+            "usd": 4.8
+          },
+          {
+            "name": "Roaster net margin",
+            "usd": 2.8
+          }
+        ],
+        "chart_spec": {
+          "type": "waterfall",
+          "x_order": "supply chain sequence",
+          "color_key": {
+            "Supply chain costs": "#8C613C",
+            "Margins": "#2F4858",
+            "Taxes": "#C44E52"
+          },
+          "annotations": [
+            "Farmgate share ~8%"
+          ]
+        },
+        "notes": "Illustrative; varies by channel (DTC vs grocery), volume, and origin."
+      },
+      "slide_design": "Horizontal waterfall with subtotal markers and thin connectors; clear $ labels.",
+      "imagery": "Minimalist financial graphic with warm neutrals; subtle coin and bag icons in outline style."
+    },
+    {
+      "slide_number": 9,
+      "title": "Consumer Trendlines",
+      "content": {
+        "highlights": [
+          "Specialty share rising (+2–3 pp over 5 yrs).",
+          "Ready-to-Drink (RTD) CAGR ~8–10% (global).",
+          "Eco-label purchase intent ~+12 pp since 2018.",
+          "At-home brewing upgrades post-2020; grinder/espresso penetration up.",
+          "Plant-based milks in coffee: double-digit growth; sustainability cited."
+        ],
+        "chart_spec": {
+          "type": "multi-series line",
+          "x_axis": "Year (2015–2025)",
+          "series": [
+            {
+              "name": "Specialty share (%)",
+              "color": "#1F77B4"
+            },
+            {
+              "name": "RTD volume index (2015=100)",
+              "color": "#2CA02C"
+            },
+            {
+              "name": "Eco-label intent (%)",
+              "color": "#FF7F0E"
+            }
+          ],
+          "secondary_callout": "Price sensitivity: at-home demand elasticity ≈ -0.6; out-of-home ≈ -1.1 (indicative)."
+        }
+      },
+      "slide_design": "Clean trendlines with soft grid; key inflection points annotated.",
+      "imagery": "Lifestyle collage: home pour-over, café espresso, chilled RTD can; bright, contemporary lighting."
+    },
+    {
+      "slide_number": 10,
+      "title": "Life Cycle Assessment (LCA): From Farm to Cup",
+      "content": {
+        "functional_unit": "One 250 ml cup, black coffee (no milk).",
+        "system_boundary": "Farm inputs, processing, transport, roasting, packaging, retail, consumer brewing, end-of-life.",
+        "ghg_intensity": {
+          "black_cup": "≈0.21 kg CO2e",
+          "with_30ml_milk": "≈0.34 kg CO2e",
+          "latte_200ml_milk": "≈0.9 kg CO2e"
+        },
+        "stage_breakdown_black": [
+          {
+            "stage": "Farm/inputs/land mgmt",
+            "share": "45%"
+          },
+          {
+            "stage": "Roasting",
+            "share": "6%"
+          },
+          {
+            "stage": "Packaging",
+            "share": "6%"
+          },
+          {
+            "stage": "Transport (origin→market)",
+            "share": "5%"
+          },
+          {
+            "stage": "Retail/last-mile",
+            "share": "3%"
+          },
+          {
+            "stage": "Consumer brewing energy",
+            "share": "35%"
+          }
+        ],
+        "water_footprint_note": "Large green water (rain) component; blue water hotspots in irrigated regions (e.g., Brazil, Vietnam).",
+        "chart_spec": {
+          "type": "stacked bar + scenario toggles",
+          "bars": [
+            {
+              "name": "Black",
+              "segments": [
+                "Farm",
+                "Roast",
+                "Pack",
+                "Transport",
+                "Retail",
+                "Brew"
+              ]
+            },
+            {
+              "name": "Black + 30ml milk",
+              "segments": [
+                "Farm",
+                "Roast",
+                "Pack",
+                "Transport",
+                "Retail",
+                "Brew",
+                "Milk"
+              ]
+            },
+            {
+              "name": "Latte",
+              "segments": [
+                "Farm",
+                "Roast",
+                "Pack",
+                "Transport",
+                "Retail",
+                "Brew",
+                "Milk"
+              ]
+            }
+          ],
+          "units": "kg CO2e per cup",
+          "annotations": [
+            "Milk dominates in milk-based beverages."
+          ]
+        },
+        "notes": "Indicative factors; actuals vary by farming practice, energy mix, brewing method, and serving size."
+      },
+      "slide_design": "Side-by-side stacked bars, consistent color per stage; toggle buttons for scenarios.",
+      "imagery": "Simple icon set per stage (leaf, roaster, box, ship, store, kettle, milk drop) in flat line style."
+    },
+    {
+      "slide_number": 11,
+      "title": "Interventions and ROI",
+      "content": {
+        "initiatives": [
+          {
+            "name": "Shade agroforestry (farm)",
+            "capex": "$350/ha",
+            "payback": "3–4 yrs",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 18,
+            "co_benefits": [
+              "Heat resilience",
+              "Biodiversity",
+              "Quality"
+            ]
+          },
+          {
+            "name": "Soil health (compost/mulch)",
+            "capex": "$120/ha/yr",
+            "payback": "1–2 yrs",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 9,
+            "co_benefits": [
+              "Yield +8%",
+              "Water retention"
+            ]
+          },
+          {
+            "name": "Precision fertilization/IPM",
+            "capex": "$50/ha (training)",
+            "payback": "<1 yr",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 6,
+            "co_benefits": [
+              "Input savings ~15%"
+            ]
+          },
+          {
+            "name": "Wet mill water recycle + biogas",
+            "capex": "$7k/co-op",
+            "payback": "2–3 yrs",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 14,
+            "co_benefits": [
+              "Fuel switch from LPG",
+              "Effluent control"
+            ]
+          },
+          {
+            "name": "Efficient roasters + heat recovery",
+            "capex": "$70k/plant",
+            "payback": "≈3 yrs",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 22,
+            "co_benefits": [
+              "Quality consistency"
+            ]
+          },
+          {
+            "name": "On-site solar (roastery)",
+            "capex": "$150k",
+            "payback": "4–6 yrs",
+            "npv_5y": "Mixed",
+            "abatement_tCO2e_per_1k_bags": 12,
+            "co_benefits": [
+              "Energy cost hedge"
+            ]
+          },
+          {
+            "name": "Lightweight, recyclable packs",
+            "capex": "+$0.05/bag",
+            "payback": "Immediate (freight)",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 2,
+            "co_benefits": [
+              "Lower material use"
+            ]
+          },
+          {
+            "name": "Ocean freight optimization",
+            "capex": "N/A (policy)",
+            "payback": "Immediate",
+            "npv_5y": "Positive",
+            "abatement_tCO2e_per_1k_bags": 5,
+            "co_benefits": [
+              "Lower cost via slow steaming"
+            ]
+          }
+        ],
+        "bubble_chart_spec": {
+          "type": "bubble",
+          "x_axis": "Payback period (years)",
+          "y_axis": "Abatement (tCO2e per 1k bags/yr)",
+          "bubble_size": "Capex (log scale)",
+          "color": "Value chain stage (Farm/Roast/Logistics/Pack)"
+        },
+        "notes": "Indicative economics; verify locally. Many farm practices are ‘no-regrets’ with yield and quality gains."
+      },
+      "slide_design": "Quadrant chart with clear axes; bubbles labeled with short names; legend by stage.",
+      "imagery": "Crisp bubble plot on light grid; color-blind-safe palette."
+    },
+    {
+      "slide_number": 12,
+      "title": "Implementation Roadmap + Stakeholder Callouts",
+      "content": {
+        "phases": {
+          "0–6 months": [
+            "Baseline: origin mapping, farm economics survey, emissions inventory (GHG+water).",
+            "Supplier code and NDPE/deforestation due diligence live.",
+            "Pilot: shade/soil program in 2 co-ops; roast energy audit."
+          ],
+          "6–18 months": [
+            "Scale agroforestry + soil health to 30% volume; finance via pre-harvest loans.",
+            "Install wet mill water recirculation/biogas in 3 hubs.",
+            "Roaster upgrades (heat recovery) + renewable PPAs.",
+            "Packaging switch to lightweight recyclable across SKUs."
+          ],
+          "18–36 months": [
+            "90% traceable volumes; deforestation-free verified.",
+            "Ocean freight decarb commitments (slow steaming, carrier selection).",
+            "Supplier performance-linked premiums; public progress report."
+          ]
+        },
+        "workstreams": [
+          {
+            "name": "Farming & Resilience",
+            "owner": "Sourcing + NGO partners",
+            "kpis": [
+              "Yield +10%",
+              "Shade coverage (ha)"
+            ]
+          },
+          {
+            "name": "Traceability & Compliance",
+            "owner": "Sustainability + Procurement",
+            "kpis": [
+              "% lots traceable",
+              "Deforestation risk cleared"
+            ]
+          },
+          {
+            "name": "Roasting & Energy",
+            "owner": "Ops/Engineering",
+            "kpis": [
+              "kWh/kg roasted",
+              "Scope 1–2 ↓"
+            ]
+          },
+          {
+            "name": "Logistics & Packaging",
+            "owner": "Supply Chain",
+            "kpis": [
+              "g CO2e/kg-km",
+              "Recycled content %"
+            ]
+          },
+          {
+            "name": "Consumer & Brand",
+            "owner": "Marketing",
+            "kpis": [
+              "Eco-label adoption",
+              "Education reach"
+            ]
+          }
+        ],
+        "stakeholder_callouts": [
+          {
+            "stakeholder": "Farmers/Co-ops",
+            "ask": "Adopt shade/soil/IPM; share plot data for MRV; receive premiums/inputs."
+          },
+          {
+            "stakeholder": "Exporters/Importers",
+            "ask": "Provide traceability docs; offer pre-finance; segregate lots."
+          },
+          {
+            "stakeholder": "Roasters",
+            "ask": "Invest in efficiency; shift to renewables; publish specs to suppliers."
+          },
+          {
+            "stakeholder": "Retailers",
+            "ask": "Commit to shelf standards; co-fund certifications; transparent pricing."
+          },
+          {
+            "stakeholder": "Certifiers/NGOs",
+            "ask": "Streamline audits; align metrics; support training."
+          },
+          {
+            "stakeholder": "Financiers/DFIs",
+            "ask": "Offer concessional credit and risk-sharing for smallholders."
+          },
+          {
+            "stakeholder": "Governments",
+            "ask": "Land-use enforcement; climate-smart extension; water stewardship."
+          }
+        ],
+        "timeline_spec": {
+          "type": "gantt-like",
+          "lanes": [
+            "Farming",
+            "Traceability",
+            "Roasting",
+            "Logistics/Packaging",
+            "Brand"
+          ],
+          "milestones": [
+            {
+              "month": 6,
+              "label": "Pilots complete"
+            },
+            {
+              "month": 18,
+              "label": "Scale phase"
+            },
+            {
+              "month": 36,
+              "label": "Program maturity"
+            }
+          ]
+        }
+      },
+      "slide_design": "Two-part slide: left phased roadmap blocks; right stakeholder badges with concise asks.",
+      "imagery": ""
+    }
+  ]
+}

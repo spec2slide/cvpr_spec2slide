@@ -1,0 +1,7 @@
+**Title**: Add the text "References" at the top of the slide in a large, bold font. Set the title background to a solid dark gray color. Ensure the text color is white for contrast against the dark background. 
+
+**Content**: Below the title, list the provided URLs in a clear, readable font. Use a blue color for the links to distinguish them from regular text.
+
+**Font Style**: Choose a simple, sans-serif font for readability. Ensure the font size is appropriate for easy reading.
+
+**Alignment**: Align the text to the left for a clean, organized appearance. Maintain consistent spacing between each reference.

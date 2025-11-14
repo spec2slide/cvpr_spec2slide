@@ -1,0 +1,1 @@
+Create a slide titled "This is Bélo" with a bold, centered text on a coral background.

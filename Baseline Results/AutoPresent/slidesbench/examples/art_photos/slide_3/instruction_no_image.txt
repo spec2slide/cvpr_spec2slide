@@ -1,0 +1,10 @@
+Create a slide titled "The Subject of Art" with two bullet points in the main content: 
+
+1. "The subject is the visual focus or the image that may be extracted from examining the artworks."
+2. "an artwork can be identified by its subject."
+
+Add a smaller title in the top-left corner: "The Subject and Content of Art." 
+
+Set the background color of both title textboxes to yellow and the text color to black. For the main content, use a white background with black text. 
+
+Use an colorful abstract image describing a vivid dance of colors and emotions as the slide background.

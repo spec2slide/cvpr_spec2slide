@@ -1,0 +1,1 @@
+Create a slide titled "Types of Blockchain," and list the definitions of Private, Public, Permissioned, and Hybrid Blockchain Networks in bullet points.

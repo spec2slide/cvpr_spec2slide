@@ -1,0 +1,209 @@
+Slide 1: Global AI Regulation Briefing (2016–2025)
+Title: Global AI Regulation Briefing (2016–2025)
+Content: What leaders need to know: US, EU AI Act, UK, and China—risk frameworks, obligations by role, controls, enforcement, and how to operationalize compliance.
+Slide Design: Full-bleed hero with bold headline and clean subtitle; small region badges (US • EU • UK • CN) aligned right
+Imagery: Crisp world map with the US, EU, UK, and China softly highlighted; overlay icons: shield (safety), scale (regulation), cog (operations), graph (KPIs); cool blue palette with white accents
+---
+Slide 2: Executive Agenda
+Title: Executive Agenda
+Content:
+1. Glossary: Shared language for speed
+2. Regulatory Timeline (2016–2025): What happened, what’s next
+3. Comparison Matrix: US, EU AI Act, UK, China
+4. Obligations by Role: Developer vs. Deployer
+5. Risk Taxonomy: Mapping use‑case risk
+6. Governance Operating Model: Who decides, who signs
+7. Data/ML Lifecycle Controls: Build‑to‑operate gates
+8. Enforcement Caselets: Patterns and lessons
+9. Adoption Roadmap: 0–18 months
+10. KPI Dashboard: What to track
+Slide Design: Minimal agenda with numbered list and generous spacing; section markers on the right
+Imagery:
+---
+Slide 3: Rapid Glossary
+Title: Rapid Glossary
+Content (terms):
+- AI System: A machine‑based system that infers or outputs predictions, content, or decisions influencing environments (EU/US‑aligned summary).
+- High‑Risk System: EU AI Act category for systems with significant impact on health, safety, or fundamental rights; triggers strict obligations.
+- Provider / Developer: Entity that develops or places an AI system on the market (EU ‘provider’); roughly ‘developer’ in US/UK usage.
+- Deployer / User: Entity that uses an AI system under its authority (EU ‘deployer’); ‘operator’/‘user’ elsewhere.
+- GPAI / Foundation Model: General‑purpose model capable of a wide range of tasks (e.g., large language models), sometimes with extra obligations.
+- Conformity Assessment: EU pre‑market checks for high‑risk systems (QMS, technical documentation, testing, CE marking).
+- Algorithm Filing (CN): China CAC record‑filing and security assessment for recommendation/generative/deep synthesis algorithms.
+- Impact Assessment: Risk assessment focusing on safety, bias, privacy, and rights (AIA/‘AIIA’, DPIA, US agency assessments).
+Slide Design: Two‑column glossary grid; bold small‑caps terms; concise definitions
+Imagery: Subtle icon row (book, shield, cog) as watermark; high contrast text
+---
+Slide 4: Regulatory Timeline (2016–2025)
+Title: Regulatory Timeline (2016–2025)
+Content (timeline):
+- 2016 | EU | GDPR adopted — Privacy and data governance bedrock for AI training and deployment.
+- 2017 | CN | Cybersecurity Law effective — Security, data localization foundations.
+- 2019 | EU | AI Ethics Guidelines — High‑Level Expert Group publishes trustworthy AI principles.
+- 2021 | EU | EU AI Act proposed — Risk‑based framework draft unveiled (Apr).
+- 2022 | CN | Algorithm Recommendation Provisions — Filing, transparency, fairness requirements (Mar).
+- 2023 | US | NIST AI RMF 1.0 — Voluntary risk management framework (Jan).
+- 2023 | US | Executive Order 14110 — Safety, testing, reporting for powerful models; agency actions (Oct).
+- 2023 | UK | Pro‑Innovation Approach + AI Safety Summit — Principles‑led strategy; UK AI Safety Institute launch.
+- 2023 | EU | Political agreement on AI Act — Final trilogue deal (Dec).
+- 2024 | US | OMB M‑24‑10 — US federal agencies: inventories, impact assessments, governance (Mar).
+- 2024 | EU | AI Act adopted; phased application — Bans and GPAI duties begin first; high‑risk obligations phase in through 2025–2026.
+- 2023–2025 | CN | Deep Synthesis/GenAI Measures — Labeling, security review, and filing for generative services.
+Slide Design: Four‑lane horizontal timeline (US, EU, UK, CN) with milestone dots and brief notes
+Imagery: Swimlane timeline graphic with region color keys; clean gridlines; legible labels
+---
+Slide 5: Comparison Matrix — US, EU, UK, China
+Title: Comparison Matrix: US, EU, UK, China
+Content (matrix):
+United States
+- Scope/Approach: Sectoral + executive/agency actions; risk management guidance (NIST AI RMF).
+- Risk Tiers: No singular statutory tiers; agency/context‑based risk.
+- Prohibited Uses: No national AI‑specific bans; constraints via existing laws (UDAP, civil rights, safety).
+- Key Obligations (Provider): Safety testing/red‑teaming and reporting for powerful models per EO; transparency claims scrutiny (FTC).
+- Key Obligations (Deployer): Agency impact assessments (OMB) for federal uses; sector rules (EEOC, CFPB, FDA, etc.).
+- Enforcement: FTC, DOJ, EEOC, CFPB, FDA, NHTSA, state AGs, others.
+- Penalties: Existing law penalties (UDAP, discrimination, safety).
+- Status: Active via EO/agency guidance; legislation evolving.
+
+European Union (AI Act)
+- Scope/Approach: Horizontal risk‑based regulation across the single market.
+- Risk Tiers: Unacceptable (banned), High‑risk, Limited‑risk, Minimal‑risk; GPAI duties.
+- Prohibited Uses: Manipulative, social scoring, certain biometric uses (subject to narrow exceptions).
+- Key Obligations (Provider): QMS, data governance, risk mgmt, technical docs, logging, human oversight, CE marking for high‑risk; GPAI model transparency/diligence.
+- Key Obligations (Deployer): High‑risk use‑case risk mgmt, competent human oversight, logs, transparency to users; fundamental‑rights impact assessments in some contexts.
+- Enforcement: National market surveillance authorities + EU coordination.
+- Penalties: Significant administrative fines (multi‑million EUR and/or % of global turnover, by infringement).
+- Status: Adopted 2024; phased application 2025–2026.
+
+United Kingdom
+- Scope/Approach: Principles‑based, regulator‑led (safety, security, fairness, accountability, contestability).
+- Risk Tiers: No statutory tiers; risk‑proportional guidance via regulators.
+- Prohibited Uses: Case‑by‑case under existing laws (data protection, consumer, competition, safety).
+- Key Obligations (Provider): Demonstrate adherence to principles; engage with regulators; UK AI Safety Institute evaluations for frontier models.
+- Key Obligations (Deployer): Risk assessments, transparency, DPIAs where relevant; sector regulator guidance (ICO, FCA, CMA, MHRA).
+- Enforcement: Existing regulators (ICO, CMA, FCA, MHRA, HSE) with coordination.
+- Penalties: Under existing regimes (e.g., UK GDPR fines, consumer law remedies).
+- Status: Principles in force; further guidance and evaluations ongoing.
+
+China
+- Scope/Approach: Content/security‑focused measures for algorithms, deep synthesis, and generative AI.
+- Risk Tiers: Risk managed via security assessments, content rules, and filings.
+- Prohibited Uses: Content that endangers national security, social order, or violates public policy/law.
+- Key Obligations (Provider): Algorithm filing, security assessments, training data provenance, content moderation, watermarking/labeling.
+- Key Obligations (Deployer): Real‑name verification, user notice, complaint handling, moderation workflows.
+- Enforcement: CAC (primary), with MIIT and other authorities.
+- Penalties: Administrative fines, rectification orders, suspension of services.
+- Status: In force; filings and rectifications ongoing.
+Slide Design: Dense comparison matrix with zebra rows; fixed columns for scope, risk, obligations, enforcement, status
+Imagery:
+---
+Slide 6: Obligations by Role — Developer vs. Deployer
+Title: Obligations by Role: Developer vs. Deployer
+Content:
+Developer/Provider
+- Establish AI QMS: policies, roles, training, documentation.
+- Data governance: provenance, consent/rights, quality, representativeness.
+- Model risk management: testing (safety, security, bias, robustness), adversarial/red‑team exercises.
+- Technical documentation: model cards, data sheets, evaluation reports, usage constraints.
+- High‑risk/GPAI specifics: EU conformity approach, GPAI transparency/diligence; US EO reporting for powerful models; CN algorithm filing/security review.
+
+Deployer/User
+- Use‑case risk assessment: context, impact on individuals/rights, safety dependencies.
+- Human oversight design: competence, escalation/override, fallback procedures.
+- Operational controls: logging, monitoring, incident reporting, rollback plans.
+- Transparency to end‑users: notices, labeling (e.g., synthetic content), records retention.
+- Sectoral compliance: employment, credit, health, safety; public sector IA (OMB/UK, where applicable).
+Diagram Note: Two‑column responsibilities map; left = build‑time artifacts; right = run‑time controls; ‘handoff’ at release gate.
+Slide Design: Split layout with iconography (code/doc icons for developer; headset/log icons for deployer); clear role headers
+Imagery: Illustration of handoff from ‘Model Dev’ to ‘Operations’ with a gated release checkpoint
+---
+Slide 7: Risk Taxonomy and Examples
+Title: Risk Taxonomy and Examples
+Content (tiers):
+- Unacceptable — Examples: Manipulative or social‑scoring systems; Real‑time remote biometric ID in public (with narrow exceptions) — Treatment: Prohibited (EU) or highly restricted elsewhere.
+- High‑Risk — Examples: Employment screening; Creditworthiness; Medical devices; Critical infrastructure — Treatment: QMS, testing, documentation, registration/marking, strong oversight.
+- Limited‑Risk — Examples: Chatbots requiring disclosure; AI that interacts with the public — Treatment: Transparency obligations; basic controls.
+- Minimal‑Risk — Examples: Spam filters; AI‑assisted spelling — Treatment: Good‑practice controls; minimal regulation.
+Crosswalk:
+- EU: Direct mapping to tiers above.
+- US: Context‑based; align ‘high‑risk’ to safety‑, rights‑, or critical‑function contexts (OMB/NIST).
+- UK: Principles‑proportionate; treat higher potential harm as ‘high‑risk’.
+- CN: Risk via security/content impact; uses triggering filing/review treated as high‑risk.
+Slide Design: Layered pyramid chart labeled by tier; side callouts with example use‑cases; color fades from red (top) to gray (base)
+Imagery: Pyramid risk diagram with icons (ban sign, shield, info bubble, checkmark) per tier
+---
+Slide 8: Governance Operating Model
+Title: Governance Operating Model
+Content:
+Org Structure
+- Board/Risk Committee: sets risk appetite; oversees high‑risk approvals.
+- Executive Sponsor (CRO/CISO/CTO/GC): accountable for AI risk program.
+- AI Risk Committee: cross‑functional (Risk, Legal, Privacy, Security, Ethics, Compliance, Engineering, Product, HR).
+- Model Risk Management (MRM): independent validation/testing of high‑risk models.
+- Data Protection/Privacy: DPIAs/AI impact assessments; data rights and retention.
+- Business Owners: define use‑cases; own outcomes and controls.
+- AI Ops/SRE: monitoring, incident response, rollback.
+
+Three Lines of Defense
+- 1st line: Product/Engineering/Operations own controls.
+- 2nd line: Risk/Compliance/Privacy set policy; review and challenge.
+- 3rd line: Internal Audit independently assures.
+
+RACI – Key Decisions
+- Classify use‑case risk — R: Product; A: Exec Sponsor; C: Risk/Privacy; I: Audit
+- Approve high‑risk deployment — R: AI Risk Committee; A: Board/Risk Cttee; C: Legal/MRM; I: Ops
+- Incident disclosure/notification — R: Ops/Security; A: Legal/Privacy; C: Comms; I: Execs
+Diagram Note: Org chart top‑down with cross‑functional committee hub; swimlanes for 3 lines of defense.
+Slide Design: Org chart + decision swimlanes; crisp RACI table callout
+Imagery: Clean org diagram with distinct columns for each line of defense; committee hub centered
+---
+Slide 9: Data/ML Lifecycle Controls
+Title: Data/ML Lifecycle Controls
+Content:
+Lifecycle Stages & Controls
+- Data Sourcing — Provenance/consent checks; Sensitive data minimization; Data quality SLAs
+- Development — Documented objectives/use constraints; Training/validation splits; Secure training pipelines
+- Evaluation — Accuracy/robustness tests; Bias/fairness metrics by cohort; Adversarial/red‑team exercises
+- Approval — Impact assessment (AIA/DPIA); Human oversight design; Regulatory mapping + sign‑offs
+- Deployment — Feature flags/kill‑switch; User notices/labeling; Access controls/abuse monitoring
+- Monitoring — Drift detection; Incident logging/triage; Periodic re‑validation and model cards updates
+Gates: Gate 1 (Build complete), Gate 2 (Risk/Privacy review), Gate 3 (Independent validation), Gate 4 (Go‑live), Gate 5 (Periodic review).
+Diagram Note: Left‑to‑right pipeline with gates; controls mapped to stages; tooltips for metrics.
+Slide Design: Horizontal pipeline diagram with numbered gates and control badges
+Imagery: Clean pipeline graphic; each stage has 3 bullet chips; gate icons above the line
+---
+Slide 10: Enforcement Caselets (Illustrative)
+Title: Enforcement Caselets (Illustrative)
+Content (cases):
+- US | 2023 | Regulator: FTC — Issue: Retail facial recognition harms (accuracy, false positives, inadequate controls). Outcome: Order restricting use; mandated safeguards and assessments; highlights UDAP risk for AI deployments.
+- EU (Italy) | 2023 | Regulator: Garante — Issue: LLM transparency, age‑gating, and data rights. Outcome: Temporary restrictions lifted after remedial measures; signals strong transparency/data rights expectations.
+- US (NYC) | 2023–2024 | Regulator: DCWP — Issue: Automated employment decision tools (bias audit and notices). Outcome: Enforcement of bias audit and candidate disclosure requirements; employers adjust hiring AI workflows.
+- UK | 2022–2023 | Regulator: ICO — Issue: Facial recognition and web‑scraped biometrics. Outcome: Orders and fines under data protection; subsequent appeals tested jurisdiction—signals scrutiny of biometric AI.
+- China | 2023–2024 | Regulator: CAC — Issue: Generative/deep synthesis services (labeling, filings). Outcome: Rectification and filing requirements before/after launch; emphasizes security review and content controls.
+Note: Examples reflect applicable legal regimes (consumer protection, data protection, sector safety) used to police AI before/alongside AI‑specific laws.
+Slide Design: Three‑up case cards with ‘Issue’ and ‘Outcome’ snippets; regulator badges
+Imagery:
+---
+Slide 11: Adoption Roadmap (0–18 Months)
+Title: Adoption Roadmap (0–18 Months)
+Content (phases):
+0–90 days — Actions: Appoint accountable exec; stand up AI Risk Committee. Inventory AI use‑cases and models (incl. vendor/GPAI). Triage into risk tiers; freeze unclassified high‑impact uses. Deliverables: AI policy baseline; Use‑case registry; Initial risk classification.
+3–6 months — Actions: Implement lifecycle gates, AIA/DPIA templates, and model cards. Stand up monitoring and incident playbooks; enable kill‑switches. Map EU high‑risk candidates; plan CE/technical documentation where applicable. Deliverables: Gate checklist + evidence pack; Monitoring runbooks; EU technical doc outline.
+6–12 months — Actions: Independent validation (MRM) for high‑risk; bias/security testing at scale. US: align with NIST AI RMF; OMB requirements for public sector; sector regulator guidance. CN: prepare/submit filings; implement labeling/watermarking. Deliverables: Validation reports; NIST RMF alignment map; CN filing dossier.
+12–18 months — Actions: EU: complete conformity assessments/marking for high‑risk systems as timelines trigger. Third‑party assurance (internal audit; external attestations as needed). Optimize KPIs; continuous improvement loop. Deliverables: CE marking (where required); Assurance reports; Quarterly KPI pack.
+Slide Design: Milestone roadmap with four segments, each with 3 actions + 3 deliverables; status dots
+Imagery: Curved path with milestone pins labeled by quarter; subtle calendar icons
+---
+Slide 12: KPI Dashboard (Executive View)
+Title: KPI Dashboard (Executive View)
+Content (KPIs):
+- % AI inventory complete — Definition: Inventoried AI uses / known uses — Target: ≥ 95% — Viz: Progress bar by business unit
+- % high‑risk approved — Definition: Approved high‑risk uses / total high‑risk identified — Target: ≥ 90% — Viz: Stacked bar (approved/pending/blocked)
+- Bias/security tests pass rate — Definition: Passed required tests / total required — Target: ≥ 98% — Viz: Sparkline + latest value
+- Time to incident containment — Definition: Median hours from detection to containment — Target: ≤ 4h — Viz: Single big number + trend arrow
+- EU technical doc completeness — Definition: Required artifacts present for EU high‑risk systems — Target: ≥ 95% — Viz: Gauge by system
+- Vendor/GPAI due diligence coverage — Definition: Vendors with completed DD / total vendors — Target: ≥ 90% — Viz: Donut chart
+Filters: Region (US/EU/UK/CN), Risk tier, Business unit
+Cadence: Monthly review; quarterly board summary
+Slide Design: 2×3 tile layout with gauges, big numbers, and small trendlines; filter chips on top right
+Imagery: Clean dashboard widgets on white canvas; high contrast labels; color‑safe red/amber/green status dots

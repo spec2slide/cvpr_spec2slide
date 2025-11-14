@@ -1,0 +1,13 @@
+Create a slide with the following elements:
+
+1. **Logo**: Place the "FLUENTIZE" logo in the top left corner.
+
+2. **Title**: "Friends | Joey Doesn't Share Food! (B1)" on the left side of the slide. Use a large, bold font in a dark-blue color.
+
+3. **Image**: Insert the provided image of Joey from "Friends" on the right side of the slide, in a circular shape.
+
+4. **Background**: Use a light color for the background, with decorative elements in the corners (soft shapes in pink and blue).
+
+5. **Footer**: Add the text "Fluentize, LLC. Copyright 2023. For use only with license." at the bottom-left of the slide in a smaller font.
+
+Ensure all elements are well-aligned and visually balanced.

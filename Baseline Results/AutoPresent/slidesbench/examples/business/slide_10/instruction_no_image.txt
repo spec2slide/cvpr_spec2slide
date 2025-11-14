@@ -1,0 +1,11 @@
+1. **Background**: Set the slide background to a solid coral color.
+
+2. **Logos**: Place the two logos side by side in the center of the slide, showing the visual dynamics of the Belo Community logo. Ensure they are evenly spaced.
+
+3. **Text Labels**: Below each logo, add the text "Belo" under the left logo and "Community" under the right logo. Use a clean, sans-serif font in white for visibility.
+
+4. **Alignment**: Center all elements on the slide for a balanced look.
+
+5. **Visual Balance**: Ensure the logos and text are proportionate and do not crowd the edges of the slide.
+
+6. **Final Review**: Check for alignment, readability, and overall aesthetics before finalizing the slide.

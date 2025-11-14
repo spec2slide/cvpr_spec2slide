@@ -1,0 +1,292 @@
+Slide 1
+Title: CRISPR: From Discovery to Clinic
+Content:
+A concise tour from bacterial immunity to first‑in‑class human therapies—science, delivery, safety, ethics, and markets.
+Slide Design:
+Full‑bleed hero with bold headline and subtle helix motif
+Imagery:
+3D render: SpCas9 bound to a DNA duplex (PDB‑inspired), shallow depth of field; cool lab blues/teals with soft rim lighting; faint bokeh of pipettes and microcentrifuge tubes in the far background
+
+---
+
+Slide 2
+Title: Programmable Medicine
+Content:
+Guided by a short RNA, CRISPR tools cut, nick, or rewrite DNA/RNA—turning sequence into a therapeutic address.
+Slide Design:
+Minimalist, center‑justified typography on a dark micro‑grid texture
+Imagery:
+Foreground iconography: stylized guide RNA + scissors overlaying a DNA helix; high contrast on a midnight‑navy gradient with subtle glow
+
+---
+
+Slide 3
+Title: Presentation Roadmap
+Content:
+1. Discovery & Key Figures
+2. How CRISPR Works (mechanism diagram)
+3. Breakthroughs Timeline
+4. Delivery Modalities (AAV, LNP, ex vivo)
+5. Therapeutic Pipeline Landscape
+6. Market Outlook (size & segments)
+7. Clinical Risks, Ethics & Regulation
+8. Case Studies
+9. What’s Next: Future Outlook
+Slide Design:
+Agenda slide with numbered list, ample white space, and clear section dividers
+Imagery:
+( none specified )
+
+---
+
+Slide 4
+Title: Key Figures
+Content:
+• jennifer_doudna
+  - Name: Jennifer Doudna, PhD
+  - Background: UC Berkeley biochemist; co‑discovered programmable CRISPR‑Cas9 genome editing (2012). Pioneered governance and ethical discourse for genome editing. 2020 Nobel Prize in Chemistry (with Emmanuelle Charpentier)
+  - Quote: “This technology gives us a way to rewrite the code of life. With that power comes profound responsibility.”
+
+• emmanuelle_charpentier
+  - Name: Emmanuelle Charpentier, PhD
+  - Background: Microbiologist who identified tracrRNA and co‑invented the CRISPR‑Cas9 editing system. Founding and scientific leadership at the Max Planck Unit for the Science of Pathogens. 2020 Nobel Prize in Chemistry
+  - Quote: “CRISPR is a simple concept with transformative implications when directed with precision and care.”
+Slide Design:
+Two‑column layout with scientific portraits above bios and quotes
+Imagery:
+Crisp, high‑key portraits of Doudna and Charpentier on neutral backgrounds; light teal accent bars under each name
+
+---
+
+Slide 5
+Title: How CRISPR Works
+Content:
+• Diagram Layers
+  - Target selection: Cas9 scans DNA for a PAM (e.g., NGG) and the 20‑nt guide RNA (gRNA) base‑pairs with the protospacer.
+  - Cutting: Cas9’s HNH and RuvC domains cleave opposite strands to create a double‑strand break (DSB).
+  - Repair path A—NHEJ: Error‑prone repair introduces small indels, often yielding gene knockout.
+  - Repair path B—HDR: With a donor template, precise edits/insertions are made at the break site.
+
+• Editor Variants
+  - Base editors (ABE/CBE): nCas9 or dCas9 fused to a deaminase; single‑base conversions (A↔G, C↔T) without DSB.
+  - Prime editor: nCas9 fused to reverse transcriptase with a pegRNA; installs small insertions/deletions/substitutions with minimal cutting.
+
+• Glossary
+  - gRNA: Guide RNA that directs the nuclease to a matching DNA sequence
+  - PAM: Protospacer Adjacent Motif required for nuclease binding (e.g., NGG for SpCas9)
+  - RNP: Ribonucleoprotein complex of Cas protein and gRNA, used for transient editing
+Slide Design:
+Annotated mechanism diagram with two outcome branches (NHEJ vs HDR) and callout insets for base/prime editing
+Imagery:
+Four‑panel vector diagram: (1) PAM + gRNA targeting (label “PAM = NGG”); (2) Cas9 creates DSB; (3) NHEJ leading to indels (frameshift icon); (4) HDR using donor template; side insets depict base and prime editors with clear legends; clean sans‑serif labels and directional arrows
+
+---
+
+Slide 6
+Title: Breakthroughs Timeline
+Content:
+• 2012 — Programmable CRISPR‑Cas9 editing
+  - Proof point: In vitro demonstration of RNA‑guided DNA cleavage (Jinek et al., Science)
+• 2013 — Editing in mammalian cells
+  - Proof point: CRISPR‑Cas9 enables targeted gene disruption and HDR in human cells
+• 2016 — Base editing introduced
+  - Proof point: Cytosine and adenine base editors expand precise, DSB‑free editing
+• 2019 — Prime editing unveiled
+  - Proof point: Versatile small insertions/deletions/substitutions without donor DNA
+• 2020 — Nobel Prize in Chemistry
+  - Proof point: Recognition of Doudna and Charpentier for CRISPR‑Cas9
+• 2021 — First in vivo CRISPR infusion shows strong target knockdown
+  - Proof point: ATTR program demonstrates dose‑dependent TTR reduction after a single IV dose
+• 2022 — First in‑human base editing data
+  - Proof point: In vivo base editing of PCSK9 shows sustained LDL‑C lowering
+• 2023–24 — First regulatory approvals of a CRISPR therapy
+  - Proof point: Exagamglogene autotemcel (exa‑cel/CASGEVY) approved for severe SCD; broader indications and regions follow
+Slide Design:
+Horizontal timeline with milestone markers, succinct captions, and small modality icons
+Imagery:
+Clean L‑to‑R timeline; icons: pipette (2012), human cell (2013), A/G and C/T glyphs (2016), pencil (prime editing), Nobel medallion (2020), IV bag + liver (2021), heart/lipid icon (2022), regulatory checkmark (2023–24)
+
+---
+
+Slide 7
+Title: Delivery Modalities: Getting Editors to Cells
+Content:
+• AAV
+  - Works best for: In vivo editing in tissues with suitable serotypes (e.g., eye, muscle, CNS subtypes)
+  - Pros: Strong tropism and transduction; single‑dose potential; long‑term expression (for some applications)
+  - Constraints: Capsid size limits (~4.7 kb) constrain editor payloads; pre‑existing immunity/re‑dosing challenges; potential for vector integration and liver toxicity at high doses
+  - Notables: EDIT‑101 (AAV5) for LCA10; Dual‑AAV or compact nucleases (SaCas9) mitigate payload limits
+
+• LNP
+  - Works best for: In vivo delivery to liver; expanding to extrahepatic targets via ligand/capsid engineering
+  - Pros: Transient expression reduces prolonged exposure risk; manufacturable at scale; modular chemistry; amenable to repeat dosing in some contexts
+  - Constraints: Hepatocyte bias limits tropism; infusion‑related reactions; dose ceiling considerations; endosomal escape efficiency is a key bottleneck
+  - Notables: NTLA‑2001 (Cas9 mRNA + gRNA LNP) for ATTR; VERVE‑101 (ABE mRNA + gRNA LNP) for PCSK9
+
+• Electroporation (ex vivo)
+  - Works best for: Autologous/allogeneic cell therapies (HSPCs, T cells, NK cells)
+  - Pros: Transient RNP delivery—minimal off‑target window; high editing rates and multiplex capability; no viral DNA integration
+  - Constraints: Manufacturing complexity and cost; conditioning regimens for reinfusion (e.g., myeloablation); logistics of cell collection and release testing
+  - Notables: Exa‑cel/CASGEVY (BCL11A enhancer edit) for SCD/TDT; multiplex‑edited allogeneic CAR‑T programs
+
+• Non‑viral/Other
+  - Works best for: Emerging systemic/extracellular targets; specialized tissues
+  - Pros: Potential for targeted delivery with ligands/antibodies; avoids viral immunity concerns
+  - Constraints: Lower transfection efficiency historically; formulation stability and biodistribution challenges
+  - Notables: Virus‑like particles (VLPs); polymeric/ionizable lipid hybrids; physical methods (hydrodynamic, microinjection for ocular)
+Slide Design:
+Comparative tiles with modality icons, pros/cons bullets, and exemplar programs
+Imagery:
+Four‑tile layout: (1) AAV capsid wireframe; (2) LNP micelles with branching PEG; (3) Electroporation cuvette with stylized pulse; (4) Antibody‑targeted nanoparticle schema; clean vector style on off‑white
+
+---
+
+Slide 8
+Title: Therapeutic Pipeline Landscape
+Content:
+• Categories
+  - Hematology (ex vivo)
+    • Indications: Sickle cell disease, β‑thalassemia
+    • Representative programs: Exa‑cel/CASGEVY (BCL11A enhancer KO); Base‑edited HSPCs (e.g., BEAM‑101)
+  - Cardio‑metabolic (in vivo, liver)
+    • Indications: ATTR amyloidosis; Hypercholesterolemia (PCSK9); Lp(a) lowering
+    • Representative programs: NTLA‑2001 (TTR KO); VERVE‑101 (PCSK9 ABE)
+  - Ophthalmology (in vivo, ocular)
+    • Indications: LCA10; Choroideremia
+    • Representative programs: EDIT‑101 (CEP290 intronic splice edit)
+  - Oncology (ex vivo)
+    • Indications: B‑cell malignancies; Solid tumors (investigational)
+    • Representative programs: Multiplex‑edited allogeneic CAR‑T/NK (PD‑1, TRAC, B2M edits)
+  - Rare genetic (various)
+    • Indications: AATD; DMD; CNS and hearing loss targets (preclinical)
+    • Representative programs: Emerging in vivo prime/base editors; targeted LNPs/capsids
+
+• Stage Counts (approximate)
+  - Discovery/Preclinical programs: 200+
+  - Phase 1 programs: ~40
+  - Phase 2 programs: ~10
+  - Phase 3 programs: 3–5
+  - Approved programs: 1 (2023–24)
+
+• Approved Therapy
+  - Name: Exagamglogene autotemcel (exa‑cel/CASGEVY)
+  - Modality: Ex vivo CRISPR/Cas9 RNP edit of autologous HSPCs (BCL11A enhancer)
+  - Indications: Severe sickle cell disease; Transfusion‑dependent β‑thalassemia
+  - Status snapshot: First CRISPR therapy approved in multiple regions (2023–24)
+Slide Design:
+Pipeline heatmap/matrix: rows by disease area, columns by stage; callout badge for the first approval
+Imagery:
+( none specified )
+
+---
+
+Slide 9
+Title: Market Outlook: CRISPR Therapeutics
+Content:
+• Chart Title: Projected Global CRISPR Therapeutics Revenue (illustrative scenario)
+• Units: USD billions
+
+• Chart Data:
+  - 2024 — Total: 0.6
+    • ex vivo cell therapies: 0.5
+    • in vivo liver: 0.05
+    • in vivo extrahepatic: 0.03
+    • ocular: 0.02
+  - 2027 — Total: 6
+    • ex vivo cell therapies: 3
+    • in vivo liver: 2.2
+    • in vivo extrahepatic: 0.6
+    • ocular: 0.2
+  - 2030 — Total: 18
+    • ex vivo cell therapies: 7
+    • in vivo liver: 7
+    • in vivo extrahepatic: 3
+    • ocular: 1
+
+• Assumptions:
+  - Progressive approvals in hematology and liver indications
+  - Manufacturing scale‑up reduces COGS and expands access
+  - Extrahepatic delivery breakthroughs by late decade
+  - Pricing pressure partially offset by outcomes‑based contracts
+
+• Notes:
+  - For planning discussion only; directional and non‑binding; not investment advice
+Slide Design:
+Stacked bar chart with bold accent color for ex vivo (blue) and complementary hues for in vivo segments; clear labels and gridlines
+Imagery:
+Crisp stacked bar chart graphic; left y‑axis labeled in billions; legend keyed to four segments; subtle shadow and high‑contrast annotations for CAGR arrows
+
+---
+
+Slide 10
+Title: Clinical Risks, Ethics & Regulation
+Content:
+• Safety Risks & Mitigations
+  - Risk: Off‑target edits
+    • Mitigations: High‑fidelity nucleases (e.g., eSpCas9, HiFi Cas9, Cas12a); Guide optimization (truncated/chemically modified gRNAs); Orthogonal off‑target mapping (GUIDE‑seq, CIRCLE‑seq, CHANGE‑seq, DISCOVER‑Seq); Dose minimization and transient delivery (RNP, mRNA/LNP)
+  - Risk: On‑target complexity (large deletions, rearrangements, p53 activation)
+    • Mitigations: Favor base/prime editors when feasible; Allele‑aware design; limit cut frequency; Long‑read sequencing and junction PCR in release testing; Functional assays for tumor suppressor pathways
+  - Risk: Vector‑related genotoxicity/toxicity (AAV integration, high‑dose hepatotoxicity)
+    • Mitigations: Lower doses with potent promoters/capsids; Integration site analysis; biodistribution/tox study rigor; Patient selection and LFT monitoring, steroid protocols
+  - Risk: Immunity to Cas proteins or vectors
+    • Mitigations: Pre‑screen for neutralizing antibodies where relevant; Use humanized/less‑immunogenic enzymes; transient exposure; Prophylaxis and monitoring for infusion reactions
+  - Risk: Manufacturing and product variability
+    • Mitigations: In‑process controls, potency assays, deep sequencing QC; Closed, automated systems; standardized analytics
+
+• Monitoring Toolkit
+  - Amplicon NGS and WGS (short + long read)
+  - GUIDE‑seq/CIRCLE‑seq/CHANGE‑seq for off‑target discovery
+  - Vector integration assays
+  - Clinical labs: hematology, chemistry, immunogenicity panels
+  - Long‑term follow‑up registries (up to 15 years for gene‑modifying therapies)
+
+• Ethics Topics
+  - Somatic vs. germline boundary—therapeutic use only in humans
+  - Informed consent and long‑term data stewardship
+  - Equitable access and affordability
+  - Pediatric/rare disease risk–benefit calculus
+  - Avoiding enhancement uses and guarding against misuse
+
+• Regulatory Overview
+  - US FDA: CBER draft guidance (2022): Human Gene Therapy Products Incorporating Human Genome Editing; expectations for off‑target assessment, CMC, and long‑term follow‑up
+  - EU EMA: ATMP framework; gene editing under gene therapy guidelines; CHMP methodological guidance for biodistribution, shedding, and long‑term safety
+  - UK MHRA: ILAP/Innovation pathways facilitate accelerated access with robust risk management
+  - WHO: 2021 recommendations for governance and oversight of human genome editing
+Slide Design:
+Two‑column layout: left pane “Risks & Mitigations” checklist; right pane “Ethics & Regulatory Guardrails”
+Imagery:
+( none specified )
+
+---
+
+Slide 11
+Title: Case Studies & What’s Next
+Content:
+• Case Studies
+  - Program: Exagamglogene autotemcel (exa‑cel/CASGEVY)
+    • Modality: Ex vivo CRISPR/Cas9 RNP; autologous HSPC edit (BCL11A enhancer)
+    • Indication: Severe sickle cell disease; transfusion‑dependent β‑thalassemia
+    • Key results: High rates of elimination of severe vaso‑occlusive crises (SCD); Durable HbF induction; transfusion independence in many TDT patients
+    • Notes: Requires myeloablation and specialized manufacturing/logistics
+  - Program: NTLA‑2001
+    • Modality: In vivo CRISPR/Cas9 via LNP (mRNA + gRNA)
+    • Indication: Hereditary transthyretin amyloidosis (ATTR)
+    • Key results: Single IV dose achieves dose‑dependent TTR reductions (often >80–90%)
+    • Notes: Demonstrates systemic in vivo editing feasibility in humans
+  - Program: VERVE‑101
+    • Modality: In vivo adenine base editor (ABE) via LNP
+    • Indication: Heterozygous familial hypercholesterolemia (PCSK9)
+    • Key results: Sustained LDL‑C lowering in early clinical data
+    • Notes: First clinical base editing program; long‑term durability under observation
+
+• What’s Next
+  - Prime editing enters/approaches clinical testing for precise corrections
+  - Targeted LNPs and next‑gen capsids broaden beyond liver (lung, muscle, CNS)
+  - In vivo gene insertion and safe‑harbor strategies for durable replacement
+  - Multiplex editing for off‑the‑shelf cell therapies with logic gating
+  - CRISPRi/a and epigenome editing for reversible gene control
+  - Manufacturing scale‑out, closed systems, and outcomes‑based pricing to expand access
+Slide Design:
+Three case tiles with micro‑graphics and a right‑hand “What’s Next” column
+Imagery:
+Triptych: (1) Stylized bone marrow culture dish with glowing HSPCs; (2) LNPs approaching hepatocytes with endosomal escape arrows; (3) Arterial cross‑section with diminishing LDL particles; clean vector, high contrast

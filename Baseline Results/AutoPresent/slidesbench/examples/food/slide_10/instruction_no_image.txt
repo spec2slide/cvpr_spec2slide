@@ -1,0 +1,14 @@
+Create a slide titled "PART 3" with instructions: "Choose true (T), false (F), or not given (N) according to the information in the video." Add the green check logo after the text.
+
+Include a table with three rows for statements:
+1. Phoebe sarcastically says that Sarah is a monster for her etiquette.
+2. Joey prefers eating French fries with his fingers.
+3. Rachel is surprised to hear about Joey’s food sharing rule.
+
+Add checkboxes next to each statement for T, F, and N options. 
+
+On the bottom right, place an image of Joey, and place two bottons below it: 
+- "Check your answers": in pink text and border with transparent background; and
+- "Viewing Activity": in white text and dark blue background.
+
+Use a light background for the entire slide and ensure the text is clear and legible.

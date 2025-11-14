@@ -1,0 +1,16 @@
+Create a slide titled "Biography" in bold, large font at the top left. 
+
+On the left side, list the following details with corresponding labels:
+- Name: Elon Reeve Musk
+- Born: 28 July 1971
+- Origin: South African
+- Education: University of Pennsylvania
+- Spouses: Talulah Riley
+- Residence: Los Angeles, USA
+- Occupation: An Entrepreneur, Engineer, Investor
+
+Use blue lines to separate each entry. 
+
+On the right side, insert a portrait image of Elon Musk within a white frame. 
+
+Add a yellow vertical bar on the right side of the slide for emphasis. Ensure the background is clean and professional.

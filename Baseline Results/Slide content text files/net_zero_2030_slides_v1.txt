@@ -1,0 +1,945 @@
+Slide 1
+Title: Net-Zero 2030 Roadmap (Manufacturer)
+Content:
+  A practical path to decarbonize a mid-size manufacturer by 2030: 90 ktCO2e abatement, 60 ktCO2e neutralized residuals, resilient economics, and clear execution.
+Slide design: Full-bleed hero with clean industrial typography and accent color
+Imagery: High-contrast factory floor at dawn: robotic welding cells, cool blue tones, light haze, crisp reflections on polished concrete; subtle overlay grid for a technical feel
+---
+Slide 2
+Title: Agenda
+Content:
+  - 1. Baseline and Target
+  - 2. Abatement Levers + MAC Curve
+  - 3. Energy Procurement (PPAs / On-site)
+  - 4. Process Electrification
+  - 5. Economics: Capex, Opex, Payback
+  - 6. Incentives by Region
+  - 7. Risks and Mitigations
+  - 8. Governance and KPI Dashboard
+  - 9. 6-Quarter Execution Plan
+  - 10. Call to Action
+Slide design: Agenda slide with numbered list and generous spacing
+Imagery: 
+---
+Slide 3
+Title: Baseline Emissions and 2030 Target
+Content:
+  Baseline year: 2023
+  Totals ktco2e:
+    Scope1: 25
+    Scope2 location based: 20
+    Scope3: 105
+    Total: 150
+  Target 2030 post abatement ktco2e:
+    Scope1: 1
+    Scope2 market based: 0
+    Scope3: 59
+    Total: 60
+  Neutralization plan: Neutralize residual 60 ktCO2e in 2030 with high-durability removals (mineralization/BECCS) via phased offtake contracts starting 2026.
+  Chart spec:
+    Type: clustered_stacked_bar
+    X axis:
+      Categories:
+        - 2023 Baseline
+        - 2030 Residual
+      Title: 
+    Y axis:
+      Title: Emissions (ktCO2e)
+      Range:
+        - 0
+        - 160
+      Gridlines: light
+    Series:
+      - Scope 1:
+        Color: #D9534F
+        Data:
+          - 25
+          - 1
+      - Scope 2 (location-based):
+        Color: #0275D8
+        Data:
+          - 20
+          - 0
+      - Scope 3:
+        Color: #6C757D
+        Data:
+          - 105
+          - 59
+    Stacking: normal
+    Annotations:
+      - Item 1:
+        Type: bracket
+        From:
+          X: 2030 Residual
+          Y: 0
+        To:
+          X: 2030 Residual
+          Y: 60
+        Label: Neutralized with high-durability removals: 60 ktCO2e
+    Labels:
+      Data labels: on
+      Format: {value} kt
+    Notes: Scope 2 shown location-based for baseline; market-based will reach ~0 kt by 2027 with 100% renewable electricity.
+Slide design: Two-column: narrative left, stacked bars right; clear legend and units
+Imagery: Crisp stacked bar chart on white; Scopes colored: S1 red, S2 blue, S3 gray; dotted bracket/label for neutralized residuals
+---
+Slide 4
+Title: Abatement Levers and MAC Curve
+Content:
+  Summary: Twelve prioritized levers deliver 90 ktCO2e/yr abatement by 2030; 62% of volume is cost-saving or near-zero cost.
+  Levers:
+    - Energy efficiency (motors, VFDs, HVAC & lighting):
+      Scope: 1 & 2
+      Abatement ktco2e 2030: 7
+      Cost usd per t: -50
+      Start year: 2024
+      Full effect year: 2026
+    - Compressed air & steam optimization:
+      Scope: 1
+      Abatement ktco2e 2030: 6
+      Cost usd per t: -70
+      Start year: 2024
+      Full effect year: 2025
+    - Process electrification (boilers, ovens, dryers):
+      Scope: 1 & 2
+      Abatement ktco2e 2030: 10
+      Cost usd per t: 15
+      Start year: 2025
+      Full effect year: 2030
+    - On-site solar + storage:
+      Scope: 2
+      Abatement ktco2e 2030: 2.5
+      Cost usd per t: -5
+      Start year: 2025
+      Full effect year: 2026
+    - Renewable PPAs / green tariffs:
+      Scope: 2
+      Abatement ktco2e 2030: 12.5
+      Cost usd per t: 5
+      Start year: 2025
+      Full effect year: 2027
+    - Waste heat recovery:
+      Scope: 1
+      Abatement ktco2e 2030: 4
+      Cost usd per t: 5
+      Start year: 2026
+      Full effect year: 2029
+    - Fleet electrification (yard/LDV):
+      Scope: 1
+      Abatement ktco2e 2030: 2
+      Cost usd per t: 20
+      Start year: 2025
+      Full effect year: 2029
+    - Logistics optimization & mode shift:
+      Scope: 3
+      Abatement ktco2e 2030: 5
+      Cost usd per t: -10
+      Start year: 2024
+      Full effect year: 2026
+    - Supplier decarbonization (SBTi/EPDs):
+      Scope: 3
+      Abatement ktco2e 2030: 25
+      Cost usd per t: 30
+      Start year: 2024
+      Full effect year: 2030
+    - Material substitution / recycled content:
+      Scope: 3
+      Abatement ktco2e 2030: 10
+      Cost usd per t: 25
+      Start year: 2025
+      Full effect year: 2029
+    - Waste reduction & circularity:
+      Scope: 3
+      Abatement ktco2e 2030: 3
+      Cost usd per t: -25
+      Start year: 2024
+      Full effect year: 2025
+    - Packaging optimization:
+      Scope: 3
+      Abatement ktco2e 2030: 3
+      Cost usd per t: 10
+      Start year: 2025
+      Full effect year: 2027
+  Chart spec:
+    Type: mac_curve
+    X axis:
+      Title: Cumulative abatement in 2030 (ktCO2e/yr)
+      Range:
+        - 0
+        - 90
+    Y axis:
+      Title: Marginal abatement cost (USD/tCO2e)
+      Range:
+        - -100
+        - 120
+      Zero line: bold
+    Bars:
+      - Compressed air & steam optimization:
+        Scope: 1
+        Abatement: 6
+        Cost per t: -70
+        Color: #4CAF50
+      - Energy efficiency (motors, VFDs, HVAC & lighting):
+        Scope: 1 & 2
+        Abatement: 7
+        Cost per t: -50
+        Color: #8BC34A
+      - Waste reduction & circularity:
+        Scope: 3
+        Abatement: 3
+        Cost per t: -25
+        Color: #795548
+      - Logistics optimization & mode shift:
+        Scope: 3
+        Abatement: 5
+        Cost per t: -10
+        Color: #009688
+      - On-site solar + storage:
+        Scope: 2
+        Abatement: 2.5
+        Cost per t: -5
+        Color: #FFC107
+      - Waste heat recovery:
+        Scope: 1
+        Abatement: 4
+        Cost per t: 5
+        Color: #FF9800
+      - Renewable PPAs / green tariffs:
+        Scope: 2
+        Abatement: 12.5
+        Cost per t: 5
+        Color: #00BCD4
+      - Packaging optimization:
+        Scope: 3
+        Abatement: 3
+        Cost per t: 10
+        Color: #673AB7
+      - Process electrification (boilers, ovens, dryers):
+        Scope: 1 & 2
+        Abatement: 10
+        Cost per t: 15
+        Color: #03A9F4
+      - Fleet electrification (yard/LDV):
+        Scope: 1
+        Abatement: 2
+        Cost per t: 20
+        Color: #9C27B0
+      - Material substitution / recycled content:
+        Scope: 3
+        Abatement: 10
+        Cost per t: 25
+        Color: #3F51B5
+      - Supplier decarbonization (SBTi/EPDs):
+        Scope: 3
+        Abatement: 25
+        Cost per t: 30
+        Color: #607D8B
+    Order: ascending cost_per_t, then ascending abatement
+    Legend: by scope
+    Notes: Costs in 2025 USD, before incentives; excludes carbon price. Width of each bar ∝ abatement volume.
+Slide design: MAC curve with horizontal $0/t baseline; color-coded by scope
+Imagery: Economist-style MAC chart: thin gridlines; muted palette with bold highlights; unobtrusive labels above each bar
+---
+Slide 5
+Title: 100% Renewable Electricity: PPAs + On-site
+Content:
+  Electricity demand gwh by year:
+    2024: 58
+    2025: 55
+    2026: 50
+    2027: 60
+    2028: 70
+    2029: 74
+    2030: 75
+  Procurement portfolio:
+    On site pv: 5 MWdc rooftop/ground-mount, ~6.5 GWh/yr from 2026; 2 MWh/1 MW battery for peak shaving
+    Vppa: 50 GWh/yr solar/wind VPPA from 2027; tenor 10 years; hub-settled, Baseload-shaped
+    Green tariff eacs: Top-up to 100% from 2027 (3.5–18.5 GWh/yr); 30–70% prior to VPPA start
+  Chart spec:
+    Type: stacked_area_with_line
+    X axis:
+      Categories:
+        - 2024
+        - 2025
+        - 2026
+        - 2027
+        - 2028
+        - 2029
+        - 2030
+      Title: 
+    Y axis:
+      Title: Electricity (GWh/yr)
+      Range:
+        - 0
+        - 80
+      Gridlines: light
+    Series:
+      - On-site PV:
+        Color: #FFC107
+        Data:
+          - 0
+          - 0
+          - 6.5
+          - 6.5
+          - 6.5
+          - 6.5
+          - 6.5
+      - VPPA:
+        Color: #00BCD4
+        Data:
+          - 0
+          - 0
+          - 0
+          - 50
+          - 50
+          - 50
+          - 50
+      - Green tariff/EACs:
+        Color: #8BC34A
+        Data:
+          - 17.4
+          - 24.75
+          - 28.5
+          - 3.5
+          - 13.5
+          - 17.5
+          - 18.5
+      - Brown grid:
+        Color: #B0BEC5
+        Data:
+          - 40.6
+          - 30.25
+          - 15
+          - 0
+          - 0
+          - 0
+          - 0
+    Overlay line:
+      Name: % Renewable
+      Color: #2E7D32
+      Data:
+        - 30
+        - 45
+        - 70
+        - 100
+        - 100
+        - 100
+        - 100
+      Y axis: secondary
+      Secondary y axis:
+        Title: % RE
+        Range:
+          - 0
+          - 100
+    Data labels: off
+    Notes: Demand (GWh): 58, 55, 50, 60, 70, 74, 75. 100% RE achieved from 2027 via VPPA+PV+green tariff.
+Slide design: Stacked area with % RE line overlay; milestone markers for PV COD and VPPA execution
+Imagery: Two visuals: 1) Rooftop solar array on a metal-clad plant, low-angle sunlight; 2) PPA contract signing close-up with pen and energy icon watermark
+---
+Slide 6
+Title: Process Electrification Roadmap
+Content:
+  Baseline process heat mmbtu: 400000
+  2030 target: Electrify 60% of low/medium-temp heat; pilot one high-temp line; integrate 20k MMBtu/yr recovered waste heat
+  Equipment plan:
+    - 4 × 3 MW electric boilers (steam/hot water)
+    - 6 × 1.2 MW industrial heat pumps (COP 2.5–3.0) for low-temp processes
+    - 3 × electric IR/convective ovens (1.5–2 MW each) with zonal control
+    - Thermal storage (4 MWhth) for load shifting
+  Phasing:
+    - 2024–2025: FEED studies, pilots on one dryer line, utility interconnection upgrades
+    - 2026–2027: Phase 1 install (2 boilers, 3 heat pumps), controls tuning
+    - 2028–2030: Phase 2 scale (remaining boilers/heat pumps, 3 IR ovens), waste-heat integration
+  Chart spec:
+    Type: clustered_stacked_bar
+    X axis:
+      Categories:
+        - 2023
+        - 2030
+      Title: 
+    Y axis:
+      Title: Process heat supply (MMBtu/yr)
+      Range:
+        - 0
+        - 420000
+    Series:
+      - Natural gas:
+        Color: #D9534F
+        Data:
+          - 380000
+          - 152000
+      - Electric (resistive/IR):
+        Color: #03A9F4
+        Data:
+          - 12000
+          - 140000
+      - Electric (heat pumps):
+        Color: #2196F3
+        Data:
+          - 0
+          - 88000
+      - Recovered waste heat:
+        Color: #FF9800
+        Data:
+          - 0
+          - 20000
+    Stacking: normal
+    Annotations:
+      - Item 1:
+        Type: text
+        X: 2030
+        Y: 365000
+        Text: 60% of low/med-temp heat electrified
+        Align: center
+    Notes: Electrification increases site load ~25 GWh/yr by 2030; paired with 100% RE supply from 2027.
+Slide design: Split layout: schematic left, before/after energy mix bars right
+Imagery: Isometric line diagram with callouts on electric boilers, heat pumps, IR ovens; subtle arrows showing heat recovery loop
+---
+Slide 7
+Title: Economics: Capex, Opex, Payback
+Content:
+  Assumptions:
+    Wacc percent: 8
+    Power price usd per mwh: 55
+    Gas price usd per mmbtu: 6
+    Carbon shadow price usd per t: 75
+    Escalation percent per year: 2
+  Initiatives:
+    - LED + controls:
+      Capex musd: 1.2
+      Annual savings musd: 0.25
+      Abatement ktco2e: 1.5
+      Simple payback years: 4.8
+      Notes: Utility rebates up to 20% capex
+    - VFDs & motor optimization:
+      Capex musd: 1
+      Annual savings musd: 0.4
+      Abatement ktco2e: 2.2
+      Simple payback years: 2.5
+      Notes: ISO 50001 alignment
+    - Compressed air program:
+      Capex musd: 0.4
+      Annual savings musd: 0.5
+      Abatement ktco2e: 3.3
+      Simple payback years: 0.8
+      Notes: Leak remediation + controls
+    - On-site PV (5 MWdc + 2 MWh):
+      Capex musd: 6.5
+      Annual savings musd: 0.55
+      Abatement ktco2e: 2.5
+      Simple payback years: 8
+      Notes: 48E ITC 30% can reduce net capex to ~$4.55M
+    - VPPA (50 GWh/yr, 10-yr):
+      Capex musd: 0
+      Annual savings musd: 1.15
+      Abatement ktco2e: 12.5
+      Simple payback years: 0
+      Notes: Strike ~$32/MWh vs BAU $55/MWh
+    - Process electrification:
+      Capex musd: 12
+      Annual savings musd: 1.2
+      Abatement ktco2e: 10
+      Simple payback years: 10
+      Notes: Subject to tariff demand charges; mitigate via thermal storage
+    - Waste heat recovery:
+      Capex musd: 4
+      Annual savings musd: 0.7
+      Abatement ktco2e: 4
+      Simple payback years: 5.7
+      Notes: Eligible for industrial efficiency grants in some regions
+    - Fleet electrification:
+      Capex musd: 1.5
+      Annual savings musd: 0.18
+      Abatement ktco2e: 2
+      Simple payback years: 8.3
+      Notes: Charger incentives may improve payback
+    - Logistics optimization:
+      Capex musd: 0.8
+      Annual savings musd: 0.9
+      Abatement ktco2e: 5
+      Simple payback years: 0.9
+      Notes: TMS + mode shift to rail where possible
+    - Supplier program (opex):
+      Capex musd: 0
+      Annual savings musd: 0
+      Abatement ktco2e: 25
+      Simple payback years: None
+      Notes: Opex ~$2M/yr for engagement, audits, data; ROI via resilience and CBAM/ESG premium
+  Chart spec:
+    Type: bubble
+    X axis:
+      Title: Capex (USD millions)
+      Range:
+        - 0
+        - 14
+    Y axis:
+      Title: Abatement (ktCO2e/yr by 2030)
+      Range:
+        - 0
+        - 30
+    Series:
+      - LED + controls:
+        X: 1.2
+        Y: 1.5
+        Size: 0.25
+        Color: #8BC34A
+      - VFDs & motor optimization:
+        X: 1
+        Y: 2.2
+        Size: 0.4
+        Color: #8BC34A
+      - Compressed air program:
+        X: 0.4
+        Y: 3.3
+        Size: 0.5
+        Color: #4CAF50
+      - On-site PV (5 MWdc + 2 MWh storage):
+        X: 6.5
+        Y: 2.5
+        Size: 0.55
+        Color: #FFC107
+      - VPPA (50 GWh/yr, 10-yr):
+        X: 0
+        Y: 12.5
+        Size: 1.15
+        Color: #00BCD4
+        Marker: diamond
+      - Process electrification:
+        X: 12
+        Y: 10
+        Size: 1.2
+        Color: #03A9F4
+      - Waste heat recovery:
+        X: 4
+        Y: 4
+        Size: 0.7
+        Color: #FF9800
+      - Fleet electrification:
+        X: 1.5
+        Y: 2
+        Size: 0.18
+        Color: #9C27B0
+      - Logistics optimization:
+        X: 0.8
+        Y: 5
+        Size: 0.9
+        Color: #009688
+      - Supplier program (opex):
+        X: 0
+        Y: 25
+        Size: 0
+        Color: #607D8B
+        Marker: square
+        Note: Opex ~$2M/yr
+    Notes: Bubble size equals annual net savings (USD millions).
+Slide design: Bubble chart + compact financial table; focus callouts on fastest payback and largest abatement
+Imagery: Clean bivariate bubble plot on white; subdued grid; accent callouts on top 3 NPV-positive items
+---
+Slide 8
+Title: Incentives and Funding by Region
+Content:
+  Regions:
+    - United States:
+      Key programs:
+        - IRA 48E Clean Electricity ITC:
+          Value: 30% ITC (up to 50% with energy community/domestic content adders)
+          Stackability: Stack with utility rebates; direct pay for tax-exempt
+          Notes: Applies to on-site solar + storage meeting prevailing wage/apprenticeship
+        - Industrial Decarbonization Grants (DOE):
+          Value: $5M–$500M competitive grants
+          Stackability: Non-tax; can layer with ITC
+          Notes: Focus on electrification, heat pumps, waste heat recovery
+        - Section 179D:
+          Value: Up to $5.00/sq ft for efficiency (if qualified)
+          Stackability: Yes, with tax rules
+          Notes: Owner vs. designer allocation rules apply
+    - European Union:
+      Key programs:
+        - EU Innovation Fund / CEF:
+          Value: Up to ~60% of CAPEX/OPEX for industrial decarb pilots
+          Stackability: State-aid dependent
+          Notes: Best for large-scale electrification/waste heat
+        - REPowerEU / National schemes:
+          Value: 10–55% CAPEX grants (country-specific)
+          Stackability: Subject to state-aid caps
+          Notes: E.g., Germany EEW, France ADEME
+        - EU ETS / CBAM readiness:
+          Value: Avoided carbon costs; funding via ETS revenues
+          Stackability: Policy-linked
+          Notes: CBAM reporting now in transition; cost exposure from 2026
+    - United Kingdom:
+      Key programs:
+        - Industrial Energy Transformation Fund (IETF):
+          Value: 30–65% CAPEX for efficiency and fuel-switch
+          Stackability: With tax reliefs
+          Notes: Electrification and process heat eligible
+        - Full Expensing (Capital Allowances):
+          Value: 100% first-year deduction on main pool capex
+          Stackability: Yes
+          Notes: Improves NPV on equipment
+    - Canada:
+      Key programs:
+        - Clean Technology ITC:
+          Value: 30% ITC for solar, wind, storage, heat pumps
+          Stackability: With provincial programs
+          Notes: Phase-down dates apply
+        - SIF / NRCan Industrial:
+          Value: Grants/loans for industrial decarbonization
+          Stackability: Case-by-case
+          Notes: Supports electrification and efficiency
+    - Japan:
+      Key programs:
+        - Green Growth Strategy subsidies:
+          Value: Up to ~50% for industrial electrification pilots
+          Stackability: Program dependent
+          Notes: Coordinates with utility green tariffs
+    - India:
+      Key programs:
+        - Accelerated Depreciation (RE):
+          Value: Up to 40% accelerated depreciation for RE assets
+          Stackability: With state incentives
+          Notes: Varies by state DISCOM
+        - PLI / Industrial efficiency schemes:
+          Value: Targeted incentives for manufacturing upgrades
+          Stackability: Program dependent
+          Notes: Eligibility varies
+  Note: Confirm current eligibility, prevailing wage/domestic content, and state-aid rules prior to commitment.
+Slide design: Regional tiles with concise program callouts and benefit tags
+Imagery: Subtle world map with highlighted regions; small icons for tax credit, grant, and tariff overlay
+---
+Slide 9
+Title: Key Risks and Mitigations
+Content:
+  Risks:
+    - Electrification performance shortfall (temperature, throughput):
+      Likelihood: Medium
+      Impact: High
+      Mitigation: Pilot on one line; include fallback gas trim; thermal storage; vendor performance guarantees
+      Owner: VP Operations
+    - PPA basis/price risk and counterparty credit:
+      Likelihood: Medium
+      Impact: Medium-High
+      Mitigation: Hub selection analysis; add basis hedge; multi-seller RFP; credit insurance
+      Owner: CFO / Energy Procurement
+    - Capex overrun and schedule slip:
+      Likelihood: Medium
+      Impact: High
+      Mitigation: EPC wrap; 15% contingency; stage-gate FEED; weekly PMO controls
+      Owner: PMO
+    - Long-lead equipment delays (transformers, switchgear):
+      Likelihood: High
+      Impact: Medium
+      Mitigation: Early procurement (NTP Q4); multi-source vendors; temporary rentals
+      Owner: Supply Chain
+    - Policy/EAC claim changes (RECs quality, additionality):
+      Likelihood: Medium
+      Impact: Medium
+      Mitigation: Prioritize bundled VPPA; align with market-based reporting (GHG Protocol); annual assurance
+      Owner: Sustainability
+    - Change management & operator adoption:
+      Likelihood: Medium
+      Impact: Medium
+      Mitigation: Formal training, SOP updates, incentive plans; kaizen cycles
+      Owner: Plant Manager
+  Chart spec:
+    Type: risk_matrix
+    X axis:
+      Title: Likelihood (1–5)
+      Range:
+        - 1
+        - 5
+    Y axis:
+      Title: Impact (1–5)
+      Range:
+        - 1
+        - 5
+    Points:
+      - A. Electrification performance shortfall:
+        X: 3
+        Y: 5
+        Color: #E53935
+      - B. PPA basis/price risk:
+        X: 3
+        Y: 4
+        Color: #FB8C00
+      - C. Capex overrun and schedule slip:
+        X: 3
+        Y: 4
+        Color: #FB8C00
+      - D. Long-lead equipment delays:
+        X: 4
+        Y: 3
+        Color: #FDD835
+      - E. Policy/EAC claim changes:
+        X: 3
+        Y: 3
+        Color: #FDD835
+      - F. Change management & operator adoption:
+        X: 3
+        Y: 3
+        Color: #FDD835
+    Legend: Color intensity by risk severity
+Slide design: Risk matrix with color gradient; short mitigation notes under chart
+Imagery: 
+---
+Slide 10
+Title: Governance and KPI Dashboard
+Content:
+  Governance model:
+    Steering committee: CEO (chair), CFO, COO, VP Sustainability, VP Supply Chain — meets monthly
+    Program management office: Head of Decarbonization + site PMs — weekly cadence
+    Workstreams:
+      - Efficiency
+      - Energy procurement
+      - Electrification
+      - Supplier/Scope 3
+      - Data & reporting
+    Assurance: Annual third-party verification (limited to reasonable by 2028)
+  Kpis:
+    - Total emissions (ktCO2e, Scopes 1–3):
+      Baseline: 150
+      Target 2030: 0
+      Milestone 2025: 120
+      Frequency: Quarterly
+    - Scopes 1+2 market-based (ktCO2e):
+      Baseline: 45
+      Target 2030: 0
+      Milestone 2025: 25
+      Frequency: Monthly
+    - Renewable electricity share (%):
+      Baseline: 22
+      Target 2030: 100
+      Milestone 2025: 45
+      Frequency: Monthly
+    - Energy intensity (kWh per unit output):
+      Baseline: 12
+      Target 2030: 8
+      Milestone 2025: 10
+      Frequency: Quarterly
+    - Supplier coverage (% spend with SBTi targets):
+      Baseline: 15
+      Target 2030: 80
+      Milestone 2025: 40
+      Frequency: Quarterly
+    - Project schedule adherence (%):
+      Baseline: None
+      Target 2030: 95
+      Milestone 2025: 90
+      Frequency: Monthly
+  Chart spec:
+    Type: dashboard
+    Tiles:
+      - Scopes 1–3 emissions:
+        Chart: column
+        X axis:
+          Categories:
+            - Q1
+            - Q2
+            - Q3
+            - Q4
+        Series:
+          - Actual:
+            Color: #6C757D
+            Data:
+              - 38
+              - 37
+              - 36
+              - 35
+          - Plan:
+            Color: #B0BEC5
+            Data:
+              - 39
+              - 37
+              - 35
+              - 33
+        Y axis:
+          Title: ktCO2e
+      - % Renewable:
+        Chart: gauge
+        Value: 68
+        Target: 100
+        Bands:
+          - Item 1:
+            From: 0
+            To: 50
+            Color: #E57373
+          - Item 2:
+            From: 50
+            To: 90
+            Color: #FFD54F
+          - Item 3:
+            From: 90
+            To: 100
+            Color: #81C784
+      - Abatement burn-up:
+        Chart: line
+        X axis:
+          Categories:
+            - 2024
+            - 2025
+            - 2026
+            - 2027
+            - 2028
+            - 2029
+            - 2030
+        Series:
+          - Cumulative plan:
+            Color: #90CAF9
+            Data:
+              - 10
+              - 20
+              - 35
+              - 60
+              - 75
+              - 85
+              - 90
+          - Cumulative actual:
+            Color: #1565C0
+            Data:
+              - 9
+              - 18
+              - 33
+              - 0
+              - 0
+              - 0
+              - 0
+        Y axis:
+          Title: ktCO2e abated
+    Notes: Targets aligned to net-zero plan; data auto-refreshed from energy/ERP systems monthly.
+Slide design: Dashboard-style layout with modular KPI tiles
+Imagery: Clean, dark-on-light UI tiles; minimalistic icons for scopes, energy, suppliers; subtle shadows for depth
+---
+Slide 11
+Title: 6-Quarter Execution Plan (Q1–Q6)
+Content:
+  Time frame: Q1 2024 – Q2 2026
+  Workstreams:
+    - Program setup & governance
+    - Data, baselining & SBTi target
+    - Efficiency (waves 1–3)
+    - On-site solar + storage
+    - VPPA procurement
+    - Process electrification (FEED → install)
+    - Waste heat recovery
+    - Fleet & logistics
+    - Supplier engagement
+  Key dependencies:
+    - Utility interconnection approvals precede electrification installs
+    - VPPA execution precedes 100% RE target
+    - Supplier code and data templates precede Scope 3 reductions
+  Chart spec:
+    Type: gantt
+    X axis:
+      Categories:
+        - Q1
+        - Q2
+        - Q3
+        - Q4
+        - Q5
+        - Q6
+      Title: Rolling 6 quarters
+    Tasks:
+      - Program setup & governance:
+        Bars:
+          - Item 1:
+            Start: Q1
+            End: Q2
+            Color: #607D8B
+        Milestones:
+          - Item 1:
+            Quarter: Q2
+            Label: SteerCo charter
+      - Data, baselining & SBTi target:
+        Bars:
+          - Item 1:
+            Start: Q1
+            End: Q3
+            Color: #9E9E9E
+        Milestones:
+          - Item 1:
+            Quarter: Q3
+            Label: SBTi submission
+      - Efficiency (waves 1–3):
+        Bars:
+          - Item 1:
+            Start: Q1
+            End: Q6
+            Color: #8BC34A
+      - On-site solar + storage:
+        Bars:
+          - Item 1:
+            Start: Q2
+            End: Q5
+            Color: #FFC107
+        Milestones:
+          - Item 1:
+            Quarter: Q3
+            Label: EPC award
+          - Item 2:
+            Quarter: Q5
+            Label: COD
+      - VPPA procurement:
+        Bars:
+          - Item 1:
+            Start: Q2
+            End: Q4
+            Color: #00BCD4
+        Milestones:
+          - Item 1:
+            Quarter: Q4
+            Label: PPA executed
+      - Process electrification (FEED → install):
+        Bars:
+          - Item 1:
+            Start: Q2
+            End: Q6
+            Color: #03A9F4
+        Milestones:
+          - Item 1:
+            Quarter: Q3
+            Label: FEED complete
+          - Item 2:
+            Quarter: Q5
+            Label: NTP
+          - Item 3:
+            Quarter: Q6
+            Label: 1st line live
+      - Waste heat recovery:
+        Bars:
+          - Item 1:
+            Start: Q3
+            End: Q6
+            Color: #FF9800
+      - Fleet & logistics:
+        Bars:
+          - Item 1:
+            Start: Q2
+            End: Q6
+            Color: #009688
+      - Supplier engagement:
+        Bars:
+          - Item 1:
+            Start: Q1
+            End: Q6
+            Color: #3F51B5
+        Milestones:
+          - Item 1:
+            Quarter: Q2
+            Label: Supplier code
+          - Item 2:
+            Quarter: Q5
+            Label: 80% spend covered
+    Legend: colors by workstream
+Slide design: Gantt chart with color-coded workstreams and milestone diamonds
+Imagery: 
+---
+Slide 12
+Title: Call to Action
+Content:
+  - Within 30 days: finalize governance charter, approve VPPA RFP, kick off leak survey and lighting audits
+  - Within 60 days: shortlist VPPA bids; complete electrification FEED; secure utility IA queue position
+  - Within 90 days: board go/no-go on VPPA; lock incentives (ITC/grants); wave-1 efficiency works mobilized
+  - By year-end: execute VPPA; NTP for on-site solar; supplier code of conduct issued; risk register live
+  - Outcome: Scopes 1+2 net-zero by 2027; 90 kt abatement by 2030; 60 kt neutralized via durable removals
+Slide design: Bold CTA with accent bar and large next-step bullets
+Imagery: Close-up of operator hand pressing a green Start button on an industrial control panel; shallow depth of field; confident, forward momentum

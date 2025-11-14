@@ -1,0 +1,8 @@
+Create a slide with the following elements:
+
+1. **Background**: Use a gradient background with dark green tones.
+2. **Main Content**: On the right side, add the text "Q. What is that one quality your friend has that you would like to have?" in large, white font.
+3. **Graphics**: On the left side, include a blue figure with a speech bubble containing a question mark above one of them. Outline the figures and the speech bubble in red.
+4. **Layout**: Position the text on the right side of the slide, ensuring it is clearly visible against the background.
+
+Make sure all elements are balanced and visually appealing.

@@ -1,0 +1,1 @@
+Create a slide with the title "STEP 2," including instructions for imagining a date gone wrong, a prompt for writing a short story, and a section labeled "YOUR ‘DATE GONE WRONG’ STORY" for user input, followed by "STEP 3" with instructions for retelling the story.

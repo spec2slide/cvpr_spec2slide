@@ -1,0 +1,23 @@
+Create a slide titled "Advantages of Blockchain" in a large, bold font at the top.
+
+1. Add a checklist with the following items on the left:
+   - Greater Transparency
+   - Highly secure
+   - Easily traceable
+   - High efficiency and speed
+   - Low cost
+   - Zero percentage of fraud
+   - Extremely volatile
+
+2. Include a diagram on the right side showing the benefits of blockchain technology.
+
+3. **Formatting**:
+   - Use a clean, professional font for all text.
+   - Ensure the checklist items are in a smaller font than the title.
+   - Use green boxes for the diagram nodes and maintain a consistent color scheme.
+
+4. **Background**:
+   - Use a simple, light background to enhance readability. 
+
+5. **Alignment**:
+   - Align the checklist on the left and the diagram on the right for a balanced layout.

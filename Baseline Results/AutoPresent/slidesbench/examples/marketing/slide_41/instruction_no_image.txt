@@ -1,0 +1,5 @@
+Create a slide titled "Research Work:" in a large, bold font at the top. Below the title, add the text: 
+
+"Find out how people buy and sell products over the internet. Are the goods sold at cheaper or higher rates than other market?"
+
+Use a clear, readable font and ensure the text is in yellow. Set the background color to a gradient of dark green. Adjust the text alignment to left for better readability.

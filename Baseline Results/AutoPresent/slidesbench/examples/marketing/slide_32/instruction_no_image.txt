@@ -1,0 +1,7 @@
+Create a slide titled "ELO's" in a large, bold font on the left side. 
+
+Add two bullet points below it:
+- "Market and Opportunity"
+- "Market and Equality"
+
+Use a black background for the left side and a contrasting image showing digital, grey waves on the right side. Ensure the text color is white for visibility. Adjust the layout so the text is clearly legible against the background.

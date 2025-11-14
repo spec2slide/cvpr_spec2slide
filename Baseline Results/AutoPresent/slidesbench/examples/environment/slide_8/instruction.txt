@@ -1,0 +1,20 @@
+Create a slide with a light green background featuring a subtle hexagonal pattern. Insert a large white textbox at the center.
+
+1. **Title Section**: 
+   - Type the title "POSITIVE IMPACT" in bold green font.
+
+2. **Content Section**: 
+   - Below the title, add the following text in a black font:
+     - "Promoting afforestation plays an important role in reducing air pollution by improving overall air quality."
+     - "Conserving water resources- By not throwing industrial wastes, domestic wastes into rivers, lakes etc., water pollution can be prevented. Techniques like rainwater harvesting, watershed management, and drip irrigation help in conservation of water resources."
+     - "Soil conservation- methods like terrace farming, crop rotation, windbreaks play an important role in preventing soil erosion."
+     - "Conservation of flora and fauna by setting up conservation areas, botanical gardens, national parks, and wildlife sanctuaries."
+     - "Use of renewable sources of energy like solar energy, biofuels, wind energy etc."
+   - Ensure the text is aligned to the left within the textbox.
+
+3. **Image Section**: 
+   - Insert an image on the bottom of the slide that depicts renewable energy or conservation efforts, ensuring it complements the text.
+
+4. **Formatting**: 
+   - Adjust the font sizes for clarity, making the title larger than the body text.
+   - Maintain consistent spacing between the title and

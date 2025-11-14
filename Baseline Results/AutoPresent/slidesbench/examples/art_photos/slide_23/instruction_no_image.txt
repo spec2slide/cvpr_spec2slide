@@ -1,0 +1,7 @@
+Create a slide titled "KEEPING ART" with a subtitle "2. Museums and Private Collections". 
+
+In the main content area, include the bullet point: "Museums are the repositories of much of the art in most countries and make them available for public viewing through either permanent or temporary exhibition."
+
+Use a yellow background for the title and subtitle textboxes, with black text. The main content should have a white background. 
+
+Incorporate an colorful abstract image describing a vivid dance of colors and emotions as the slide background.

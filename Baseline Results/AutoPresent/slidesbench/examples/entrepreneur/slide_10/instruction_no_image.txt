@@ -1,0 +1,11 @@
+Create a slide titled "Elon's Future Plans" with a yellow horizontal line below the title. 
+
+On the left side, include the following bullet points:
+- By 2027, Musk wants to launch 12,000 broadband satellites into orbit.
+- HYPERLOOP trains start running in 2025.
+- Propagation of Open-source technology.
+- Mars colonization by 2030.
+
+On the right side, insert an image of Elon Musk. Ensure the image is clear and well-aligned.
+
+Use a white background for the slide, and add a yellow accent on the right side for visual appeal.

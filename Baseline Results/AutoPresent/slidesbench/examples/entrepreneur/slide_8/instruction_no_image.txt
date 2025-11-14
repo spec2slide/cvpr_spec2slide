@@ -1,0 +1,10 @@
+Create a slide titled "Obstacles that Elon faced" in bold, large font on the left side. 
+
+Add the following bullet points on the right side:
+- Rejection from Netscape and Ousted at ZIP2: In 1996, Elon Musk was ousted as the CEO of the company.
+- PayPal was voted 'worst business concept of the year’: When PayPal was issued as security software for the PalmPilot and other portable devices in 1999, it was voted the worst business idea of the year.
+- Tesla crisis: The company also had serious financial problems, and it was on the verge of going out of business.
+- SpaceX failure: The failure of the company's first three launches generated skepticism among many investors, but the fourth one got a huge success.
+- Running on empty: 2008 was the worst year of his life. After investing his whole money in Tesla and SpaceX, Musk was reliant on personal loans from friends.
+
+Use a clean, white background and ensure the text is clearly legible. Add a yellow vertical bar on the left side for emphasis.

@@ -1,0 +1,13 @@
+Create a slide titled "PART 4" with the instruction: "List the events in Joey’s second date with Sarah in order from 2 - 6. The first one has been done as an example."
+
+Below the title, list the events in numbered format from 1 to 6, ensuring the first event is already filled in as an example. Use the following content:
+
+1. Joey apologizes for getting angry that Sarah took his food on the first date.
+2. The waiter arrives with their desserts.
+3. Joey doesn’t like the dessert he orders and tries to order a different one.
+4. Sarah leaves the table for a phone call.
+5. Joey is unable to control himself and eats all of Sarah’s dessert.
+6. Joey refuses to apologize when Sarah returns.
+
+Include an image of Joey from the show on the bottom-right corner of the slide. Add a button to its right that says "VIEWING ACTIVITY" in white text and dark blue background.
+Ensure the background is visually appealing and complements the text.

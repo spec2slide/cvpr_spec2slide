@@ -1,0 +1,1 @@
+Create a slide titled "Values" with a teal header, list six values with brief descriptions, and include relevant images on the right side.

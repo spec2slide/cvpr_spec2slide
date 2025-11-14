@@ -1,0 +1,15 @@
+Create a slide with the following elements:
+
+1. **Main Title**: "Various Media drive Various forms of Global Integration" at the top, in a large font size.
+2. **Subtitle**: "GLOBAL INTEGRATION" in a bold, medium font size below the main title.
+3. **Content**: 
+   - Use bullet points for the following text:
+     - "the process of increasing the degree of economic and political integration among countries around the world."
+     - "Global integration can involve the processes of product standardization and technology development centralization."
+4. **Formatting**:
+   - Use a dark blue background for the title and subtitle.
+   - Use a white background for the content area.
+   - Ensure the text is in a clear, readable font, with the main title in white and the content in black.
+5. **Layout**: Center the title and subtitle at the top, with the content aligned left below.
+
+Make sure the overall design is clean and professional.

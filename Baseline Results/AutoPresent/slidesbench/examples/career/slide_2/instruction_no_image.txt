@@ -1,0 +1,10 @@
+Create a slide titled "WHAT ARE 'TOP GRADES'?" in bold, large font at the top. 
+
+Use a dark background for the slide. 
+
+Add the following bullet points in a clear, readable font:
+- "Top grades" for students typically refer to the highest possible grades or marks that a student can achieve in a particular educational system or institution.
+- The specific grading system and what constitutes top grades can vary from one country, educational level, or institution to another.
+- However, in many cases, top grades are associated with excellence in academic performance and are often represented by letters (e.g., A+, A, A-, etc.) or numerical scores (e.g., 90-100%).
+
+Ensure the text color contrasts well with the background for readability.

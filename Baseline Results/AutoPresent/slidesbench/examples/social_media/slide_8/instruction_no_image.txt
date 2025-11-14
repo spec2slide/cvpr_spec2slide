@@ -1,0 +1,11 @@
+Create a slide titled "5 Stages of Development of Media" at the top. Use a solid dark blue background with white text.
+
+For the rest of the page, use a clean, professional layout with a white background and dark blue text for contrast.
+
+Below the title, add a subheading "5. DIGITAL MEDIA" in a larger font.
+
+In the main content area, include the following bullet points:
+- "Digitized content that can be transmitted over the internet or computer networks."
+- "It allows the advertisement of products and online business transactions."
+
+Place an appropriate image of digital media (like a laptop with icons) on the right side of the slide. 

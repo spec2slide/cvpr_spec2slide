@@ -1,0 +1,237 @@
+
+Title: Zero Trust Adoption Guide
+Subtitle: Practical enterprise playbook to move from perimeter trust to continuous verification.
+Slide Design: Full-bleed hero with dark gradient and neon accent lines; bold title with compact subtitle.
+Imagery: Abstract network mesh with subtle lock motif; deep indigo-to-cyan gradient; crisp highlights, no stock padlock clichés.
+---
+Title: Agenda
+Content:
+1. Core Principles
+2. Reference Architecture
+3. Maturity Model Heatmap
+4. 90/180/365 Rollout Plan
+5. Exemplar Policies
+6. Telemetry & KPIs Dashboard
+7. Common Pitfalls
+8. Case Study
+9. Next Steps
+Slide Design: Clean agenda layout with numbered list; left-aligned text, ample whitespace.
+Imagery: Faint background gridlines or circuit trace pattern at 10% opacity.
+---
+Title: Zero Trust Core Principles
+Content:
+- Verify explicitly: identity, device, location, behavior, risk.
+- Least privilege: JIT/JEA, role- and attribute-based access.
+- Assume breach: segment, egress control, encrypt everywhere.
+- Continuous evaluation: every request/session, not one-time login.
+- Policy-as-code: versioned, tested, automated enforcement.
+- Telemetry-driven: measure, learn, adapt in near real time.
+Slide Design: Three-column tiles with concise statements and small iconography per principle.
+Imagery: Minimal icon set (shield, key, segment grid, loop, code bracket, graph) in a consistent line style.
+---
+Title: Reference Architecture (Identity, Device, Network, App, Data)
+Content:
+Pillars
+- Identity: Central IdP (SSO), phishing-resistant MFA; Risk-based auth, conditional access; Privileged Access Management (JIT/JEA)
+- Device: UEM/MDM enrollment, EDR posture; Cert-based device identity, OS attestation; Compliance gates (encryption, patch, jailbroken)
+- Network: ZTNA/SDP for user-to-app; Microsegmentation for east-west; NAC at campus/branch; egress controls
+- Application: Service identity & mTLS (mesh/API gateway); OPA/XACML for authZ in apps/APIs; CIAM for external users
+- Data: Classification & labeling; Encryption (KMS/HSM), tokenization; DLP & data access governance
+
+Diagram Spec
+- Type: layered architecture diagram
+- Layers:
+  * Actors → Nodes: Employees, Contractors, Service Accounts, IoT/OT
+  * Policy Enforcement Points (PEP) → Nodes: ZTNA Client/Portal, SWG/CASB, API Gateway, NAC Switch/AP
+  * Policy Decision/Control (PDP/PE) → Nodes: Policy Engine, Risk Engine, Attribute Store, Policy Admin UI
+  * Context Providers → Nodes: IdP, UEM/MDM, EDR/XDR, SIEM/SOAR, PKI/CA, HRIS/CMDB, DLP, Data Catalog
+  * Targets → Nodes: SaaS & Private Apps, Data Stores/Lakes, Cloud VPC/VNet, Datacenter/OT
+- Flows: Request -> PEP -> PDP (enrich with context) -> Decision (permit/deny/step-up/isolate) -> PEP enforcement -> Log to SIEM
+- Styling: Color-code nodes by pillar; thin directional arrows; small callouts for decisions.
+Slide Design: Layered blueprint-style diagram; pillar callouts around edges.
+Imagery: Clean line art with subtle drop shadows; distinct colors per pillar (e.g., Identity=blue, Device=green, Network=teal, App=purple, Data=orange).
+---
+Title: Maturity Model Heatmap
+Content:
+- Pillars: Identity, Devices, Network, Applications, Data
+- Levels: 1. Initial 2. Developing 3. Advanced 4. Optimized
+- Current Scores: Identity=2, Devices=1, Network=1, Applications=1, Data=1
+- Target (12 months): Identity=3, Devices=3, Network=3, Applications=2, Data=3
+- Assessment Criteria:
+  * Identity: SSO coverage, MFA strength, Risk signals, PAM/JIT
+  * Devices: Managed coverage, Posture gates, Cert identity, Patch SLAs
+  * Network: ZTNA coverage, Microsegments, Egress policy, NAC posture
+  * Applications: Service identity, AuthZ externalized, mTLS/API gateway, Legacy mitigation
+  * Data: Classification, Encryption-by-default, DLP efficacy, Access governance
+
+Chart Spec
+- Type: matrix heatmap
+- Rows: pillars
+- Columns: levels 1-4
+- Encoding: color gradient (light gray=1 to deep blue=4)
+- Annotations: Dot for current, star for 12-month target
+- Legend: Bottom-right, compact
+Slide Design: Grid heatmap with compact row labels and unobtrusive legend.
+Imagery: High-contrast grid; consistent color ramp; small markers for current vs target.
+---
+Title: Phased Rollout: 90/180/365 Days
+Content:
+- 0–90 Days:
+  * Name exec sponsor; form ZT steering committee.
+  * Baseline identity: SSO for top 20 apps; MFA for all users; block legacy auth.
+  * Inventory devices; enroll corp endpoints in UEM; collect EDR posture.
+  * Pilot ZTNA for 3 high-value apps; disable direct inbound to them.
+  * Stand up policy-as-code repo; CI tests; logging to SIEM.
+- 90–180 Days:
+  * Expand ZTNA to 50+ apps; retire VPN for pilot groups.
+  * Enable risk-based access and step-up for sensitive apps.
+  * Microsegment Tier-0/1 assets; NAC posture for campus access.
+  * Label data; enable email/web DLP; start SaaS tenant hardening.
+  * JIT/JEA for admins; session recording for break-glass.
+- 180–365 Days:
+  * 90% app coverage behind PEPs (ZTNA/SWG/API GW).
+  * Service-to-service mTLS; externalize authZ (OPA/XACML) for key apps.
+  * Encrypt sensitive data by default; enforce egress policies.
+  * Automate remediation (SOAR); drill incident tabletop; measure SLOs.
+  * Decommission broad VPN; codify exceptions with review SLAs.
+
+Timeline Spec
+- Type: horizontal timeline
+- Milestones:
+  * Day 30 → MFA+SSO baseline live
+  * Day 90 → ZTNA pilot complete
+  * Day 180 → Microseg + DLP phase 1
+  * Day 365 → VPN minimized; policies automated
+- Lanes: Identity, Device, Network, App, Data
+Slide Design: Three-phase timeline with milestone dots and short callouts.
+Imagery: Thin timeline with colored lanes per pillar; concise milestone labels.
+---
+Title: Exemplar Policies (Human-Readable)
+Content (Policy Snippets):
+- Name: User-to-App Access
+  * Rule: Permit Finance-App if user in Finance AND device managed+compliant AND risk < High; else step-up with phishing-resistant MFA; else deny.
+  * Enforcement Point: IdP + ZTNA
+- Name: Privileged Access
+  * Rule: Admins require JIT elevation (2h) with ticket ID; hardware key + re-auth; full session logging.
+  * Enforcement Point: PAM + IdP
+- Name: Device Posture Gate
+  * Rule: Block if OS patch age > 14 days OR encryption off OR EDR inactive; allow ‘limited mode’ to remediation portal.
+  * Enforcement Point: UEM/MDM + ZTNA/NAC
+- Name: Microsegmentation
+  * Rule: Deny east-west between Dev and Prod; allow only via API gateway with service identity and mTLS.
+  * Enforcement Point: SDN/Firewall + API Gateway/Service Mesh
+- Name: Data Exfiltration
+  * Rule: If label=Restricted, prevent external sharing; require encryption; block uploads to unsanctioned domains.
+  * Enforcement Point: CASB/SWG + SaaS DLP
+- Name: Third-Party Access
+  * Rule: Contractors allowed only to assigned apps from approved countries on managed or attested devices; no Tier-0.
+  * Enforcement Point: IdP + ZTNA
+- Name: Break-Glass
+  * Rule: Two offline accounts with hardware tokens; notify security on use; auto-expire privileges in 8h.
+  * Enforcement Point: PAM/IdP with alerting
+Notes: Express as policy-as-code (e.g., OPA/Rego or XACML), version in Git, test in CI, and simulate before enforcement.
+Slide Design: Code-card layout: short rules in readable text blocks with enforcement badges.
+Imagery: Monospaced policy cards on a dark pane; subtle syntax highlights for conditions and actions.
+---
+Title: Telemetry & KPIs Dashboard
+Content:
+- Core KPIs:
+  * MFA adoption (% by population)
+  * Managed/compliant devices (%)
+  * Access decisions split (allow/step-up/deny)
+  * Policy evaluation latency (p95)
+  * High-risk sessions blocked (daily)
+  * Privileged sessions using JIT (%)
+  * MTTR for device noncompliance
+  * Microsegment coverage (% assets behind PEPs)
+  * Data egress blocks (by channel)
+  * Certificate/key rotation age (p95)
+- SLO Targets:
+  * MFA adoption ≥ 98%
+  * Policy evaluation p95 ≤ 250 ms
+  * Compliant devices ≥ 90%
+  * JIT usage for admin ≥ 95%
+- Data Sources:
+  * IdP (auth logs, risk)
+  * UEM/MDM & EDR (posture/compliance)
+  * ZTNA/SWG/API GW (decisions, latency)
+  * PAM (privileged sessions)
+  * SIEM/SOAR (alerts, response times)
+  * DLP/CASB (exfil events)
+  * CMDB (asset coverage)
+
+Dashboard Spec
+- Layout: 3x2 grid
+- Widgets:
+  * Line – Title: MFA Adoption by Population – Source: IdP – Breakdown: Employees, Contractors, Admins
+  * Gauge – Title: Managed Devices Compliant – Source: UEM/EDR
+  * Donut – Title: Access Decisions Split – Source: PEP (ZTNA/SWG)
+  * Bar – Title: Microsegment Coverage by Tier – Source: CMDB+SDN – Breakdown: Tier-0, Tier-1, Tier-2
+  * Sparkline – Title: Policy Latency p95 (ms) – Source: PEP
+  * Table – Title: Top Block Reasons – Columns: Reason, Count, Trend – Source: PEP/IdP
+Slide Design: Dark dashboard canvas with crisp charts; consistent scales and minimal gridlines.
+Imagery: High-contrast charts; color-blind-safe palette; subtle animated glows for real-time feel (static in deck).
+---
+Title: Common Pitfalls (and Fixes)
+Content:
+- Tech-first, identity-later → Fix: start with IdP hygiene, MFA, group/attribute cleanup.
+- Lifting VPN into ZTNA 1:1 → Fix: app-by-app access modeled on user/task, not subnets.
+- Overlooking device posture → Fix: gate access on UEM/EDR compliance; give remediate path.
+- Ignoring legacy apps → Fix: front with ZTNA + header-based auth or app proxies; plan modernization.
+- Static exceptions that never expire → Fix: time-bound approvals with owner and review cadence.
+- No data classification → Fix: minimal 3-tier labels; automate labeling in pipelines and SaaS.
+- Under-measured outcomes → Fix: define KPIs/SLOs; instrument PEPs; weekly review.
+- Poor change comms → Fix: UX-first pilots, in-product prompts, helpdesk runbooks/training.
+Slide Design: Two-column list with ‘pitfall -> fix’ arrows; concise phrasing.
+Imagery: Caution icons next to pitfalls; checkmarks next to fixes; muted background warning stripe.
+---
+Title: Case Study: Global Manufacturer (40k employees)
+Content:
+- Baseline: Broad VPN access; legacy auth; limited MFA coverage. Flat east-west in datacenter; minimal device compliance gating.
+- Approach:
+  * 90d: MFA for all; SSO for top apps; ZTNA pilot; device inventory.
+  * 180d: ZTNA 60 apps; microsegment Tier-0; email/web DLP; JIT for admins.
+  * 365d: 90% apps behind PEPs; retire most VPN; service mTLS; automated remediation.
+- Outcomes:
+  * MFA adoption 99% (from 62%).
+  * Inbound exposure reduced 85% (apps no longer internet-exposed).
+  * Privileged access via JIT 96% of sessions; zero standing admin.
+  * Mean policy eval p95 180 ms; 90% devices compliant (from 54%).
+  * Security incidents with lateral movement down 70%.
+
+Diagram Spec
+- Type: before/after comparison
+- Left (Before): Hub-and-spoke VPN with flat network; auth at perimeter.
+- Right (After): User-to-app via ZTNA; microsegments; continuous policy via PDP/PEP; encrypted east-west.
+- Styling: Two panels with simple node-link diagrams and metric tiles below.
+Slide Design: Split before/after with metric tiles; minimal text.
+Imagery: Left: hazy, congested network diagram; Right: crisp segmented paths with lock/mTLS indicators.
+---
+Title: Next Steps
+Content:
+- Immediate Actions:
+  * Name sponsor, form steering committee, define KPIs/SLOs.
+  * Harden IdP: MFA for all, block legacy protocols, SSO top apps.
+  * Stand up policy-as-code repo; enable logging to SIEM; create break-glass SOP.
+- Workstreams & Owners:
+  * Identity (CISO + IAM lead)
+  * Device (EUEM/EDR lead)
+  * Network/ZTNA (Network Sec lead)
+  * Applications (AppSec + Platform)
+  * Data (Data Gov + Sec)
+  * Telemetry/Automation (SecOps/SOAR)
+- Key Artifacts:
+  * Target architecture & ADRs
+  * Maturity heatmap with 12m targets
+  * 90/180/365 roadmap & RACI
+  * Exception policy with review SLA
+  * Communication plan & training
+
+Diagram Spec
+- Type: checklist with owners
+- Columns: Workstream, Owner, Next Milestone, Date
+- Sample Rows:
+  * Identity | IAM lead | MFA complete for all | D+60
+  * ZTNA | NetSec lead | 20 apps onboarded | D+120
+Slide Design: Checklist layout with icons and small owner badges.
+Imagery: Clean checklist with subtle colored tags per workstream; optimistic, forward-looking stock image (team at whiteboard) at low opacity.

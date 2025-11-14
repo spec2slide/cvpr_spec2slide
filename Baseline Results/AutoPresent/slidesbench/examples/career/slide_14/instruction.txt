@@ -1,0 +1,18 @@
+Create a slide titled "ACADEMIC WORLD AND PROFESSIONAL WORLD: DEMANDS AND CHARACTERISTICS" at the top.
+
+Divide the slide into two sections: left for "ACADEMIC WORLD" and right for "PROFESSIONAL WORLD."
+
+For "ACADEMIC WORLD":
+- Use blue for the title.
+- Include first subheadings: "Goal and Focus" (yellow)
+- Under "Goal and Focus," add "Goal" with bullet points: "The primary goal of the academic world is to facilitate learning, knowledge acquisition, and intellectual development."; and "Focus" with bullet point "The focus is on education, research, and the pursuit of new knowledge".
+- Include second subheadings: "Environment" (yellow)
+- Under "Environment", add "Setting" with bullet point "Academics typically take place in educaional institutions such as schools, colleges, and universities"; and "Atmosphere" with bullet point "The atmosphere is often centered around learning, exploration, and academic freedom".
+
+For "PROFESSIONAL WORLD":
+- Use green for the title.
+- Include the same subheadings: "Goal and Focus" and "Environment." (yellow)
+- Add "Goal" and "Focus" with bullet points "The professional world is primarily focused on applying knowledge and skills to achieve specific outcomes or goals" and "The focus is on productivity, problem-solving, and delivering results".
+- Under "Environment," add "Setting" and "Atmosphere" with corresponding bullet points "Professionals work in various settings, including businesses, government agencies, nonprofits, and industries" and "The atmosphere is goal-oriented, with an emphasis on productivity and meeting objectives".
+
+Use a dark background for the slide. Ensure text is clear and legible, use white for all texts that have not been specified with a color.

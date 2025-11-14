@@ -1,0 +1,12 @@
+Create a slide titled "PART 3" at the top left corner. Below, add the question: "What do you think is the general rule for this pronunciation scheme?" with a checkmark icon next to it.
+
+List the options as follows:
+- a) We add stress/intonation on the time or location we’re speaking about.
+- b) We add stress/intonation on the present participle (-ing verb).
+- c) We add stress/intonation on the last word of the clause when retelling events.
+
+Use a clean, readable font. Include checkboxes next to each option for selection. 
+
+At the bottom right, add a button labeled "Check your answers" and another button labeled "PRONUNCIATION ACTIVITY" in a contrasting color. 
+
+Use a light background with a subtle design, ensuring the text is clear and legible.

@@ -1,0 +1,16 @@
+Create a slide with the following elements:
+
+1. **Title**: "STEP 1: Choose one of the dates below by ticking (✔) the box." 
+   - Use a bold, large font and place it at the top of the slide.
+   - Place the ticking icon in the parenthesis
+
+2. **Image Grid**: Arrange six images in two rows of three, showing scenes of adventure and connection: couples enjoying moments from urban picnics and nature escapes to culinary creations and exhilarating rides. Each image should have a checkbox next to it for selection. 
+   - Ensure the checkboxes are clearly visible and aligned with the images.
+
+3. **Background**: Use a light blue background for the slide.
+
+4. **Footer**: Add a footer with the text "‘DATE GONE WRONG’ STORY" in a smaller font.
+
+5. **Formatting**: Use a consistent font style throughout the slide, ensuring readability. 
+
+Make sure all elements are well-spaced and visually appealing.

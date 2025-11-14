@@ -1,0 +1,22 @@
+Create a slide titled "KEY reasons why academic success is important in society" at the top in large font.
+
+Divide the slide into three sections, each with an icon/image:
+
+1. Left section: "Personal Growth and Development" (in yellow color):
+   - Add an image of a person watering plants or a growth chart.
+   - Include bullet points:
+     - "Academic success promotes personal growth through critical thinking, problem-solving, and intellectual curiosity."
+     - "It leads to fulfilling careers and a sense of purpose."
+
+2. Middle section: "Employability and Career Opportunities" (in yellow color):
+   - Add an image related to job applications or career growth.
+   - Include bullet points:
+     - "Academic foundation is key for many careers."
+     - "Achievements can lead to better jobs, earnings, and advancement."
+
+3. Right section: "Economic Impact" (in yellow color):
+   - Add an image of a graph showing upward trends.
+   - Include the text:
+     - "Well-educated societies lead to stronger economies by creating skilled workers and reducing unemployment."
+
+Set the background color to dark, and use yellow for section titles. Ensure all text is clear and legible.

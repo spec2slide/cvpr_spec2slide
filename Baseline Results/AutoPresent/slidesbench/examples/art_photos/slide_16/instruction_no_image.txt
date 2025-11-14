@@ -1,0 +1,14 @@
+Create a slide titled "Non-representational or Non-objective Art" with a subtitle "Sources of the Subject" in bold. 
+
+List the following items as bullet points:
+1. Nature
+2. History
+3. Greek and Roman Mythology
+4. Religion
+5. Sacred Oriental Text
+
+Add a smaller title on the top-left corner "The Subject and Content of Art". 
+
+Color the background of the title and subtitle textboxes with yellow and the text color with black. For the main content, use a white background. 
+
+Use an colorful abstract image describing a vivid dance of colors and emotions as the background of the slide.

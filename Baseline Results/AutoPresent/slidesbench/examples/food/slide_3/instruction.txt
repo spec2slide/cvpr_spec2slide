@@ -1,0 +1,5 @@
+Create a slide titled "PART 1" at the top left. Below it, include the instruction: "Describe each date you see below. Which do you think is the best for a first date? Rank them in order from 1 (best) - 6 (worst). Explain your choices."
+
+Arrange six images labeled A to F in two rows, using the provided image. On the right side of the images, create a ranking section with six numbered lines for responses (1 to 6).
+
+Ensure the background is light blue, and use a clear, readable font. Add a note at the bottom: "(1 = the best first date idea / 6 = the worst first date idea)." Include a "PREVIEW ACTIVITY" button at the bottom right.

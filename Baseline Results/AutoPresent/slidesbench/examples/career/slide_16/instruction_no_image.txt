@@ -1,0 +1,31 @@
+Create a slide titled "ACADEMIC WORLD AND PROFESSIONAL WORLD: DEMANDS AND CHARACTERISTICS" at the top.
+
+Divide the slide into two columns: left for "ACADEMIC WORLD" and right for "PROFESSIONAL WORLD."
+
+**Left Column (ACADEMIC WORLD):**
+- Use blue for the section title.
+- Include the following sections:
+  - **Hierarchy**
+    - Instructors
+      - Bullet point: "Professors and teachers are the primary authority figures."
+  - **Peer Interaction**
+    - Bullet point: "Students interact mainly with their peers in a relatively closed academic community."
+  - **Learning Approach**
+    - Theoretical
+      - Bullet point: "The academic world emphasizes theoretical knowledge and academic theories."
+    - Emphasis on Research
+      - Bullet point: "Research is a fundamental aspect, particularly at the university level."
+
+**Right Column (PROFESSIONAL WORLD):**
+- Use green for the section title.
+- Include the following sections:
+  - **Hierarchy**
+    - Supervisors and Managers
+      - Bullet point: "In the professional world, supervisors, managers, and clients are the authority figures."
+  - **Collaboration**
+    - Bullet point: "Collaboration with colleagues, clients, and stakeholders is common."
+  - **Learning Approach**
+    - Practical
+      - Bullet point: "Professionals apply theoretical knowledge acquired in academia to real-world problems and situations."
+    - Continuous Learning
+      - Bullet point: "Lifelong learning and professional development are essential to stay competitive."

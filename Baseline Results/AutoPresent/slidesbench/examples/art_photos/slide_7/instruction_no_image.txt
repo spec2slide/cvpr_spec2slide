@@ -1,0 +1,20 @@
+Create a slide titled "Representational or Objective Art" with the following content:
+
+1. **Main Points:**
+   - Use a bullet point for "Examples:"
+   - Include a sub-bullet: "A. *Still life* is a work of art that does not have life."
+   - Add another sub-bullet: "examples: (food, flower, plants, rocks or shells) or man-made (drinking glasses, books, vases, jewelry, coins and so on) in an artificial setting."
+
+2. **Formatting:**
+   - Highlight the word "Still life" in italics.
+   - Use a clean, readable font.
+   - Ensure the background is white for the main content area.
+
+3. **Title and Subtitle:**
+   - Add a smaller title on the top-left corner: "The Subject and Content of Art."
+   - Color the background of both title textboxes with yellow and the text color with black.
+
+4. **Background:**
+   - Use an colorful abstract image describing a vivid dance of colors and emotions as the slide background.
+
+Ensure all elements are well-aligned and visually appealing.

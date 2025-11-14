@@ -1,0 +1,1 @@
+Create a slide titled "PART 3" with instructions to choose true (T), false (F), or not given (N) based on video content, followed by some conversations between Joey and his friends, and include a relevant image of Joey on the right side.

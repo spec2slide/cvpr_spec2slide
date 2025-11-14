@@ -1,0 +1,17 @@
+Create a slide with a light green background featuring a subtle hexagonal pattern. Insert a large white textbox in the middle.
+
+1. **Title Section**: 
+   - Type the title "NATURAL ENVIRONMENT" in bold green font at the top of the textbox.
+
+2. **Content Section**: 
+   - Below the title, add the following text in a bullet point format using a black font:
+     - "The natural environment means the non human made surroundings conditions in which all biotic and abiotic things exist on earth."
+     - "Natural environment can further be divided into 4 parts."
+   - Ensure the text is aligned to the left within the textbox.
+
+3. **Image Section**: 
+   - Place an image of a tree inside a bubble below the texts, ensuring it complements the content.
+
+4. **Formatting**: 
+   - Adjust the font sizes for clarity, making the title larger than the body text.
+   - Maintain consistent spacing between the bullet points for a clean look.

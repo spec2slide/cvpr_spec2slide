@@ -1,0 +1,13 @@
+Create a slide titled "Types of Market" in a doubled-arrow shape centered at the top. Use a bold, large font in white, over solid red background.
+
+Add two red arrows pointing left and right from the title. Below the title, create four red boxes with the following text:
+- "Weekly market"
+- "Neighborhood market"
+- "Shopping Complexes"
+- "Malls"
+
+All text blocks in red textboxes with white text.
+
+Use downward arrows to connect the title to each row of boxes.
+
+Set the background to a gradient of teal or blue for contrast.

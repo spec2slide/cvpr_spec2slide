@@ -1,0 +1,14 @@
+Create a slide featuring a quote by Elon Musk. 
+
+1. **Quote Text**: Include the quote: 
+   “The first step is to establish that something is possible; then probability will occur.” 
+   - Format "first step", "something is possible", and "occur" in yellow.
+   - Author: "Elon Musk" in a smaller font below the quote.
+
+2. **Image**: Place an image of Elon Musk on the left side of the slide, with a black background behind the quote.
+
+3. **Thank You Text**: On the right side, add "Thank You!" in bold, black font.
+
+4. **Design Elements**: Use a white border around the slide and add two vertical yellow lines next to the "Thank You!" text for emphasis. 
+
+Ensure the layout is balanced and visually appealing.

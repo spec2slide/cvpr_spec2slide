@@ -1,0 +1,5 @@
+Create a slide with a solid white background. 
+
+At the top, add a pink rectangular bar for the title area. Inside this bar, place the word "Vision" in a bold font, aligned to the left.
+
+At the bottom left corner, insert the airbnb logo. Leave the rest of the slide blank for future content.

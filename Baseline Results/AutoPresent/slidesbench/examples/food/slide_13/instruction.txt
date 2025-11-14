@@ -1,0 +1,13 @@
+Create a slide titled "PART 4" with the instruction: "List the events in Joey’s second date with Sarah in order from 2 - 6. The first one has been done as an example."
+
+Below the title, include a checklist format for the following events:
+
+1. Sarah leaves the table for a phone call.
+2. Joey doesn’t like the dessert he orders and tries to order a different one.
+3. Joey refuses to apologize when Sarah returns.
+4. Joey apologizes for getting angry that Sarah took his food on the first date.
+5. Joey is unable to control himself and eats all of Sarah’s dessert.
+6. The waiter arrives with their desserts.
+
+Add a small image of Joey on the bottom-right corner of the slide, and put two buttons on its right: "Check your answers" in pink text and transparent background, and "VIEWING ACTIVITY" in white text and dark blue background.
+Use a clean, readable font and ensure there is enough spacing between the items for clarity. Use a simple background that complements the text.

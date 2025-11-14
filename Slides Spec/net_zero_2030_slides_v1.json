@@ -1,0 +1,1325 @@
+{
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Net‑Zero 2030 Roadmap (Manufacturer)",
+      "content": "A practical path to decarbonize a mid‑size manufacturer by 2030: 90 ktCO2e abatement, 60 ktCO2e neutralized residuals, resilient economics, and clear execution.",
+      "slide_design": "Full-bleed hero with clean industrial typography and accent color",
+      "imagery": "High-contrast factory floor at dawn: robotic welding cells, cool blue tones, light haze, crisp reflections on polished concrete; subtle overlay grid for a technical feel"
+    },
+    {
+      "slide_number": 2,
+      "title": "Agenda",
+      "content": [
+        "1. Baseline and Target",
+        "2. Abatement Levers + MAC Curve",
+        "3. Energy Procurement (PPAs / On-site)",
+        "4. Process Electrification",
+        "5. Economics: Capex, Opex, Payback",
+        "6. Incentives by Region",
+        "7. Risks and Mitigations",
+        "8. Governance and KPI Dashboard",
+        "9. 6‑Quarter Execution Plan",
+        "10. Call to Action"
+      ],
+      "slide_design": "Agenda slide with numbered list and generous spacing",
+      "imagery": ""
+    },
+    {
+      "slide_number": 3,
+      "title": "Baseline Emissions and 2030 Target",
+      "content": {
+        "baseline_year": "2023",
+        "totals_ktco2e": {
+          "scope1": 25,
+          "scope2_location_based": 20,
+          "scope3": 105,
+          "total": 150
+        },
+        "target_2030_post_abatement_ktco2e": {
+          "scope1": 1,
+          "scope2_market_based": 0,
+          "scope3": 59,
+          "total": 60
+        },
+        "neutralization_plan": "Neutralize residual 60 ktCO2e in 2030 with high‑durability removals (mineralization/BECCS) via phased offtake contracts starting 2026.",
+        "chart_spec": {
+          "type": "clustered_stacked_bar",
+          "x_axis": {
+            "categories": [
+              "2023 Baseline",
+              "2030 Residual"
+            ],
+            "title": ""
+          },
+          "y_axis": {
+            "title": "Emissions (ktCO2e)",
+            "range": [
+              0,
+              160
+            ],
+            "gridlines": "light"
+          },
+          "series": [
+            {
+              "name": "Scope 1",
+              "color": "#D9534F",
+              "data": [
+                25,
+                1
+              ]
+            },
+            {
+              "name": "Scope 2 (location-based)",
+              "color": "#0275D8",
+              "data": [
+                20,
+                0
+              ]
+            },
+            {
+              "name": "Scope 3",
+              "color": "#6C757D",
+              "data": [
+                105,
+                59
+              ]
+            }
+          ],
+          "stacking": "normal",
+          "annotations": [
+            {
+              "type": "bracket",
+              "from": {
+                "x": "2030 Residual",
+                "y": 0
+              },
+              "to": {
+                "x": "2030 Residual",
+                "y": 60
+              },
+              "label": "Neutralized with high-durability removals: 60 ktCO2e"
+            }
+          ],
+          "labels": {
+            "data_labels": "on",
+            "format": "{value} kt"
+          },
+          "notes": "Scope 2 shown location-based for baseline; market-based will reach ~0 kt by 2027 with 100% renewable electricity."
+        }
+      },
+      "slide_design": "Two-column: narrative left, stacked bars right; clear legend and units",
+      "imagery": "Crisp stacked bar chart on white; Scopes colored: S1 red, S2 blue, S3 gray; dotted bracket/label for neutralized residuals"
+    },
+    {
+      "slide_number": 4,
+      "title": "Abatement Levers and MAC Curve",
+      "content": {
+        "summary": "Twelve prioritized levers deliver 90 ktCO2e/yr abatement by 2030; 62% of volume is cost‑saving or near‑zero cost.",
+        "levers": [
+          {
+            "lever": "Energy efficiency (motors, VFDs, HVAC & lighting)",
+            "scope": "1 & 2",
+            "abatement_ktco2e_2030": 7,
+            "cost_usd_per_t": -50,
+            "start_year": 2024,
+            "full_effect_year": 2026
+          },
+          {
+            "lever": "Compressed air & steam optimization",
+            "scope": "1",
+            "abatement_ktco2e_2030": 6,
+            "cost_usd_per_t": -70,
+            "start_year": 2024,
+            "full_effect_year": 2025
+          },
+          {
+            "lever": "Process electrification (boilers, ovens, dryers)",
+            "scope": "1 & 2",
+            "abatement_ktco2e_2030": 10,
+            "cost_usd_per_t": 15,
+            "start_year": 2025,
+            "full_effect_year": 2030
+          },
+          {
+            "lever": "On-site solar + storage",
+            "scope": "2",
+            "abatement_ktco2e_2030": 2.5,
+            "cost_usd_per_t": -5,
+            "start_year": 2025,
+            "full_effect_year": 2026
+          },
+          {
+            "lever": "Renewable PPAs / green tariffs",
+            "scope": "2",
+            "abatement_ktco2e_2030": 12.5,
+            "cost_usd_per_t": 5,
+            "start_year": 2025,
+            "full_effect_year": 2027
+          },
+          {
+            "lever": "Waste heat recovery",
+            "scope": "1",
+            "abatement_ktco2e_2030": 4,
+            "cost_usd_per_t": 5,
+            "start_year": 2026,
+            "full_effect_year": 2029
+          },
+          {
+            "lever": "Fleet electrification (yard/LDV)",
+            "scope": "1",
+            "abatement_ktco2e_2030": 2,
+            "cost_usd_per_t": 20,
+            "start_year": 2025,
+            "full_effect_year": 2029
+          },
+          {
+            "lever": "Logistics optimization & mode shift",
+            "scope": "3",
+            "abatement_ktco2e_2030": 5,
+            "cost_usd_per_t": -10,
+            "start_year": 2024,
+            "full_effect_year": 2026
+          },
+          {
+            "lever": "Supplier decarbonization (SBTi/EPDs)",
+            "scope": "3",
+            "abatement_ktco2e_2030": 25,
+            "cost_usd_per_t": 30,
+            "start_year": 2024,
+            "full_effect_year": 2030
+          },
+          {
+            "lever": "Material substitution / recycled content",
+            "scope": "3",
+            "abatement_ktco2e_2030": 10,
+            "cost_usd_per_t": 25,
+            "start_year": 2025,
+            "full_effect_year": 2029
+          },
+          {
+            "lever": "Waste reduction & circularity",
+            "scope": "3",
+            "abatement_ktco2e_2030": 3,
+            "cost_usd_per_t": -25,
+            "start_year": 2024,
+            "full_effect_year": 2025
+          },
+          {
+            "lever": "Packaging optimization",
+            "scope": "3",
+            "abatement_ktco2e_2030": 3,
+            "cost_usd_per_t": 10,
+            "start_year": 2025,
+            "full_effect_year": 2027
+          }
+        ],
+        "chart_spec": {
+          "type": "mac_curve",
+          "x_axis": {
+            "title": "Cumulative abatement in 2030 (ktCO2e/yr)",
+            "range": [
+              0,
+              90
+            ]
+          },
+          "y_axis": {
+            "title": "Marginal abatement cost (USD/tCO2e)",
+            "range": [
+              -100,
+              120
+            ],
+            "zero_line": "bold"
+          },
+          "bars": [
+            {
+              "lever": "Compressed air & steam optimization",
+              "scope": "1",
+              "abatement": 6,
+              "cost_per_t": -70,
+              "color": "#4CAF50"
+            },
+            {
+              "lever": "Energy efficiency (motors, VFDs, HVAC & lighting)",
+              "scope": "1 & 2",
+              "abatement": 7,
+              "cost_per_t": -50,
+              "color": "#8BC34A"
+            },
+            {
+              "lever": "Waste reduction & circularity",
+              "scope": "3",
+              "abatement": 3,
+              "cost_per_t": -25,
+              "color": "#795548"
+            },
+            {
+              "lever": "Logistics optimization & mode shift",
+              "scope": "3",
+              "abatement": 5,
+              "cost_per_t": -10,
+              "color": "#009688"
+            },
+            {
+              "lever": "On-site solar + storage",
+              "scope": "2",
+              "abatement": 2.5,
+              "cost_per_t": -5,
+              "color": "#FFC107"
+            },
+            {
+              "lever": "Waste heat recovery",
+              "scope": "1",
+              "abatement": 4,
+              "cost_per_t": 5,
+              "color": "#FF9800"
+            },
+            {
+              "lever": "Renewable PPAs / green tariffs",
+              "scope": "2",
+              "abatement": 12.5,
+              "cost_per_t": 5,
+              "color": "#00BCD4"
+            },
+            {
+              "lever": "Packaging optimization",
+              "scope": "3",
+              "abatement": 3,
+              "cost_per_t": 10,
+              "color": "#673AB7"
+            },
+            {
+              "lever": "Process electrification (boilers, ovens, dryers)",
+              "scope": "1 & 2",
+              "abatement": 10,
+              "cost_per_t": 15,
+              "color": "#03A9F4"
+            },
+            {
+              "lever": "Fleet electrification (yard/LDV)",
+              "scope": "1",
+              "abatement": 2,
+              "cost_per_t": 20,
+              "color": "#9C27B0"
+            },
+            {
+              "lever": "Material substitution / recycled content",
+              "scope": "3",
+              "abatement": 10,
+              "cost_per_t": 25,
+              "color": "#3F51B5"
+            },
+            {
+              "lever": "Supplier decarbonization (SBTi/EPDs)",
+              "scope": "3",
+              "abatement": 25,
+              "cost_per_t": 30,
+              "color": "#607D8B"
+            }
+          ],
+          "order": "ascending cost_per_t, then ascending abatement",
+          "legend": "by scope",
+          "notes": "Costs in 2025 USD, before incentives; excludes carbon price. Width of each bar ∝ abatement volume."
+        }
+      },
+      "slide_design": "MAC curve with horizontal $0/t baseline; color-coded by scope",
+      "imagery": "Economist-style MAC chart: thin gridlines; muted palette with bold highlights; unobtrusive labels above each bar"
+    },
+    {
+      "slide_number": 5,
+      "title": "100% Renewable Electricity: PPAs + On‑site",
+      "content": {
+        "electricity_demand_gwh_by_year": {
+          "2024": 58,
+          "2025": 55,
+          "2026": 50,
+          "2027": 60,
+          "2028": 70,
+          "2029": 74,
+          "2030": 75
+        },
+        "procurement_portfolio": {
+          "on_site_pv": "5 MWdc rooftop/ground‑mount, ~6.5 GWh/yr from 2026; 2 MWh/1 MW battery for peak shaving",
+          "vppa": "50 GWh/yr solar/wind VPPA from 2027; tenor 10 years; hub-settled, Baseload-shaped",
+          "green_tariff_eacs": "Top‑up to 100% from 2027 (3.5–18.5 GWh/yr); 30–70% prior to VPPA start"
+        },
+        "chart_spec": {
+          "type": "stacked_area_with_line",
+          "x_axis": {
+            "categories": [
+              "2024",
+              "2025",
+              "2026",
+              "2027",
+              "2028",
+              "2029",
+              "2030"
+            ],
+            "title": ""
+          },
+          "y_axis": {
+            "title": "Electricity (GWh/yr)",
+            "range": [
+              0,
+              80
+            ],
+            "gridlines": "light"
+          },
+          "series": [
+            {
+              "name": "On-site PV",
+              "color": "#FFC107",
+              "data": [
+                0,
+                0,
+                6.5,
+                6.5,
+                6.5,
+                6.5,
+                6.5
+              ]
+            },
+            {
+              "name": "VPPA",
+              "color": "#00BCD4",
+              "data": [
+                0,
+                0,
+                0,
+                50,
+                50,
+                50,
+                50
+              ]
+            },
+            {
+              "name": "Green tariff/EACs",
+              "color": "#8BC34A",
+              "data": [
+                17.4,
+                24.75,
+                28.5,
+                3.5,
+                13.5,
+                17.5,
+                18.5
+              ]
+            },
+            {
+              "name": "Brown grid",
+              "color": "#B0BEC5",
+              "data": [
+                40.6,
+                30.25,
+                15,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "overlay_line": {
+            "name": "% Renewable",
+            "color": "#2E7D32",
+            "data": [
+              30,
+              45,
+              70,
+              100,
+              100,
+              100,
+              100
+            ],
+            "y_axis": "secondary",
+            "secondary_y_axis": {
+              "title": "% RE",
+              "range": [
+                0,
+                100
+              ]
+            }
+          },
+          "data_labels": "off",
+          "notes": "Demand (GWh): 58, 55, 50, 60, 70, 74, 75. 100% RE achieved from 2027 via VPPA+PV+green tariff."
+        }
+      },
+      "slide_design": "Stacked area with % RE line overlay; milestone markers for PV COD and VPPA execution",
+      "imagery": "Two visuals: 1) Rooftop solar array on a metal-clad plant, low-angle sunlight; 2) PPA contract signing close-up with pen and energy icon watermark"
+    },
+    {
+      "slide_number": 6,
+      "title": "Process Electrification Roadmap",
+      "content": {
+        "baseline_process_heat_mmbtu": 400000,
+        "2030_target": "Electrify 60% of low/medium-temp heat; pilot one high-temp line; integrate 20k MMBtu/yr recovered waste heat",
+        "equipment_plan": [
+          "4 × 3 MW electric boilers (steam/hot water)",
+          "6 × 1.2 MW industrial heat pumps (COP 2.5–3.0) for low-temp processes",
+          "3 × electric IR/convective ovens (1.5–2 MW each) with zonal control",
+          "Thermal storage (4 MWhth) for load shifting"
+        ],
+        "phasing": [
+          "2024–2025: FEED studies, pilots on one dryer line, utility interconnection upgrades",
+          "2026–2027: Phase 1 install (2 boilers, 3 heat pumps), controls tuning",
+          "2028–2030: Phase 2 scale (remaining boilers/heat pumps, 3 IR ovens), waste-heat integration"
+        ],
+        "chart_spec": {
+          "type": "clustered_stacked_bar",
+          "x_axis": {
+            "categories": [
+              "2023",
+              "2030"
+            ],
+            "title": ""
+          },
+          "y_axis": {
+            "title": "Process heat supply (MMBtu/yr)",
+            "range": [
+              0,
+              420000
+            ]
+          },
+          "series": [
+            {
+              "name": "Natural gas",
+              "color": "#D9534F",
+              "data": [
+                380000,
+                152000
+              ]
+            },
+            {
+              "name": "Electric (resistive/IR)",
+              "color": "#03A9F4",
+              "data": [
+                12000,
+                140000
+              ]
+            },
+            {
+              "name": "Electric (heat pumps)",
+              "color": "#2196F3",
+              "data": [
+                0,
+                88000
+              ]
+            },
+            {
+              "name": "Recovered waste heat",
+              "color": "#FF9800",
+              "data": [
+                0,
+                20000
+              ]
+            }
+          ],
+          "stacking": "normal",
+          "annotations": [
+            {
+              "type": "text",
+              "x": "2030",
+              "y": 365000,
+              "text": "60% of low/med-temp heat electrified",
+              "align": "center"
+            }
+          ],
+          "notes": "Electrification increases site load ~25 GWh/yr by 2030; paired with 100% RE supply from 2027."
+        }
+      },
+      "slide_design": "Split layout: schematic left, before/after energy mix bars right",
+      "imagery": "Isometric line diagram with callouts on electric boilers, heat pumps, IR ovens; subtle arrows showing heat recovery loop"
+    },
+    {
+      "slide_number": 7,
+      "title": "Economics: Capex, Opex, Payback",
+      "content": {
+        "assumptions": {
+          "wacc_percent": 8,
+          "power_price_usd_per_mwh": 55,
+          "gas_price_usd_per_mmbtu": 6,
+          "carbon_shadow_price_usd_per_t": 75,
+          "escalation_percent_per_year": 2
+        },
+        "initiatives": [
+          {
+            "name": "LED + controls",
+            "capex_musd": 1.2,
+            "annual_savings_musd": 0.25,
+            "abatement_ktco2e": 1.5,
+            "simple_payback_years": 4.8,
+            "notes": "Utility rebates up to 20% capex"
+          },
+          {
+            "name": "VFDs & motor optimization",
+            "capex_musd": 1,
+            "annual_savings_musd": 0.4,
+            "abatement_ktco2e": 2.2,
+            "simple_payback_years": 2.5,
+            "notes": "ISO 50001 alignment"
+          },
+          {
+            "name": "Compressed air program",
+            "capex_musd": 0.4,
+            "annual_savings_musd": 0.5,
+            "abatement_ktco2e": 3.3,
+            "simple_payback_years": 0.8,
+            "notes": "Leak remediation + controls"
+          },
+          {
+            "name": "On-site PV (5 MWdc + 2 MWh)",
+            "capex_musd": 6.5,
+            "annual_savings_musd": 0.55,
+            "abatement_ktco2e": 2.5,
+            "simple_payback_years": 8,
+            "notes": "48E ITC 30% can reduce net capex to ~$4.55M"
+          },
+          {
+            "name": "VPPA (50 GWh/yr, 10-yr)",
+            "capex_musd": 0,
+            "annual_savings_musd": 1.15,
+            "abatement_ktco2e": 12.5,
+            "simple_payback_years": 0,
+            "notes": "Strike ~$32/MWh vs BAU $55/MWh"
+          },
+          {
+            "name": "Process electrification",
+            "capex_musd": 12,
+            "annual_savings_musd": 1.2,
+            "abatement_ktco2e": 10,
+            "simple_payback_years": 10,
+            "notes": "Subject to tariff demand charges; mitigate via thermal storage"
+          },
+          {
+            "name": "Waste heat recovery",
+            "capex_musd": 4,
+            "annual_savings_musd": 0.7,
+            "abatement_ktco2e": 4,
+            "simple_payback_years": 5.7,
+            "notes": "Eligible for industrial efficiency grants in some regions"
+          },
+          {
+            "name": "Fleet electrification",
+            "capex_musd": 1.5,
+            "annual_savings_musd": 0.18,
+            "abatement_ktco2e": 2,
+            "simple_payback_years": 8.3,
+            "notes": "Charger incentives may improve payback"
+          },
+          {
+            "name": "Logistics optimization",
+            "capex_musd": 0.8,
+            "annual_savings_musd": 0.9,
+            "abatement_ktco2e": 5,
+            "simple_payback_years": 0.9,
+            "notes": "TMS + mode shift to rail where possible"
+          },
+          {
+            "name": "Supplier program (opex)",
+            "capex_musd": 0,
+            "annual_savings_musd": 0,
+            "abatement_ktco2e": 25,
+            "simple_payback_years": null,
+            "notes": "Opex ~$2M/yr for engagement, audits, data; ROI via resilience and CBAM/ESG premium"
+          }
+        ],
+        "chart_spec": {
+          "type": "bubble",
+          "x_axis": {
+            "title": "Capex (USD millions)",
+            "range": [
+              0,
+              14
+            ]
+          },
+          "y_axis": {
+            "title": "Abatement (ktCO2e/yr by 2030)",
+            "range": [
+              0,
+              30
+            ]
+          },
+          "series": [
+            {
+              "name": "LED + controls",
+              "x": 1.2,
+              "y": 1.5,
+              "size": 0.25,
+              "color": "#8BC34A"
+            },
+            {
+              "name": "VFDs & motor optimization",
+              "x": 1,
+              "y": 2.2,
+              "size": 0.4,
+              "color": "#8BC34A"
+            },
+            {
+              "name": "Compressed air program",
+              "x": 0.4,
+              "y": 3.3,
+              "size": 0.5,
+              "color": "#4CAF50"
+            },
+            {
+              "name": "On-site PV (5 MWdc + 2 MWh storage)",
+              "x": 6.5,
+              "y": 2.5,
+              "size": 0.55,
+              "color": "#FFC107"
+            },
+            {
+              "name": "VPPA (50 GWh/yr, 10-yr)",
+              "x": 0,
+              "y": 12.5,
+              "size": 1.15,
+              "color": "#00BCD4",
+              "marker": "diamond"
+            },
+            {
+              "name": "Process electrification",
+              "x": 12,
+              "y": 10,
+              "size": 1.2,
+              "color": "#03A9F4"
+            },
+            {
+              "name": "Waste heat recovery",
+              "x": 4,
+              "y": 4,
+              "size": 0.7,
+              "color": "#FF9800"
+            },
+            {
+              "name": "Fleet electrification",
+              "x": 1.5,
+              "y": 2,
+              "size": 0.18,
+              "color": "#9C27B0"
+            },
+            {
+              "name": "Logistics optimization",
+              "x": 0.8,
+              "y": 5,
+              "size": 0.9,
+              "color": "#009688"
+            },
+            {
+              "name": "Supplier program (opex)",
+              "x": 0,
+              "y": 25,
+              "size": 0,
+              "color": "#607D8B",
+              "marker": "square",
+              "note": "Opex ~$2M/yr"
+            }
+          ],
+          "notes": "Bubble size equals annual net savings (USD millions)."
+        }
+      },
+      "slide_design": "Bubble chart + compact financial table; focus callouts on fastest payback and largest abatement",
+      "imagery": "Clean bivariate bubble plot on white; subdued grid; accent callouts on top 3 NPV-positive items"
+    },
+    {
+      "slide_number": 8,
+      "title": "Incentives and Funding by Region",
+      "content": {
+        "regions": [
+          {
+            "region": "United States",
+            "key_programs": [
+              {
+                "program_name": "IRA 48E Clean Electricity ITC",
+                "value": "30% ITC (up to 50% with energy community/domestic content adders)",
+                "stackability": "Stack with utility rebates; direct pay for tax-exempt",
+                "notes": "Applies to on-site solar + storage meeting prevailing wage/apprenticeship"
+              },
+              {
+                "program_name": "Industrial Decarbonization Grants (DOE)",
+                "value": "$5M–$500M competitive grants",
+                "stackability": "Non-tax; can layer with ITC",
+                "notes": "Focus on electrification, heat pumps, waste heat recovery"
+              },
+              {
+                "program_name": "Section 179D",
+                "value": "Up to $5.00/sq ft for efficiency (if qualified)",
+                "stackability": "Yes, with tax rules",
+                "notes": "Owner vs. designer allocation rules apply"
+              }
+            ]
+          },
+          {
+            "region": "European Union",
+            "key_programs": [
+              {
+                "program_name": "EU Innovation Fund / CEF",
+                "value": "Up to ~60% of CAPEX/OPEX for industrial decarb pilots",
+                "stackability": "State-aid dependent",
+                "notes": "Best for large-scale electrification/waste heat"
+              },
+              {
+                "program_name": "REPowerEU / National schemes",
+                "value": "10–55% CAPEX grants (country-specific)",
+                "stackability": "Subject to state-aid caps",
+                "notes": "E.g., Germany EEW, France ADEME"
+              },
+              {
+                "program_name": "EU ETS / CBAM readiness",
+                "value": "Avoided carbon costs; funding via ETS revenues",
+                "stackability": "Policy-linked",
+                "notes": "CBAM reporting now in transition; cost exposure from 2026"
+              }
+            ]
+          },
+          {
+            "region": "United Kingdom",
+            "key_programs": [
+              {
+                "program_name": "Industrial Energy Transformation Fund (IETF)",
+                "value": "30–65% CAPEX for efficiency and fuel-switch",
+                "stackability": "With tax reliefs",
+                "notes": "Electrification and process heat eligible"
+              },
+              {
+                "program_name": "Full Expensing (Capital Allowances)",
+                "value": "100% first-year deduction on main pool capex",
+                "stackability": "Yes",
+                "notes": "Improves NPV on equipment"
+              }
+            ]
+          },
+          {
+            "region": "Canada",
+            "key_programs": [
+              {
+                "program_name": "Clean Technology ITC",
+                "value": "30% ITC for solar, wind, storage, heat pumps",
+                "stackability": "With provincial programs",
+                "notes": "Phase-down dates apply"
+              },
+              {
+                "program_name": "SIF / NRCan Industrial",
+                "value": "Grants/loans for industrial decarbonization",
+                "stackability": "Case-by-case",
+                "notes": "Supports electrification and efficiency"
+              }
+            ]
+          },
+          {
+            "region": "Japan",
+            "key_programs": [
+              {
+                "program_name": "Green Growth Strategy subsidies",
+                "value": "Up to ~50% for industrial electrification pilots",
+                "stackability": "Program dependent",
+                "notes": "Coordinates with utility green tariffs"
+              }
+            ]
+          },
+          {
+            "region": "India",
+            "key_programs": [
+              {
+                "program_name": "Accelerated Depreciation (RE)",
+                "value": "Up to 40% accelerated depreciation for RE assets",
+                "stackability": "With state incentives",
+                "notes": "Varies by state DISCOM"
+              },
+              {
+                "program_name": "PLI / Industrial efficiency schemes",
+                "value": "Targeted incentives for manufacturing upgrades",
+                "stackability": "Program dependent",
+                "notes": "Eligibility varies"
+              }
+            ]
+          }
+        ],
+        "note": "Confirm current eligibility, prevailing wage/domestic content, and state-aid rules prior to commitment."
+      },
+      "slide_design": "Regional tiles with concise program callouts and benefit tags",
+      "imagery": "Subtle world map with highlighted regions; small icons for tax credit, grant, and tariff overlay"
+    },
+    {
+      "slide_number": 9,
+      "title": "Key Risks and Mitigations",
+      "content": {
+        "risks": [
+          {
+            "risk": "Electrification performance shortfall (temperature, throughput)",
+            "likelihood": "Medium",
+            "impact": "High",
+            "mitigation": "Pilot on one line; include fallback gas trim; thermal storage; vendor performance guarantees",
+            "owner": "VP Operations"
+          },
+          {
+            "risk": "PPA basis/price risk and counterparty credit",
+            "likelihood": "Medium",
+            "impact": "Medium-High",
+            "mitigation": "Hub selection analysis; add basis hedge; multi-seller RFP; credit insurance",
+            "owner": "CFO / Energy Procurement"
+          },
+          {
+            "risk": "Capex overrun and schedule slip",
+            "likelihood": "Medium",
+            "impact": "High",
+            "mitigation": "EPC wrap; 15% contingency; stage-gate FEED; weekly PMO controls",
+            "owner": "PMO"
+          },
+          {
+            "risk": "Long-lead equipment delays (transformers, switchgear)",
+            "likelihood": "High",
+            "impact": "Medium",
+            "mitigation": "Early procurement (NTP Q4); multi-source vendors; temporary rentals",
+            "owner": "Supply Chain"
+          },
+          {
+            "risk": "Policy/EAC claim changes (RECs quality, additionality)",
+            "likelihood": "Medium",
+            "impact": "Medium",
+            "mitigation": "Prioritize bundled VPPA; align with market-based reporting (GHG Protocol); annual assurance",
+            "owner": "Sustainability"
+          },
+          {
+            "risk": "Change management & operator adoption",
+            "likelihood": "Medium",
+            "impact": "Medium",
+            "mitigation": "Formal training, SOP updates, incentive plans; kaizen cycles",
+            "owner": "Plant Manager"
+          }
+        ],
+        "chart_spec": {
+          "type": "risk_matrix",
+          "x_axis": {
+            "title": "Likelihood (1–5)",
+            "range": [
+              1,
+              5
+            ]
+          },
+          "y_axis": {
+            "title": "Impact (1–5)",
+            "range": [
+              1,
+              5
+            ]
+          },
+          "points": [
+            {
+              "risk": "A. Electrification performance shortfall",
+              "x": 3,
+              "y": 5,
+              "color": "#E53935"
+            },
+            {
+              "risk": "B. PPA basis/price risk",
+              "x": 3,
+              "y": 4,
+              "color": "#FB8C00"
+            },
+            {
+              "risk": "C. Capex overrun and schedule slip",
+              "x": 3,
+              "y": 4,
+              "color": "#FB8C00"
+            },
+            {
+              "risk": "D. Long-lead equipment delays",
+              "x": 4,
+              "y": 3,
+              "color": "#FDD835"
+            },
+            {
+              "risk": "E. Policy/EAC claim changes",
+              "x": 3,
+              "y": 3,
+              "color": "#FDD835"
+            },
+            {
+              "risk": "F. Change management & operator adoption",
+              "x": 3,
+              "y": 3,
+              "color": "#FDD835"
+            }
+          ],
+          "legend": "Color intensity by risk severity"
+        }
+      },
+      "slide_design": "Risk matrix with color gradient; short mitigation notes under chart",
+      "imagery": ""
+    },
+    {
+      "slide_number": 10,
+      "title": "Governance and KPI Dashboard",
+      "content": {
+        "governance_model": {
+          "steering_committee": "CEO (chair), CFO, COO, VP Sustainability, VP Supply Chain — meets monthly",
+          "program_management_office": "Head of Decarbonization + site PMs — weekly cadence",
+          "workstreams": [
+            "Efficiency",
+            "Energy procurement",
+            "Electrification",
+            "Supplier/Scope 3",
+            "Data & reporting"
+          ],
+          "assurance": "Annual third‑party verification (limited to reasonable by 2028)"
+        },
+        "kpis": [
+          {
+            "name": "Total emissions (ktCO2e, Scopes 1–3)",
+            "baseline": 150,
+            "target_2030": 0,
+            "milestone_2025": 120,
+            "frequency": "Quarterly"
+          },
+          {
+            "name": "Scopes 1+2 market-based (ktCO2e)",
+            "baseline": 45,
+            "target_2030": 0,
+            "milestone_2025": 25,
+            "frequency": "Monthly"
+          },
+          {
+            "name": "Renewable electricity share (%)",
+            "baseline": 22,
+            "target_2030": 100,
+            "milestone_2025": 45,
+            "frequency": "Monthly"
+          },
+          {
+            "name": "Energy intensity (kWh per unit output)",
+            "baseline": 12,
+            "target_2030": 8,
+            "milestone_2025": 10,
+            "frequency": "Quarterly"
+          },
+          {
+            "name": "Supplier coverage (% spend with SBTi targets)",
+            "baseline": 15,
+            "target_2030": 80,
+            "milestone_2025": 40,
+            "frequency": "Quarterly"
+          },
+          {
+            "name": "Project schedule adherence (%)",
+            "baseline": null,
+            "target_2030": 95,
+            "milestone_2025": 90,
+            "frequency": "Monthly"
+          }
+        ],
+        "chart_spec": {
+          "type": "dashboard",
+          "tiles": [
+            {
+              "tile": "Scopes 1–3 emissions",
+              "chart": "column",
+              "x_axis": {
+                "categories": [
+                  "Q1",
+                  "Q2",
+                  "Q3",
+                  "Q4"
+                ]
+              },
+              "series": [
+                {
+                  "name": "Actual",
+                  "color": "#6C757D",
+                  "data": [
+                    38,
+                    37,
+                    36,
+                    35
+                  ]
+                },
+                {
+                  "name": "Plan",
+                  "color": "#B0BEC5",
+                  "data": [
+                    39,
+                    37,
+                    35,
+                    33
+                  ]
+                }
+              ],
+              "y_axis": {
+                "title": "ktCO2e"
+              }
+            },
+            {
+              "tile": "% Renewable",
+              "chart": "gauge",
+              "value": 68,
+              "target": 100,
+              "bands": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "color": "#E57373"
+                },
+                {
+                  "from": 50,
+                  "to": 90,
+                  "color": "#FFD54F"
+                },
+                {
+                  "from": 90,
+                  "to": 100,
+                  "color": "#81C784"
+                }
+              ]
+            },
+            {
+              "tile": "Abatement burn-up",
+              "chart": "line",
+              "x_axis": {
+                "categories": [
+                  "2024",
+                  "2025",
+                  "2026",
+                  "2027",
+                  "2028",
+                  "2029",
+                  "2030"
+                ]
+              },
+              "series": [
+                {
+                  "name": "Cumulative plan",
+                  "color": "#90CAF9",
+                  "data": [
+                    10,
+                    20,
+                    35,
+                    60,
+                    75,
+                    85,
+                    90
+                  ]
+                },
+                {
+                  "name": "Cumulative actual",
+                  "color": "#1565C0",
+                  "data": [
+                    9,
+                    18,
+                    33,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "y_axis": {
+                "title": "ktCO2e abated"
+              }
+            }
+          ],
+          "notes": "Targets aligned to net-zero plan; data auto-refreshed from energy/ERP systems monthly."
+        }
+      },
+      "slide_design": "Dashboard-style layout with modular KPI tiles",
+      "imagery": "Clean, dark-on-light UI tiles; minimalistic icons for scopes, energy, suppliers; subtle shadows for depth"
+    },
+    {
+      "slide_number": 11,
+      "title": "6‑Quarter Execution Plan (Q1–Q6)",
+      "content": {
+        "time_frame": "Q1 2024 – Q2 2026",
+        "workstreams": [
+          "Program setup & governance",
+          "Data, baselining & SBTi target",
+          "Efficiency (waves 1–3)",
+          "On-site solar + storage",
+          "VPPA procurement",
+          "Process electrification (FEED → install)",
+          "Waste heat recovery",
+          "Fleet & logistics",
+          "Supplier engagement"
+        ],
+        "key_dependencies": [
+          "Utility interconnection approvals precede electrification installs",
+          "VPPA execution precedes 100% RE target",
+          "Supplier code and data templates precede Scope 3 reductions"
+        ],
+        "chart_spec": {
+          "type": "gantt",
+          "x_axis": {
+            "categories": [
+              "Q1",
+              "Q2",
+              "Q3",
+              "Q4",
+              "Q5",
+              "Q6"
+            ],
+            "title": "Rolling 6 quarters"
+          },
+          "tasks": [
+            {
+              "workstream": "Program setup & governance",
+              "bars": [
+                {
+                  "start": "Q1",
+                  "end": "Q2",
+                  "color": "#607D8B"
+                }
+              ],
+              "milestones": [
+                {
+                  "quarter": "Q2",
+                  "label": "SteerCo charter"
+                }
+              ]
+            },
+            {
+              "workstream": "Data, baselining & SBTi target",
+              "bars": [
+                {
+                  "start": "Q1",
+                  "end": "Q3",
+                  "color": "#9E9E9E"
+                }
+              ],
+              "milestones": [
+                {
+                  "quarter": "Q3",
+                  "label": "SBTi submission"
+                }
+              ]
+            },
+            {
+              "workstream": "Efficiency (waves 1–3)",
+              "bars": [
+                {
+                  "start": "Q1",
+                  "end": "Q6",
+                  "color": "#8BC34A"
+                }
+              ]
+            },
+            {
+              "workstream": "On-site solar + storage",
+              "bars": [
+                {
+                  "start": "Q2",
+                  "end": "Q5",
+                  "color": "#FFC107"
+                }
+              ],
+              "milestones": [
+                {
+                  "quarter": "Q3",
+                  "label": "EPC award"
+                },
+                {
+                  "quarter": "Q5",
+                  "label": "COD"
+                }
+              ]
+            },
+            {
+              "workstream": "VPPA procurement",
+              "bars": [
+                {
+                  "start": "Q2",
+                  "end": "Q4",
+                  "color": "#00BCD4"
+                }
+              ],
+              "milestones": [
+                {
+                  "quarter": "Q4",
+                  "label": "PPA executed"
+                }
+              ]
+            },
+            {
+              "workstream": "Process electrification (FEED → install)",
+              "bars": [
+                {
+                  "start": "Q2",
+                  "end": "Q6",
+                  "color": "#03A9F4"
+                }
+              ],
+              "milestones": [
+                {
+                  "quarter": "Q3",
+                  "label": "FEED complete"
+                },
+                {
+                  "quarter": "Q5",
+                  "label": "NTP"
+                },
+                {
+                  "quarter": "Q6",
+                  "label": "1st line live"
+                }
+              ]
+            },
+            {
+              "workstream": "Waste heat recovery",
+              "bars": [
+                {
+                  "start": "Q3",
+                  "end": "Q6",
+                  "color": "#FF9800"
+                }
+              ]
+            },
+            {
+              "workstream": "Fleet & logistics",
+              "bars": [
+                {
+                  "start": "Q2",
+                  "end": "Q6",
+                  "color": "#009688"
+                }
+              ]
+            },
+            {
+              "workstream": "Supplier engagement",
+              "bars": [
+                {
+                  "start": "Q1",
+                  "end": "Q6",
+                  "color": "#3F51B5"
+                }
+              ],
+              "milestones": [
+                {
+                  "quarter": "Q2",
+                  "label": "Supplier code"
+                },
+                {
+                  "quarter": "Q5",
+                  "label": "80% spend covered"
+                }
+              ]
+            }
+          ],
+          "legend": "colors by workstream"
+        }
+      },
+      "slide_design": "Gantt chart with color-coded workstreams and milestone diamonds",
+      "imagery": ""
+    },
+    {
+      "slide_number": 12,
+      "title": "Call to Action",
+      "content": [
+        "Within 30 days: finalize governance charter, approve VPPA RFP, kick off leak survey and lighting audits",
+        "Within 60 days: shortlist VPPA bids; complete electrification FEED; secure utility IA queue position",
+        "Within 90 days: board go/no‑go on VPPA; lock incentives (ITC/grants); wave‑1 efficiency works mobilized",
+        "By year‑end: execute VPPA; NTP for on‑site solar; supplier code of conduct issued; risk register live",
+        "Outcome: Scopes 1+2 net‑zero by 2027; 90 kt abatement by 2030; 60 kt neutralized via durable removals"
+      ],
+      "slide_design": "Bold CTA with accent bar and large next-step bullets",
+      "imagery": "Close-up of operator hand pressing a green Start button on an industrial control panel; shallow depth of field; confident, forward momentum"
+    }
+  ]
+}
+

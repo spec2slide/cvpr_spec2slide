@@ -1,0 +1,20 @@
+Create a slide titled "KEY REASONS WHY ACADEMIC SUCCESS IS IMPORTANT IN SOCIETY" in large, bold text centered at the top.
+
+Divide the slide into three sections, each with an illustration on top of the title and text:
+
+1. **Left Section:**
+   - Title: "Innovation and Technological Advancement" in yellow.
+   - Content: "Academic success fuels innovation, driving progress in various fields, including healthcare, communication, and transportation."
+   - Figure: an image with three people discsussing a project.
+
+2. **Middle Section:**
+   - Title: "Social Mobility and Equality" in yellow.
+   - Content: "Education can promote social mobility and reduce disparities by providing opportunities for academic success."
+   - Figure: an image with diverse students across the globe.
+
+3. **Right Section:**
+   - Title: "Civic Engagement and Informed Citizenship" in yellow.
+   - Content: "Education promotes critical thinking, enabling individuals to engage in democracy, contribute to community development, and solve social issues."
+   - Figure: an image with four people putting together a puzzle.
+
+Use a dark background for the entire slide. Ensure the text is clear and legible against the background. Use yellow for section titles, and use white for section texts.

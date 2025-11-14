@@ -1,0 +1,9 @@
+Create a slide featuring a portrait on the right side. 
+
+1. **Title**: Place "ELON MUSK" in large, bold font on the left side.
+2. **Subtitle**: Add "Lahiru Herath" in smaller font below the title.
+3. **Image**: Insert the portrait of Elon Musk on the right side, framed with a white border.
+4. **Background**: Use a clean, white background for the slide.
+5. **Accent**: Add a yellow corner border on the top right corner for visual interest. 
+
+Ensure all text is clearly legible against the background.

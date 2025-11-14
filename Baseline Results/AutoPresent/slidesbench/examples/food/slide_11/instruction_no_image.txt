@@ -1,0 +1,12 @@
+Create a slide titled "PART 3" with the instruction: "Choose true (T), false (F), or not given (N) according to the information in the video." 
+
+Include a table with three rows for statements, labeled 1, 2, and 3. Each row should have checkboxes for T, F, and N. 
+
+Add the following statements:
+1. Phoebe sarcastically says that Sarah is a monster for her etiquette.
+2. Joey prefers eating French fries with his fingers.
+3. Rachel is surprised to hear about Joey’s food sharing rule.
+
+Place an image of Joey on the right side of the slide. At the bottom, include a button labeled "VIEWING ACTIVITY." 
+
+Use a clean layout with a light background for readability.

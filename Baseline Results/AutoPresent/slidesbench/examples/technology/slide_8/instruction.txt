@@ -1,0 +1,9 @@
+Create a slide titled "Blockchain in Bitcoin" at the top.
+
+Add the following text below the title:
+- "CRYPTOCURRENCY bitcoin is one of the crypto currency"
+- "Bitcoin is one of the most popular and successful implementations of blockchain technology. It is an open source cryptocurrency that uses distributed peer-to-peer computing. There is no need of a central authority to manage bitcoin network."
+
+Place an image of a Bitcoin on the right side of the slide.
+
+Ensure the text is left-aligned and the image is appropriately sized to fit without overlapping the text. Use a clean, professional font and maintain a balanced layout.

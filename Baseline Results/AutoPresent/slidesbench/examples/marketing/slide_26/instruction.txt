@@ -1,0 +1,10 @@
+Create a slide with a dark gray background. 
+
+1. Add three circular images: 
+   - Place a circular image of fruits and vegetables in the top left.
+   - Place a circular image of sugar in the bottom left.
+   - Place a circular image of hanging clothes to the right.
+
+2. Center the text on the right side: "From where you would like to buy the following products:" in a clear, readable font on the right side, ensuring it contrasts well with the background.
+
+3. Adjust the layout for balance and clarity, ensuring all elements are visually appealing and easy to read.

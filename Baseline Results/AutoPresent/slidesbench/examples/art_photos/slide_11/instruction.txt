@@ -1,0 +1,9 @@
+Create a slide titled "Landscapes, seascapes, moonscapes, and cityscape" centered at the top.
+
+Add a smaller title on the top-left corner: "The Subject and Content of Art".
+
+Place two images side by side below the title (left: city view, right: countryside), ensuring they are evenly spaced. 
+
+Use the provided abstract image as slide background, and a white layer around the texts and images.
+
+Ensure the text color is black for visibility against the background.

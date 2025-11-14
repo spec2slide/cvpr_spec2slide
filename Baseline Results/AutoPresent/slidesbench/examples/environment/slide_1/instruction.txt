@@ -1,0 +1,16 @@
+Create a slide with a light green background featuring a subtle hexagonal pattern.
+
+1. **Title Section**: 
+   - Insert a large white textbox on the right side.
+   - Type the title "NATURAL ENVIRONMENT" in bold green font at the top of the textbox.
+
+2. **Content Section**: 
+   - Below the title, add the following details in black font:
+     - "Name- Abhra Pawan Sharma"
+     - "Class- 9H"
+     - "Roll no- 4"
+   - Ensure the text is aligned to the left within the textbox.
+
+3. **Formatting**: 
+   - Adjust the font sizes for clarity, making the title larger than the other text.
+   - Maintain consistent spacing between the lines for a clean look.

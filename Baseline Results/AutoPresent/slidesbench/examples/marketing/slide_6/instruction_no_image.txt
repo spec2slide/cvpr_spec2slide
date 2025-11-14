@@ -1,0 +1,8 @@
+Create a slide with the title "WHAT IS MARKET?" in large, bold font on the right side. 
+
+1. **Background**: Use solid red background color and a solid gray area horizontally in the middle.
+2. **Shape**: Add a circular shape on the left side and put a digital-themed image inside.
+3. **Text Color**: Use white for the title text to ensure readability against the gray background.
+4. **Borders**: Include a thin white border between the gray area and the red shape for separation.
+
+Ensure the layout is balanced and visually appealing.

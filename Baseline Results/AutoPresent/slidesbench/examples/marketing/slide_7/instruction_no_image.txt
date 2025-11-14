@@ -1,0 +1,13 @@
+Create a slide with a background image of a market scene. 
+
+1. **Add Circular Images**: Overlay two circular images on the background:
+   - One larger circle on the left showing the shopping mall.
+   - A smaller circle on the right showing food market, with a half-transparent overlay to blend with the background.
+
+2. **Insert Text**: Place the text "Market is a place where products or services are bought or sold." on the right side of the slide. Use a clear, legible font in white or light color for contrast.
+
+3. **Add Attribution**: Include the text "This Photo by Unknown author is licensed under CC BY-SA." at the bottom of the slide in smaller font.
+
+4. **Adjust Transparency**: Ensure the background image on the right is slightly dimmed to enhance text visibility.
+
+5. **Final Touches**: Ensure all elements are well-aligned and visually balanced.
