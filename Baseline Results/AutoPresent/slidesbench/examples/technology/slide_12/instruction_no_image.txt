@@ -1,5 +1,0 @@
-Create a slide with the text "Thank You!" centered on the slide. Use a large, bold font for emphasis. 
-
-Set the background color to white and the text color to black. 
-
-Add a thin horizontal line near the bottom of the slide for visual separation.

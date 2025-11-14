@@ -1,7 +1,0 @@
-selenium
-requests
-openai
-python-pptx
-numpy
-colormath
-scipy

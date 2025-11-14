@@ -1,9 +1,0 @@
-Create a slide with the following elements:
-
-1. **Title**: Add a button labeled "PREVIEW DISCUSSION" in the top left corner.
-2. **Main Question**: Center the text "What do you think are some good ways to make a good first impression on a date?" in a large, readable font.
-3. **Visual Elements**: Include a speech bubble graphic with a question mark on the left side of the text.
-4. **Illustration**: Place an illustration of two people on the right side, engaging in conversation with wine glasses.
-5. **Buttons**: Add two buttons at the bottom: "VIEWING ACTIVITY" on the right and a play button icon on the left.
-
-Ensure the background is light and the overall design is clean and inviting.

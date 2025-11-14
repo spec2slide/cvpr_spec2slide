@@ -1,8 +1,0 @@
-Create a slide titled "3 Factors that have affected the process of Economic Globalization" in a large, bold font. 
-
-1. Use a dark blue background and white text for the title.
-2. List the factors as numbered points:
-   - "1. Improvements in transportation and communication technology have reduced the cost of transporting goods, services and factors of production and communicating economically useful knowledge and technology."
-   - "2. Tastes of individuals and societies have generally but not universally favored taking advantage of the opportunities provided by declining."
-3. Use a white background for the main content with black text for readability.
-4. Ensure proper spacing between the title and the content for clarity.

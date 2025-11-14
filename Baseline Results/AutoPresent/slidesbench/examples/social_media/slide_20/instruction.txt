@@ -1,8 +1,0 @@
-Create a slide titled "Three perspectives on global cultural flows:" with a dark blue background. 
-
-1. Add the subtitle "3. CULTURAL CONVERGENCE" in a larger font, centered below the main title.
-2. Include two bullet points:
-   - "approach stresses homogeneity introduced by globalization."
-   - "Cultures are deemed to be radically altered by strong flows, while cultural imperialism happens when one culture imposes itself on and tends to destroy at least parts of another culture."
-3. Use a clear, readable font in white for the text.
-4. Ensure proper spacing between the title, subtitle, and bullet points for clarity.

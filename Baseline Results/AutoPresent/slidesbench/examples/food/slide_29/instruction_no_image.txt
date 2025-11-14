@@ -1,9 +1,0 @@
-Create a slide titled "PART 1" at the top left corner. Below it, add a chat icon. Right to it, add the instruction: "Answer the questions below about the video." 
-
-List the following questions in a numbered format:
-1. What happened on Joey’s first date with Sarah?
-2. How did Joey’s friends, Phoebe and Rachel, react or respond to his date story?
-3. How did Joey feel about his first date with Sarah?
-4. What happened on Joey’s second date with Sarah?
-
-Use a light background color and format the questions with a border around each. Include a button labeled "QUIZ & REVIEW ACTIVITY" at the bottom right corner.

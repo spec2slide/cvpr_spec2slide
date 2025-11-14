@@ -1,8 +1,0 @@
-Create a slide with a black background. 
-
-1. Add a red speech bubble shape in the center for the main content.
-2. Insert the text: "Academic success plays a significant role in society for several reasons, and its importance is reflected in various aspects of an individual's life and the broader community." 
-3. Use a large, clear font in white for the text.
-4. Add decorative quotation marks at the top and the bottom of the speech bubble in a contrasting color (e.g., dark gray or black). 
-
-Ensure the text is centered within the speech bubble.

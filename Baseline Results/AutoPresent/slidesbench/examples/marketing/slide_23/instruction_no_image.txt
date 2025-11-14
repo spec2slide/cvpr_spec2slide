@@ -1,9 +1,0 @@
-Create a slide titled "Now: I, CAN" at the top. 
-
-Add two bullet points below:
-1. "Define the term Market"
-2. "Explain how products reach to market"
-
-Use a black background for the slide. Create two rectangular text boxes with rounded corners for the bullet points, one orange and one yellow, and place them vertically. Ensure the text is in a clear, readable font and color. 
-
-Use an image showing rhythmic curves waves in monochrome, as the right background, blending it with the black side.

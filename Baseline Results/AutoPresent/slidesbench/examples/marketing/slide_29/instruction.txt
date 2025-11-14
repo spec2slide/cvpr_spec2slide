@@ -1,8 +1,0 @@
-Create a slide with the following elements:
-
-1. **Background**: Use the provided image as the background. Add a dark overlay to ensure the text above it is clearly visible.
-2. **Text Box**: Add a red cubic shape text box in the center.
-3. **Text Content**: Inside the text box, include the question: "Which type of market is beneficial for the customers? Why?"
-4. **Text Formatting**: Use a large, bold white font for the text to ensure readability against the red background.
-
-Position the text box to ensure it stands out clearly against the background image.

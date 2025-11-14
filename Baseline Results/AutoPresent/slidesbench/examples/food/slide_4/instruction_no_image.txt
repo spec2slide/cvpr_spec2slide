@@ -1,8 +1,0 @@
-Create a slide titled "PART 2" in a bold, dark font. Below it, add the text "Discuss the questions below about dating." in a smaller font.
-
-List the following questions with numbers in circles:
-1. What do you think are some other good (or bad) date ideas not listed on the previous slide?
-2. What are some things that could go wrong on a first date?
-3. What are some common etiquette mistakes to avoid on a first date?
-
-Use a light background color and a clean, readable font. Include a "PREVIEW ACTIVITY" button at the bottom right in a dark blue rectangle. Use a subtle design or graphic related to communication on the right side of the slide.

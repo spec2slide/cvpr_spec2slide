@@ -1,9 +1,0 @@
-**Title**: Add the text "Branding" at the top of the slide in a large, bold font. Set the background color of the title region to light gray.
-
-**Visual Elements**: Insert the image illustration for "people," "places," "love," and "Airbnb" below the title.
-
-**Main Content**: Below the illustrations, add a paragraph explaining the brand's vision, using the following text: 
-- “'Belong Anywhere’ became our compass. The ‘Belo’ symbol - a sort of heart/drop pin hybrid that can be drawn by anyone - transcends language and culture in an ode to Airbnb’s welcoming spirit, while a warm and welcoming new colour palette reflects the open heartedness of its people.” 
-- Include the source: "Airbnb and Design Studio, 2017".
-
-**Text Formatting**: Ensure the main content text is well-aligned and easy to read.

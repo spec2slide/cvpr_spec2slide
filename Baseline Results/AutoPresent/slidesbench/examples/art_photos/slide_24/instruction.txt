@@ -1,7 +1,0 @@
-Create a slide titled "KEEPING ART" with the subtitle "3. Preservation and Restoration" in a larger font. 
-
-Add a checkmark (✓) before the text: "Because art is valuable, enormous human efforts and financial resources are devoted to preserving art from the ravages of time, the environment, industrial-by-product, and even any other human being."
-
-Use a yellow background for the title and subtitle textboxes, with black text. The main content should have a white background with black text. 
-
-Incorporate the provided image as the background of the slide.

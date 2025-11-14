@@ -1,7 +1,0 @@
-**Title**: Add the text "Information Systems" at the top of the slide. Use a bold, sans-serif font in white for visibility. Set the background of the title section to a solid gray color.
-
-**Logo**: Place the logo on the left side of the slide. Ensure it is large enough to be clearly visible but not overwhelming.
-
-**Alignment**: Align the title to the left at the top and position the logo vertically centered on the left side.
-
-**Visual Balance**: Ensure there is adequate white space around the logo and title for a clean look.

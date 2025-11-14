@@ -1,8 +1,0 @@
-Create a slide with a dark blue background. 
-
-1. Add the title "PREVIEW ACTIVITY" in large, bold, white font, centered on the slide.
-2. Insert a light bulb graphic with a brain inside it to the left of the title.
-3. Include a thin horizontal line below the title, extending across the slide.
-4. Place the "FLUENT" logo in the top right corner.
-
-Ensure all elements are well-aligned and visually balanced.

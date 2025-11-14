@@ -1,5 +1,0 @@
-Create a slide titled "Now: I, CAN" at the top. Below, add two bullet points: "Differentiate between different types of market." and "Explain why society need different types of market."
-
-Use a black background for the slide. For the bullet points, create two rectangular text boxes with rounded corners: the top box should have an orange background, and the bottom box should have a yellow background. Ensure the text color is black and clearly visible.
-
-Incorporate a relevant image of a market or abstract design in the background, ensuring it complements the text without overwhelming it.

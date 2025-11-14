@@ -1,9 +1,0 @@
-Create a slide with the following instructions:
-
-1. **Layout**: Divide the slide into two sections: left and right.
-2. **Left Section**: Insert the first image (blockchain graphic) on the left side.
-3. **Right Section**: Put the slide title "Blockchain Technology" using a bold, large font on the top. Below it, insert the second image (keyboard and letters spelling "BLOCKCHAIN") on the right side.
-4. **Background**: Use a clean, white background for clarity.
-5. **Text Color**: Ensure the title text is in black for contrast.
-
-Align the images and text for a balanced look.

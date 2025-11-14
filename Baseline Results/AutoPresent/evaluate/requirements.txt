@@ -1,5 +1,0 @@
-numpy
-torch
-colormath
-open-clip-torch
-openai-clip==1.0.1

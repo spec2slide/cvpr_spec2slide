@@ -1,5 +1,0 @@
-Create a slide with the following elements:
-
-1. **Image**: Insert the provided image of the billboard prominently on the slide, ensuring it complements the title.
-
-Ensure all elements are well-spaced and visually balanced.

@@ -1,7 +1,0 @@
-Create a slide with a gradient background on the left side, transitioning from dark teal to light teal. Center the text "Do you think everybody in market get same share of profit? Why?" in white font, ensuring it is large and easily readable. 
-
-In the middle, insert an image of a character holding money and standing on stacks of cash. 
-
-On the right side, place an image of various coins and bills.
-
-Adjust the layout so that the text does not overlap with the images.

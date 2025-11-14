@@ -1,5 +1,0 @@
-Create a slide with the following elements:
-
-1. **Image**: Insert an image of an airbnb billboard promoting a sense of global belonging, prominently on the slide. Ensure it complements the title.
-
-Ensure all elements are well-spaced and visually balanced.

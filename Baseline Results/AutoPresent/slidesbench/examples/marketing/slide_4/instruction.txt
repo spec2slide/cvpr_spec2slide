@@ -1,8 +1,0 @@
-Create a slide with the following elements:
-
-1. **Background**: Use a red background with a black horizontal stripe in the middle of the slide.
-2. **Title**: Add "BIG QUESTION" in blue font on the top of the black stripe.
-3. **Main Question**: Center the text "HOW DO MARKETS HELP US?" in large, bold white font.
-4. **Decoration**: Include a ribbon graphic in the top left corner, colored orange.
-
-Ensure all elements are well-aligned and visually balanced.

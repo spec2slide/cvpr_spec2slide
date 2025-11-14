@@ -1,7 +1,0 @@
-Create a slide with the title "Let's Recall:". Below it, add the subtitle "Differentiate between Wholesaler and Retailers". 
-
-1. Use a clean, modern font for both titles.
-2. Center the text on the slide.
-3. Set the background color to a gradient of dark green.
-4. Ensure the title text is white and the subtitle text is bold for emphasis.
-5. Optionally, add a small red rectangle in the top right corner for visual interest.

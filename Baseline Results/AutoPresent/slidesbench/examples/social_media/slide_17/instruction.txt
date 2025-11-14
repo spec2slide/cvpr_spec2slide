@@ -1,8 +1,0 @@
-Create a slide titled "Dynamics of Local and Global Culture" at the top in a large font. 
-
-In the main content area, include the following text:
-- "Global flows of culture tend to move more easily around the globe than ever before, especially through non-material digital forms."
-- "There are three perspectives on global cultural flows:"
-- "These are cultural differentialism, hybridization, and convergence."
-
-Use a white background for the text area and a dark blue background for the title. Ensure the text is clearly legible with appropriate font sizes.

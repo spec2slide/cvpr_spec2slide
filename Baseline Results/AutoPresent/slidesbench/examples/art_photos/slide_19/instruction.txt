@@ -1,8 +1,0 @@
-Create a slide with the quote: “In an artwork, the subject matter is what the image literally depicts. The content of the artwork is what the image means.” 
-Add the quote in a large, clear font centered on the slide.
-
-Include a smaller title at the top-left corner: "The Subject and Content of Art."
-Color the title background yellow and the text black.
-
-Use a white background for the quote text area.
-Use the provided image as the slide background.

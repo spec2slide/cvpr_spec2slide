@@ -1,6 +1,0 @@
-Create a slide titled "PART 3" in the top left corner. Below it, add the text: "Imagine you went to a restaurant for a first date. Something went wrong involving French fries. Imagine you’re telling the story to a friend. Use the prompt below to start your story."
-
-Include the man's picture on the left side, then right to it, put a speech bubble with the text: "We were out to dinner, we were getting along, having a really nice time, I was thinking she was really cool, but then, out of nowhere, ..."
-On the right side, insert an image of a plate of French fries. 
-
-Ensure the background is light and the text is easily readable. Add a "PREVIEW ACTIVITY" button at the bottom left.

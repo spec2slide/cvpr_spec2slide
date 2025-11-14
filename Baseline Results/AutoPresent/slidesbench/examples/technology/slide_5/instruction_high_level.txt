@@ -1,1 +1,0 @@
-Create a slide titled "The Technology used in Blockchain" with bullet points for Cryptographic Keys, Network Protocol, Distributed Ledger Technology, and Hashing, alongside a relevant image.

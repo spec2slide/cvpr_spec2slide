@@ -1,9 +1,0 @@
-Create a slide titled "Three perspectives on global cultural flows:" with a dark blue background.
-
-Add a section for the first perspective:
-- Title: "1. CULTURAL DIFFERENTIALISM" in bold, white text.
-- Use bullet points for the following content:
-  - "emphasizes the fact that cultures are essentially different and are only superficially affected by global flows."
-  - "It also involves barriers that prevent flows that serve to make cultures more a line; cultures tend to remain stubbornly different from one another."
-
-Ensure the text is in a clear, readable font, with appropriate spacing between lines and bullet points.

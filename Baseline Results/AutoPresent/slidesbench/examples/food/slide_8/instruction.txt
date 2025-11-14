@@ -1,8 +1,0 @@
-Create a slide titled "VIEWING ACTIVITY" at the top left, using a bold font.  Put a movie icon to its left.
-Include the instruction "Watch the first 2 minutes of the video." below the title (on the left side of the slide) in a clear, readable font.
-
-On the right side, add a text box with the title "Friends | Joey Doesn’t Share Food!" in a prominent font. Below it, place the provided image of Joey from "Friends" on the right side of the slide, ensuring it is center-aligned with the text.
-
-Set the background color to dark blue.
-
-At the bottom left, insert a logo or icon representing the activity, ensuring it is appropriately sized and visible.

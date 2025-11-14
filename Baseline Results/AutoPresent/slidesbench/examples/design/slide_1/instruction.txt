@@ -1,8 +1,0 @@
-Create a slide featuring a laptop image with colorful paint splashes emerging from the screen. 
-
-1. **Background**: Use a white background.
-2. **Image**: Position the laptop image on the left side of the slide, ensuring the paint splashes extend across the slide.
-3. **Text**: Add the text "Graphic Design" in a bold, black font. Center the text horizontally and place it over the paint splashes for visibility.
-4. **Formatting**: Ensure the text is large enough to be easily readable against the colorful background.
-
-Adjust the layout as needed for balance and visual appeal.

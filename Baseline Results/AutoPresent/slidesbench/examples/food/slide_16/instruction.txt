@@ -1,7 +1,0 @@
-Create a slide titled "PART 1" in a blue textbox, followed by the instruction "Discuss the questions below." in a smaller font. Put the conversation icon below the title.
-
-List the following questions:
-1. What do you think about Sarah’s etiquette on the first date? What about Joey’s etiquette on the second date? Whose etiquette was worse and why?
-2. What parts of the video do you think were the funniest and why?
-
-Use a light background color for the slide. Add a circular image of Joey from Friends on the right side. Include a play button icon at the bottom left labeled "VIEWING FOLLOW-UP."

@@ -1,9 +1,0 @@
-Create a slide titled "DEFINITION OF TERMS" with a dark blue background for the title. Put the title on the top-left corner. 
-
-Add two sections below the title:
-
-1. **MEDIA**: Use bold, dark blue text for "MEDIA" followed by the definition in regular black text: "refers to the communication channels through which we disseminate news, music, movies, education, promotional messages and other data."
-
-2. **CULTURE**: Use bold, dark blue text for "CULTURE" followed by the definition in regular black text: "can be defines as all the ways of life including arts, beliefs and institutions of a population that are passed down from generation to generation."
-
-Center the section titles and texts. Ensure the definitions are clearly separated and formatted for readability. Use a white background for the main content area.

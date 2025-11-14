@@ -1,8 +1,0 @@
-Create a slide with a dark blue background. 
-
-1. Add a large title: "VIEWING ACTIVITY" in bold, white font.
-2. Below the title, include a subtitle: "Friends | Joey Doesn't Share Food!" in a smaller, white font.
-3. Insert a film camera icon on the left side of the title.
-4. Place the "FLUENT" logo in the top right corner.
-
-Ensure all elements are centered and visually balanced.

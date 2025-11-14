@@ -1,8 +1,0 @@
-Create a slide with a light green background featuring a subtle hexagonal pattern. Insert a large white textbox in the center of the slide.
-
-1. **Title Section**: 
-   - Type "THANK YOU" in bold green font.
-
-2. **Formatting**: 
-   - Ensure the text is centered within the textbox.
-   - Adjust the font size to make "THANK YOU" prominent and visually appealing.

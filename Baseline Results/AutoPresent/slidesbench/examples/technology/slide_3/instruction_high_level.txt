@@ -1,1 +1,0 @@
-Create a slide titled "Origin of Blockchain Technology" and include bullet points detailing its creation, implementation in Bitcoin, and the proposal of private blockchains for business use.

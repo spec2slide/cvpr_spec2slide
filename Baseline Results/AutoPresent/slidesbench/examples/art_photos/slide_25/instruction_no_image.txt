@@ -1,8 +1,0 @@
-Create a slide titled "References:" with a yellow background for the title textbox and black text. 
-
-In the main content area, include the following references:
-
-"1. Garces, J.C., Inoc, D.S., Inocian, R.B., Labajo, O.P., Rama, F., Tiempo, A.Y., & Un, J.L. 2021. *Modular Approach to Art Appreciation*. Lorimar Publishing Inc."
-"2. Casaul, J.A., Caslib Jr. B.N., & Garing, D.C. 2018. *Art Appreciation*. Rex Bookstore, Inc."
-
-Set the main content background to white. Use an colorful abstract image describing a vivid dance of colors and emotions as the slide background.

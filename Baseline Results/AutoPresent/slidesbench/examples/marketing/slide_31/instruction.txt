@@ -1,6 +1,0 @@
-Create a slide titled "Home Fun:" in a large, bold, red font at the top. Below it, add the question "Q. Compare the different types of Markets." in a slightly smaller font and white color.
-
-1. **Background**: Use a gradient background with a dark teal color.
-2. **Borders**: Add a thick red border around the text region to frame the content.
-
-Ensure the text is centered both horizontally and vertically for a balanced look.

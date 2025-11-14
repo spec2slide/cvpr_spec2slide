@@ -1,8 +1,0 @@
-Create a slide titled "Still Life" centered at the top. 
-
-1. Add a smaller title on the top-left corner: "The Subject and Content of Art" with a yellow background.
-2. Insert two images side by side: 
-   - Left: A painting of flowers in a vase.
-   - Right: A painting of fruits and a vase.
-3. Ensure both images are evenly sized and aligned.
-4. Use a white border around the images for separation.

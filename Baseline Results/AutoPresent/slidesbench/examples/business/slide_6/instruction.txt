@@ -1,7 +1,0 @@
-Create a slide with the following elements:
-
-1. **Background Color**: Set the background color to a solid coral.
-2. **Title**: Add the text "This is Bélo." in a large, bold font, centered on the slide.
-3. **Font Color**: Use white for the text to ensure good contrast against the coral background.
-
-Ensure the text is well-centered and visually balanced on the slide.

@@ -1,1 +1,0 @@
-Create a slide with a dark background, featuring circular images of fruits and sugar on the left, and a text box on the right containing the question: "From where would you like to buy the following products?"

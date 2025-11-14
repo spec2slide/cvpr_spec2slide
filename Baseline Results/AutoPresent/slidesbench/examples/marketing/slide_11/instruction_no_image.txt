@@ -1,7 +1,0 @@
-Create a slide with the following content:
-
-1. Title: "Q2. HOTS" at the top.
-2. Main text: "Consider yourself as a producer, list the various things you must be taking care of till your product reaches the consumers. (3 MARKS)" 
-3. Use a clear, bold font for both the title and main text.
-4. Set the background to a gradient or blurred image that suggests a professional or business context.
-5. Ensure the text color contrasts well with the background for readability (e.g., white or light-colored text on a darker background).

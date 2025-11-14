@@ -1,9 +1,0 @@
-Create a slide with a blue background. Add the main question: "What is filling your bucket today and what’s draining it?" in a large, clear font on the top-left region.
-
-On the right side, include an image of a bucket being filled with water from a yellow container. 
-
-Label the top right with "Filling" and the bottom left with "Draining" using horizontal dotted lines to connect to the respective areas.
-
-At the bottom, include the text bar "Students, draw anywhere on this slide!" in a smaller font using the image provided. 
-
-Ensure the slide has a footer with "Pear Deck Interactive Slide" and a QR code, maintaining the provided design elements.

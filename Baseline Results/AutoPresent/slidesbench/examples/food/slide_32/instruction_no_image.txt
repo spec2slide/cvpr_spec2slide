@@ -1,6 +1,0 @@
-Create a slide with a dark blue background. 
-
-1. Place the "FLUENTIZE" logo prominently on the left side.
-2. Add the text "THANK YOU!" in large, bold white font on the right side.
-3. Include the copyright text "Fluentize, LLC. Copyright 2022. For use only with license." at the bottom in smaller font.
-4. Ensure all elements are centered vertically for a balanced look.
